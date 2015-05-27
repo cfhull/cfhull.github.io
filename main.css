@@ -63,6 +63,9 @@ body {
     color: #c45953;
     background-color: #2e2e33;
   }
+  body {
+	padding-top: 260px;
+  }
 }
 
 h1 {
@@ -102,6 +105,18 @@ a:hover {
 
 div.heading {
 	text-align: center;
+}
+
+@media (max-width: @screen-sm) {
+    div.heading {
+	font-size: 10em;
+};}
+}
+
+@media (max-width: @screen-xs) {
+    div.heading {
+	font-size: 20em;
+};}
 }
 
 .heading.contact {
