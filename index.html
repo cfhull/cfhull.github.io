@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head>		
+		<!-- CDN .js -->
+		<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		
+		<!-- Local .js -->
+		<script src="scripts/javascript.js"></script>
+		<script src="scripts/skillsChart.js"></script>
+		
 		<meta charset="UTF-8">	
 		<title>Christopher Hull</title>
 
 		<!-- Bootstrap CDN -->
 		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
-		<!-- local CSS -->
-		<link href="main.css" rel="stylesheet">
+		<!-- Local CSS -->
+		<link href="styles/main.css" rel="stylesheet">
 
 		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
 
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
 	</head>
 	<body>
 
@@ -46,7 +54,7 @@
 				<div class="jumbotron">
 					<div class="row">
 						<div class="col-md-4">
-							<img src="profilepic.jpg" alt="" class="img-thumbnail">
+							<img src="images/profilepic.jpg" alt="" class="img-thumbnail">
 						</div>    
 						<div class="col-md-8">
 							<h1>Christopher Hull</h1>
@@ -159,9 +167,19 @@
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-8 col-md-10">
-						<div id="pieChartsContainer">
-							<div id="pieLanguages" class="pieCharts"></div>
-							<div id="pieTools" class ="pieCharts"></div>
+						<div id="skillContainer">
+							<div id="skillChart"></div>
+							<div id="skillDescription">
+								<p id="html" class="descriptionParagraph">text for html</p>
+								<p id="css" class="descriptionParagraph">text for css</p>
+								<p id="javascript" class="descriptionParagraph">text for js</p>
+								<p id="csharp" class="descriptionParagraph">text for c#</p>
+								<p id="bash" class="descriptionParagraph">text for bash</p>
+								<p id="linux" class="descriptionParagraph">text for linux</p>
+								<p id="git" class="descriptionParagraph">text for git</p>
+								<p id="unity" class="descriptionParagraph">text for unity</p>
+								<p id="d3js" class="descriptionParagraph">text for d3.js</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -242,22 +260,5 @@
 				</div>
 			</div>
 		</section>
-
-
-		<!-- JavaScript Sources -->
-
-		<!-- jQuery CDN-->
-		<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-
-		<!-- Underscore CDN -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-		<!-- Local .js -->
-		<script src="d3pie.min.js"></script>
-		<script src="generatePie.js"></script>
-		<script src="javascript.js"></script>
-
-		<!-- d3 CDN -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
-
 	</body>
 </html>
