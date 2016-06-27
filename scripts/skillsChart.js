@@ -115,7 +115,7 @@ $(document).ready(function(){
 			selectBar(d3.select(this), barEvents);
 			
 			// sets description p element to relevent paragraph text
-			$("#descriptionParagraph").text(selectedBar.datum().description);
+			$("#descriptionParagraph").text(d3.select(this).datum().description);
 		});
 		
 		barEvents.on("mouseover", function() {
