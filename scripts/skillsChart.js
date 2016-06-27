@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	// set up svg margins and dimensions
 	var margin = {top: 20, right: 0, bottom: 0, left: 0},
-	svgWidth   = 800 - margin.left - margin.right,
+	svgWidth   = 400 - margin.left - margin.right,
 	svgHeight  = 300 - margin.top - margin.bottom;
 	
 	var barPadding = 5;
@@ -53,7 +53,7 @@ $(document).ready(function(){
 		
 		// set scales
 		var xScale = d3.scale.linear()
-			.domain([0, 5])
+			.domain([0, 3.75])
 			.range([0, svgWidth]);		
 		
 		var yScale = d3.scale.ordinal()
@@ -110,10 +110,12 @@ $(document).ready(function(){
 		
 		// onclick event for bars
 		barEvents.on("click", function(){
+			
+			// sets bar to selected state
 			selectBar(d3.select(this), barEvents);
 			
-			//Implementing this once I have a write up finished of each skill
-			//toggleDescription(d3.select(this));
+			// sets description p element to relevent paragraph text
+			$("#descriptionParagraph").text(selectedBar.datum().description);
 		});
 		
 		barEvents.on("mouseover", function() {
@@ -141,42 +143,6 @@ $(document).ready(function(){
 		// set selected bar to "highlighted" styling
 		selectedBar.style("stroke", "black")
 			.style("fill-opacity", "0.5")	
-	}
-	
-	function toggleDescription(selectedBar){
-		// hide current description section
-		$(".descriptionParagraph").hide();
-		
-		// check to see which description section to show
-		switch (selectedBar.datum().name){
-		case "HTML":
-			$("#html").show();
-			break;
-		case "CSS":
-			$("#css").show();
-			break;
-		case "JavaScript":
-			$("#javascript").show();
-			break;
-		case "C#/.NET":
-			$("#csharp").show();
-			break;
-		case "Bash":
-			$("#bash").show();
-			break;
-		case "Linux":
-			$("#linux").show();
-			break;
-		case "Git":
-			$("#git").show();
-			break;
-		case "Unity":
-			$("#unity").show();
-			break;
-		case "D3.js":
-			$("#d3js").show();
-			break;
-		}
 	}
 	
 	// sets the value field of the csv data to be an integer instead of a string

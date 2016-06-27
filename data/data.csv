@@ -1,10 +1,10 @@
-name,value
-JavaScript,3
-D3.js,2
-HTML,3
-CSS,2.5
-Linux,3
-Bash,2
-Git,3
-Unity,2.5
-C#/.NET,3.5
+name,value,description
+JavaScript,3,"I really love working in JavaScript - it's so versatile, and I like the front end aspect that it's usually associated with. I have a good amount of hands-on experience, some of which you can see on this site, and other sites I've made with school, and some of which is through my current work, mostly through creating web resources on forms and such. I've mostly just been working with the JQuery and D3 libraries, but I'd like to use more. Check in later and I'll add more libraries to my repetoire. I'd love any opportunity to do more JavaScript work."
+D3.js,2,"This site contains all the D3.js I've done to date. It's a lot of fun, and I hope to keep adding functionality on this site as I get better at interactive data visualizations. I would love a professional opportunity to work on this."
+HTML,3,"Overall I'm pretty solid with HTML and how it interacts with CSS and JavaScript. Feel free to check out the source code on this site."
+CSS,2.5,"I like CSS. I've done a decent amount of work in it, as you can see on this site. At work, I do a lot of bug fixes in CSS. Within the next few weeks, my goal is to get into LESS."
+Linux,3,"I use Arch Linux at home because it's really fun, even though it breaks on me. Most of my knowledge comes from setting up Arch, and using the Arch wiki to fix issues. I also like customizing my system, so I learn a lot from that as well."
+Bash,2,"I know a bit of bash from using Linux but I'm no pro...yet. I know most of the basic commands and how to use man pages and other resources to create simple scripts."
+Git,3,"I use Git and GitHub for all of my personal projects, so I'm familiar with the basics of using it. I haven't had to do any crazy branching and merging in it, but I'm confident I could figure it out."
+Unity,2.5,"I've used Unity during a few game jams in the DC area, as well as during a short-term contract creating an educational platformer."
+C#/.NET,3.5,"The majority of my professional work has been in .NET. At Ellucian I use C# when creating plugins and workflows for Dynamics CRM. I also use C# when using Unity. My understanding of C# and .NET is pretty solid, and I really want to apply that fundamental understanding to new exciting technologies."
