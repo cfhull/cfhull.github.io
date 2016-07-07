@@ -1,0 +1,934 @@
+rowid,pl_hostname,pl_letter,pl_discmethod,pl_orbper,pl_orbsmax,pl_orbeccen,pl_orbincl,pl_bmassj,pl_bmassprov,pl_radj,pl_dens,pl_kepflag,pl_k2flag,kepler,st_dist,st_optmag,st_optband,st_teff,st_mass,st_rad,rowupdate,pl_eqt,pl_disc,pl_instrument,solarsystemflag
+3128,TrES-2,b,Transit,2.47061317,0.0367,,83.872,1.197,Mass,1.247,0.8,1,0,1,213,11.411,V (Johnson),5850,0.98,1,42292,1470,2006,2K CCD Sensor,0
+138,HAT-P-11,b,Transit,4.8878162,0.053,0.198,88.5,0.081,Mass,0.422,1.33,1,0,1,38,9.472,V (Johnson),4780,0.81,0.75,41773,878,2008,2K CCD Sensor,0
+191,HAT-P-7,b,Transit,2.2047354,0.0355,0,83.143,1.781,Mass,1.419,0.8,1,0,1,320,10.463,Kepler-band,6350,1.47,1.84,42292,2200,2008,2K CCD Sensor,0
+2538,Kepler-6,b,Transit,3.2346996,0.04852,,88.93,0.668,Mass,1.304,0.4,1,0,1,N/A,13.303,Kepler-band,5647,1.21,1.39,42292,1460,2009,Kepler CCD Array,0
+2667,Kepler-7,b,Transit,4.8854892,0.06067,,85.161,0.441,Mass,1.622,0.14,1,0,1,N/A,12.885,Kepler-band,5933,1.36,1.97,42292,1630,2009,Kepler CCD Array,0
+2250,Kepler-4,b,Transit,3.21346,0.0456,0,89.76,0.077,Mass,0.357,1.91,1,0,1,550,12.7,V (Johnson),5857,1.22,1.49,41773,1650,2009,Kepler CCD Array,0
+2402,Kepler-5,b,Transit,3.5484657,0.0538,,89.14,2.111,Mass,1.426,0.4,1,0,1,N/A,13.369,Kepler-band,6297,1.37,1.79,42292,1750,2009,Kepler CCD Array,0
+2251,Kepler-40,b,Transit,6.87349,0.08,0,89.7,2.2,Mass,1.17,1.68,1,0,1,2700,14.588,Kepler-band,6510,1.48,2.13,41773,1620,2010,Kepler CCD Array,0
+2789,Kepler-8,b,Transit,3.5224991,0.0474,,83.978,0.59,Mass,1.416,0.27,1,0,1,1330,13.9,V (Johnson),6213,1.21,1.49,42292,1680,2010,Kepler CCD Array,0
+2921,Kepler-9,d,Transit,1.592851,0.0273,,,N/A,,0.146,N/A,1,0,1,650,13.803,Kepler-band,5777,1.07,1.02,41773,2026,2010,Kepler CCD Array,0
+734,KOI-217,b,Transit,3.90512,0.0477,0,89.8,N/A,,1.11,N/A,1,0,1,800,15.127,Kepler-band,5545,0.95,0.86,41773,N/A,2010,Kepler CCD Array,0
+890,Kepler-11,e,Transit,31.9996,0.195,0.012,88.89,0.025,Mass,0.374,0.58,1,0,1,613,14.2,V (Johnson),5663,0.96,1.06,41773,N/A,2010,Kepler CCD Array,0
+888,Kepler-11,c,Transit,13.0241,0.107,0.026,89.59,0.009,Mass,0.256,0.66,1,0,1,613,14.2,V (Johnson),5663,0.96,1.06,41773,N/A,2010,Kepler CCD Array,0
+891,Kepler-11,f,Transit,46.6888,0.25,0.013,89.47,0.006,Mass,0.222,0.69,1,0,1,613,14.2,V (Johnson),5663,0.96,1.06,41773,N/A,2010,Kepler CCD Array,0
+889,Kepler-11,d,Transit,22.6845,0.155,0.004,89.67,0.023,Mass,0.278,1.28,1,0,1,613,14.2,V (Johnson),5663,0.96,1.06,41773,N/A,2010,Kepler CCD Array,0
+887,Kepler-11,b,Transit,10.3039,0.091,0.045,89.64,0.006,Mass,0.161,1.72,1,0,1,613,14.2,V (Johnson),5663,0.96,1.06,41773,N/A,2010,Kepler CCD Array,0
+892,Kepler-11,g,Transit,118.3807,0.466,0.15,89.87,0.079,Mass,0.297,4,1,0,1,613,14.2,V (Johnson),5663,0.96,1.06,41773,N/A,2010,Kepler CCD Array,0
+2920,Kepler-9,c,Transit,38.91,0.225,0.13,,0.171,Mass,0.823,0.383,1,0,1,650,13.803,Kepler-band,5777,1.07,1.02,41773,N/A,2010,Kepler CCD Array,0
+2919,Kepler-9,b,Transit,19.24,0.14,0.15,,0.252,Mass,0.842,0.524,1,0,1,650,13.803,Kepler-band,5777,1.07,1.02,41773,N/A,2010,Kepler CCD Array,0
+1756,Kepler-22,b,Transit,289.8623,0.849,0,89.764,0.113,Mass,0.212,14.7,1,0,1,190,11.664,Kepler-band,5518,0.97,0.98,41773,262,2011,Kepler CCD Array,0
+1702,Kepler-20,d,Transit,77.61184,0.3453,0.6,89.57,0.063,Mass,0.245,4.07,1,0,1,290,12.498,Kepler-band,5455,0.91,0.94,41773,369,2011,Kepler CCD Array,0
+2293,Kepler-42,d,Transit,1.865169,0.0154,,,N/A,,0.051,N/A,1,0,1,38.7,16.124,V (Johnson),3068,0.13,0.17,41773,450,2011,Kepler CCD Array,0
+2291,Kepler-42,b,Transit,1.2137672,0.0116,,,N/A,,0.07,N/A,1,0,1,38.7,16.124,V (Johnson),3068,0.13,0.17,41773,519,2011,Kepler CCD Array,0
+1701,Kepler-20,c,Transit,10.854092,0.093,0.4,88.39,0.051,Mass,0.274,2.91,1,0,1,290,12.498,Kepler-band,5455,0.91,0.94,41773,713,2011,Kepler CCD Array,0
+2292,Kepler-42,c,Transit,0.45328509,0.006,,,N/A,,0.065,N/A,1,0,1,38.7,16.124,V (Johnson),3068,0.13,0.17,41773,720,2011,Kepler CCD Array,0
+2227,Kepler-39,b,Transit,21.08721,0.164,0.112,89.07,20.1,Mass,1.24,13,1,0,1,1200,14.46,V (Johnson),6350,1.29,1.4,42033,897,2011,Kepler CCD Array,0
+2339,Kepler-45,b,Transit,2.455239,0.03,0.11,87,0.505,Mass,0.96,0.8,1,0,1,333,16.88,V (Johnson),3820,0.59,0.55,41773,1000,2011,Kepler CCD Array,0
+1700,Kepler-20,b,Transit,3.6961219,0.04537,0.32,86.5,0.027,Mass,0.17,6.5,1,0,1,290,12.498,Kepler-band,5455,0.91,0.94,41773,1014,2011,Kepler CCD Array,0
+1017,Kepler-12,b,Transit,4.4379629,0.0553,,88.796,0.432,Mass,1.754,0.11,1,0,1,600,13.8,V (Johnson),5947,1.17,1.48,42292,1480,2011,Kepler CCD Array,0
+2320,Kepler-44,b,Transit,3.2467293,0.0446,0.066,84.96,1,Mass,1.09,0.93,1,0,1,2250,14.678,Kepler-band,5800,1.12,1.35,42033,1544,2011,Kepler CCD Array,0
+1617,Kepler-17,b,Transit,1.4857108,0.02591,0.011,87.2,2.45,Mass,1.31,1.35,1,0,1,800,14.141,Kepler-band,5781,1.16,1.05,41773,1570,2011,Kepler CCD Array,0
+2304,Kepler-43,b,Transit,3.0240949,0.046,,84.646,3.23,Mass,1.219,5,1,0,1,1950,13.958,Kepler-band,6041,1.32,1.42,42292,1620,2011,Kepler CCD Array,0
+2274,Kepler-41,b,Transit,1.8555582,0.03101,0,82.51,0.56,Mass,1.29,0.33,1,0,1,770,14.465,Kepler-band,5750,1.15,1.29,42033,1790,2011,Kepler CCD Array,0
+749,Kepler-10,b,Transit,0.837491,0.0172,,85.1,0.0145,Mass,0.132,8,1,0,1,173,10.94,V (Johnson),5627,0.91,1.06,42292,2130,2011,Kepler CCD Array,0
+731,KOI-13,b,Transit,1.763588,0.03641,0.00064,86.77,9.28,Mass,1.512,3.6,1,0,1,N/A,9.958,Kepler-band,7650,1.72,1.74,42292,2550,2011,Kepler CCD Array,0
+2047,Kepler-32,c,Transit,8.7522,0.09,,,0.5,Mass,0.178,N/A,1,0,1,303,16.452,V (Johnson),3900,0.58,0.53,42453,N/A,2011,Kepler CCD Array,0
+2046,Kepler-32,b,Transit,5.90124,0.05,,,4.1,Mass,0.196,N/A,1,0,1,303,16.452,V (Johnson),3900,0.58,0.53,42453,N/A,2011,Kepler CCD Array,0
+1539,Kepler-16,b,Transit,228.776,0.7048,0.0069,90.032,0.333,Mass,0.754,0.964,1,0,1,61,11.762,Kepler-band,4450,0.69,0.65,41773,N/A,2011,Kepler CCD Array,0
+1933,Kepler-28,c,Transit,8.9858,0.081,,,1.36,Mass,0.303,N/A,1,0,1,N/A,15.036,Kepler-band,4590,0.75,0.7,41773,N/A,2011,Kepler CCD Array,0
+1932,Kepler-28,b,Transit,5.9123,0.062,,,1.51,Mass,0.321,N/A,1,0,1,N/A,15.036,Kepler-band,4590,0.75,0.7,41773,N/A,2011,Kepler CCD Array,0
+1647,Kepler-18,d,Transit,14.85888,0.1172,0,88.07,0.052,Mass,0.623,0.27,1,0,1,N/A,13.549,Kepler-band,5345,0.97,1.11,41773,N/A,2011,Kepler CCD Array,0
+1646,Kepler-18,c,Transit,7.64159,0.0752,0,87.68,0.054,Mass,0.49,0.59,1,0,1,N/A,13.549,Kepler-band,5345,0.97,1.11,41773,N/A,2011,Kepler CCD Array,0
+1645,Kepler-18,b,Transit,3.504725,0.0447,0,84.92,0.022,Mass,0.178,4.9,1,0,1,N/A,13.549,Kepler-band,5345,0.97,1.11,41773,N/A,2011,Kepler CCD Array,0
+1905,Kepler-27,b,Transit,15.3348,0.118,,,9.11,Mass,0.357,N/A,1,0,1,N/A,15.855,Kepler-band,5400,0.65,0.59,41773,N/A,2011,Kepler CCD Array,0
+1906,Kepler-27,c,Transit,31.3309,0.191,,,13.8,Mass,0.437,N/A,1,0,1,N/A,15.855,Kepler-band,5400,0.65,0.59,41773,N/A,2011,Kepler CCD Array,0
+1408,Kepler-15,b,Transit,4.942782,0.05714,0.06,87.44,0.66,Mass,0.96,0.93,1,0,1,N/A,13.758,Kepler-band,5515,1.02,0.99,41773,N/A,2011,Kepler CCD Array,0
+2131,Kepler-35,b,Transit,131.458,0.60347,0.042,90.76,0.127,Mass,0.728,0.41,1,0,1,1645,15.726,Kepler-band,5606,0.89,1.03,41773,N/A,2011,Kepler CCD Array,0
+1789,Kepler-23,b,Transit,7.1073,0.075,,,0.8,Mass,0.17,N/A,1,0,1,800,13.438,Kepler-band,5828,1.11,1.55,41773,N/A,2011,Kepler CCD Array,0
+1790,Kepler-23,c,Transit,10.7421,0.099,,,2.7,Mass,0.285,N/A,1,0,1,800,13.438,Kepler-band,5828,1.11,1.55,41773,N/A,2011,Kepler CCD Array,0
+1817,Kepler-24,b,Transit,8.1453,0.08,,,1.6,Mass,0.214,N/A,1,0,1,1200,14.925,Kepler-band,5897,1.03,1.29,41773,N/A,2011,Kepler CCD Array,0
+1818,Kepler-24,c,Transit,12.3335,0.106,,,1.6,Mass,0.25,N/A,1,0,1,1200,14.925,Kepler-band,5897,1.03,1.29,41773,N/A,2011,Kepler CCD Array,0
+2074,Kepler-33,b,Transit,5.66793,0.0677,0,86.39,N/A,,0.155,N/A,1,0,1,N/A,13.988,Kepler-band,5904,1.29,1.82,41773,N/A,2011,Kepler CCD Array,0
+2075,Kepler-33,c,Transit,13.17562,0.1189,0,88.19,N/A,,0.285,N/A,1,0,1,N/A,13.988,Kepler-band,5904,1.29,1.82,41773,N/A,2011,Kepler CCD Array,0
+2077,Kepler-33,e,Transit,31.7844,0.2138,0,88.94,N/A,,0.359,N/A,1,0,1,N/A,13.988,Kepler-band,5904,1.29,1.82,41773,N/A,2011,Kepler CCD Array,0
+2078,Kepler-33,f,Transit,41.02902,0.2535,0,89.17,N/A,,0.398,N/A,1,0,1,N/A,13.988,Kepler-band,5904,1.29,1.82,41773,N/A,2011,Kepler CCD Array,0
+2076,Kepler-33,d,Transit,21.77596,0.1662,0,88.71,N/A,,0.477,N/A,1,0,1,N/A,13.988,Kepler-band,5904,1.29,1.82,41773,N/A,2011,Kepler CCD Array,0
+2106,Kepler-34,b,Transit,288.822,1.0896,0.182,90.355,0.22,Mass,0.764,0.613,1,0,1,1499,14.875,Kepler-band,5913,1.05,1.16,41773,N/A,2011,Kepler CCD Array,0
+1846,Kepler-25,b,Transit,6.2385,0.068,,,12.7,Mass,0.232,N/A,1,0,1,N/A,10.734,Kepler-band,6270,1.19,1.31,41773,N/A,2011,Kepler CCD Array,0
+1847,Kepler-25,c,Transit,12.7204,0.11,,,4.16,Mass,0.401,N/A,1,0,1,N/A,10.734,Kepler-band,6270,1.19,1.31,41773,N/A,2011,Kepler CCD Array,0
+2022,Kepler-31,c,Transit,42.6318,0.26,,,4.7,Mass,0.473,N/A,1,0,1,2100,15.237,Kepler-band,6340,1.21,1.22,41773,N/A,2011,Kepler CCD Array,0
+2021,Kepler-31,b,Transit,20.8613,0.16,,,N/A,,0.491,N/A,1,0,1,2100,15.237,Kepler-band,6340,1.21,1.22,41773,N/A,2011,Kepler CCD Array,0
+742,KOI-55,b,Orbital Brightness Modulation,0.240104,0.006,,65,0.0014,Mass,0.068,N/A,1,0,1,1180,14.87,V (Johnson),27730,0.5,0.2,41773,N/A,2011,Kepler CCD Array,0
+743,KOI-55,c,Orbital Brightness Modulation,0.342887,0.0076,,65,0.0021,Mass,0.077,N/A,1,0,1,1180,14.87,V (Johnson),27730,0.5,0.2,41773,N/A,2011,Kepler CCD Array,0
+2416,Kepler-51,c,Transit,85.312,0.384,0.014,,0.013,Mass,0.803,0.03,1,0,1,N/A,14.669,Kepler-band,6018,1.04,0.94,41773,439,2012,Kepler CCD Array,0
+2206,Kepler-38,b,Transit,105.599,0.4632,0.032,89.442,0.384,Mass,0.384,N/A,1,0,1,600,13.941,Kepler-band,5623,0.94,1.75,41773,475,2012,Kepler CCD Array,0
+3101,PH1,b,Transit,138.317,0.652,0.0702,90.05,0.531,Mass,0.551,N/A,1,0,1,1000,13.718,Kepler-band,6407,1.53,1.73,41773,481,2012,Kepler CCD Array,0
+2348,Kepler-46,b,Transit,33.60134,0.1968,0.01,89.038,6,Mass,0.808,14,1,0,1,855,15.262,Kepler-band,5309,0.9,0.79,41773,543,2012,Kepler CCD Array,0
+2415,Kepler-51,b,Transit,45.154,0.2514,0.04,,0.007,Mass,0.633,0.03,1,0,1,N/A,14.669,Kepler-band,6018,1.04,0.94,41773,543,2012,Kepler CCD Array,0
+2158,Kepler-36,c,Transit,16.23855,0.1283,0.033,89.98,0.025,Mass,0.328,0.89,1,0,1,470,11.866,Kepler-band,5911,1.07,1.63,41773,928,2012,Kepler CCD Array,0
+2157,Kepler-36,b,Transit,13.83989,0.1153,0.039,90.01,0.014,Mass,0.133,7.46,1,0,1,470,11.866,Kepler-band,5911,1.07,1.63,41773,978,2012,Kepler CCD Array,0
+1730,Kepler-21,b,Transit,2.785755,0.042507,0,82.58,0.033,Mass,0.146,12.9,1,0,1,108,8.25,V (Johnson),6131,1.34,1.86,41773,1956,2012,Kepler CCD Array,0
+2050,Kepler-32,f,Transit,0.74296,0.013,,,N/A,,0.073,N/A,1,0,1,303,16.452,V (Johnson),3900,0.58,0.53,42453,N/A,2012,Kepler CCD Array,0
+2049,Kepler-32,e,Transit,2.896,0.033,,,N/A,,0.134,N/A,1,0,1,303,16.452,V (Johnson),3900,0.58,0.53,42453,N/A,2012,Kepler CCD Array,0
+2048,Kepler-32,d,Transit,22.7802,0.13,,,N/A,,0.241,N/A,1,0,1,303,16.452,V (Johnson),3900,0.58,0.53,42453,N/A,2012,Kepler CCD Array,0
+2488,Kepler-56,b,Transit,10.5016,0.1028,,,0.07,Mass,0.581,0.442,1,0,1,N/A,12.44,Kepler-band,4840,1.32,4.23,41773,N/A,2012,Kepler CCD Array,0
+2489,Kepler-56,c,Transit,21.40239,0.1652,,,0.57,Mass,0.874,1.06,1,0,1,N/A,12.44,Kepler-band,4840,1.32,4.23,41773,N/A,2012,Kepler CCD Array,0
+1994,Kepler-30,d,Transit,143.34394,0.5,0.022,89.841,0.073,Mass,0.785,0.19,1,0,1,1400,15.403,Kepler-band,5498,0.99,0.95,41773,N/A,2012,Kepler CCD Array,0
+1992,Kepler-30,b,Transit,29.33434,0.18,0.042,90.179,0.036,Mass,0.348,1.02,1,0,1,1400,15.403,Kepler-band,5498,0.99,0.95,41773,N/A,2012,Kepler CCD Array,0
+1993,Kepler-30,c,Transit,60.323105,0.3,0.0111,90.323,2.01,Mass,1.097,1.88,1,0,1,1400,15.403,Kepler-band,5498,0.99,0.95,41773,N/A,2012,Kepler CCD Array,0
+2361,Kepler-47,b,Transit,49.532,0.2962,0.035,89.7,2,Mass,0.27,N/A,1,0,1,1500,15.178,Kepler-band,5636,1.05,0.96,41773,N/A,2012,Kepler CCD Array,0
+2362,Kepler-47,c,Transit,303.137,0.991,0.411,89.825,28,Mass,0.411,N/A,1,0,1,1500,15.178,Kepler-band,5636,1.05,0.96,41773,N/A,2012,Kepler CCD Array,0
+2776,Kepler-79,c,Transit,27.4029,0.187,0.03,89.48,0.019,Mass,0.332,0.62,1,0,1,N/A,13.914,Kepler-band,6174,1.17,1.3,42439,N/A,2012,Kepler CCD Array,0
+2775,Kepler-79,b,Transit,13.4845,0.117,0.015,88.78,0.0343,Mass,0.31,1.43,1,0,1,N/A,13.914,Kepler-band,6174,1.17,1.3,42439,N/A,2012,Kepler CCD Array,0
+2606,Kepler-65,b,Transit,2.15491,0.035,,,N/A,,0.127,N/A,1,0,1,N/A,11.018,Kepler-band,6211,1.25,1.41,41773,N/A,2012,Kepler CCD Array,0
+2608,Kepler-65,d,Transit,8.13123,0.084,,,N/A,,0.136,N/A,1,0,1,N/A,11.018,Kepler-band,6211,1.25,1.41,41773,N/A,2012,Kepler CCD Array,0
+2607,Kepler-65,c,Transit,5.859944,0.068,,,N/A,,0.23,N/A,1,0,1,N/A,11.018,Kepler-band,6211,1.25,1.41,41773,N/A,2012,Kepler CCD Array,0
+2403,Kepler-50,b,Transit,7.81254,0.077,,,N/A,,0.153,N/A,1,0,1,N/A,10.421,Kepler-band,6225,1.24,1.58,41773,N/A,2012,Kepler CCD Array,0
+2404,Kepler-50,c,Transit,9.37647,0.087,,,N/A,,0.194,N/A,1,0,1,N/A,10.421,Kepler-band,6225,1.24,1.58,41773,N/A,2012,Kepler CCD Array,0
+2573,Kepler-62,f,Transit,267.291,0.718,,89.9,0.11,Mass,0.126,N/A,1,0,1,368,13.725,Kepler-band,4925,0.69,0.64,41773,208,2013,Kepler CCD Array,0
+2572,Kepler-62,e,Transit,122.3874,0.427,,89.98,0.113,Mass,0.144,N/A,1,0,1,368,13.725,Kepler-band,4925,0.69,0.64,41773,270,2013,Kepler CCD Array,0
+3102,PH2,b,Transit,282.5255,0.828,0.41,89.83,N/A,,0.903,N/A,1,0,1,N/A,12.62,Kepler-band,5629,0.94,1,41773,281,2013,Kepler CCD Array,0
+2656,Kepler-69,c,Transit,242.4613,0.64,0.14,89.85,N/A,,0.153,N/A,1,0,1,N/A,14,V (Johnson),5638,0.81,0.93,41773,299,2013,Kepler CCD Array,0
+2887,Kepler-87,c,Transit,191.2318,0.676,0.039,89.588,0.02,Mass,0.548,0.152,1,0,1,N/A,14.6,Kepler-band,5600,1.1,1.82,41773,403,2013,Kepler CCD Array,0
+2886,Kepler-87,b,Transit,114.73635,0.481,0.036,89.274,1.02,Mass,1.204,0.729,1,0,1,N/A,14.6,Kepler-band,5600,1.1,1.82,41773,478,2013,Kepler CCD Array,0
+2571,Kepler-62,d,Transit,18.16406,0.12,,89.7,0.044,Mass,0.174,N/A,1,0,1,368,13.725,Kepler-band,4925,0.69,0.64,41773,510,2013,Kepler CCD Array,0
+2570,Kepler-62,c,Transit,12.4417,0.0929,,89.7,0.013,Mass,0.048,N/A,1,0,1,368,13.725,Kepler-band,4925,0.69,0.64,41773,578,2013,Kepler CCD Array,0
+747,KOI-94,e,Transit,54.32031,0.3046,0.019,89.76,0.11,Mass,0.585,0.6,1,0,1,N/A,12.205,Kepler-band,6182,1.28,1.52,41773,584,2013,Kepler CCD Array,0
+2569,Kepler-62,b,Transit,5.714932,0.0553,,89.2,0.03,Mass,0.117,N/A,1,0,1,368,13.725,Kepler-band,4925,0.69,0.64,41773,750,2013,Kepler CCD Array,0
+2722,Kepler-75,b,Transit,8.8849116,0.0818,0.57,89.12,10.1,Mass,1.05,11,1,0,1,1140,15.264,Kepler-band,5200,0.91,0.89,42033,767,2013,Kepler CCD Array,0
+2655,Kepler-69,b,Transit,13.722341,0.094,0.16,89.62,N/A,,0.2,N/A,1,0,1,N/A,14,V (Johnson),5638,0.81,0.93,41773,779,2013,Kepler CCD Array,0
+746,KOI-94,d,Transit,22.342989,0.1684,0.022,89.871,0.334,Mass,1.005,0.363,1,0,1,N/A,12.205,Kepler-band,6182,1.28,1.52,41773,806,2013,Kepler CCD Array,0
+745,KOI-94,c,Transit,10.423648,0.1013,0.43,88.36,0.049,Mass,0.385,0.91,1,0,1,N/A,12.205,Kepler-band,6182,1.28,1.52,41773,1012,2013,Kepler CCD Array,0
+2276,Kepler-411,b,Transit,3.00516,0.038,0,88.27,N/A,,0.168,N/A,1,0,1,N/A,12.231,Kepler-band,4974,0.83,0.79,41773,1040,2013,Kepler CCD Array,0
+2711,Kepler-74,b,Transit,7.340711,0.0781,0,87.46,0.63,Mass,0.96,0.88,1,0,1,1330,14.23,V (Johnson),6000,1.18,1.12,42033,1078,2013,Kepler CCD Array,0
+2642,Kepler-68,b,Transit,5.398763,0.0617,0,87.6,0.026,Mass,0.206,3.32,1,0,1,135,9.99,V (Johnson),5793,1.08,1.24,41773,1280,2013,Kepler CCD Array,0
+818,Kepler-105,b,Transit,5.4122,0.066,0.47,85.94,N/A,,0.429,N/A,1,0,1,N/A,12.791,Kepler-band,5827,0.96,0.89,41773,1418,2013,Kepler CCD Array,0
+2751,Kepler-77,b,Transit,3.57878087,0.04501,0,88,0.43,Mass,0.96,0.603,1,0,1,570,13.938,Kepler-band,5520,0.95,0.99,41773,1440,2013,Kepler CCD Array,0
+744,KOI-94,b,Transit,3.743208,0.05119,0.25,89.3,0.033,Mass,0.153,10.1,1,0,1,N/A,12.205,Kepler-band,6182,1.28,1.52,41773,1486,2013,Kepler CCD Array,0
+3225,WASP-75,b,Transit,2.484193,0.0375,0,82,1.07,Mass,1.27,0.69,0,1,1,260,11.45,V (Johnson),6100,1.14,1.26,41773,1710,2013,iKon-L CCD Camera,0
+2933,Kepler-91,b,Transit,6.24658,0.0731,,69.68,0.81,Mass,1.367,0.4,1,0,1,1030,12.495,Kepler-band,4550,1.31,6.3,42292,2040,2013,Kepler CCD Array,0
+2738,Kepler-76,b,Orbital Brightness Modulation,1.5449298,0.0274,,77.55,2.01,Mass,1.36,1.1,1,0,1,N/A,13.308,Kepler-band,6409,1.2,1.32,42292,2140,2013,Kepler CCD Array,0
+2631,Kepler-67,b,Transit,15.7259,0.1171,,,N/A,,0.262,N/A,1,0,1,1107,16.4,V (Johnson),5331,0.86,0.78,41773,N/A,2013,Kepler CCD Array,0
+2180,Kepler-37,b,Transit,13.367308,0.1003,,88.63,N/A,,0.027,N/A,1,0,1,66,9.705,Kepler-band,5417,0.8,0.77,41773,N/A,2013,Kepler CCD Array,0
+2181,Kepler-37,c,Transit,21.301886,0.1368,,89.07,N/A,,0.066,N/A,1,0,1,66,9.705,Kepler-band,5417,0.8,0.77,41773,N/A,2013,Kepler CCD Array,0
+2182,Kepler-37,d,Transit,39.792187,0.2076,,89.335,N/A,,0.178,N/A,1,0,1,66,9.705,Kepler-band,5417,0.8,0.77,41773,N/A,2013,Kepler CCD Array,0
+2585,Kepler-63,b,Transit,9.4341505,0.08,0.45,87.806,0.378,Mass,0.545,3,1,0,1,200,12.02,V (Johnson),5576,0.98,0.9,41773,N/A,2013,Kepler CCD Array,0
+2643,Kepler-68,c,Transit,9.605085,0.09059,0,86.93,0.015,Mass,0.085,28,1,0,1,135,9.99,V (Johnson),5793,1.08,1.24,41773,N/A,2013,Kepler CCD Array,0
+2620,Kepler-66,b,Transit,17.815815,0.1352,,,N/A,,0.25,N/A,1,0,1,1107,15.3,V (Johnson),5962,1.04,0.97,41773,N/A,2013,Kepler CCD Array,0
+736,KOI-351,c,Transit,8.719375,0.089,,89.68,N/A,,0.106,N/A,1,0,1,780,13.804,Kepler-band,6080,1.2,1.2,41773,N/A,2013,Kepler CCD Array,0
+735,KOI-351,b,Transit,7.008151,0.074,,89.4,N/A,,0.117,N/A,1,0,1,780,13.804,Kepler-band,6080,1.2,1.2,41773,N/A,2013,Kepler CCD Array,0
+738,KOI-351,e,Transit,91.93913,0.42,,89.79,N/A,,0.237,N/A,1,0,1,780,13.804,Kepler-band,6080,1.2,1.2,41773,N/A,2013,Kepler CCD Array,0
+737,KOI-351,d,Transit,59.73667,0.32,,89.71,N/A,,0.256,N/A,1,0,1,780,13.804,Kepler-band,6080,1.2,1.2,41773,N/A,2013,Kepler CCD Array,0
+739,KOI-351,f,Transit,124.9144,0.48,,89.77,N/A,,0.257,N/A,1,0,1,780,13.804,Kepler-band,6080,1.2,1.2,41773,N/A,2013,Kepler CCD Array,0
+740,KOI-351,g,Transit,210.60697,0.71,,89.8,N/A,,0.723,N/A,1,0,1,780,13.804,Kepler-band,6080,1.2,1.2,41773,N/A,2013,Kepler CCD Array,0
+741,KOI-351,h,Transit,331.60059,1.01,,89.6,N/A,,1.008,N/A,1,0,1,780,13.804,Kepler-band,6080,1.2,1.2,41773,N/A,2013,Kepler CCD Array,0
+2275,Kepler-410 A,b,Transit,17.833648,0.1226,0.17,87.72,N/A,,0.253,N/A,1,0,1,132,9.364,Kepler-band,6273,1.21,1.35,41773,N/A,2013,Kepler CCD Array,0
+2295,Kepler-421,b,Transit,704.1984,1.219,0.041,89.965,N/A,,0.371,N/A,1,0,1,320,13.354,Kepler-band,5308,0.79,0.76,41843,185,2014,Kepler CCD Array,0
+2417,Kepler-51,d,Transit,130.194,0.509,0.008,,0.024,Mass,0.865,0.046,1,0,1,N/A,14.669,Kepler-band,6018,1.04,0.94,41773,381,2014,Kepler CCD Array,0
+2294,Kepler-420,b,Transit,86.647661,0.382,0.772,89.66,1.45,Mass,0.94,2.1,1,0,1,900,14.867,V (Johnson),5520,0.99,1.13,41815,511,2014,Kepler CCD Array,0
+1148,Kepler-130,c,Transit,27.50868,0.178,0,89.34,N/A,,0.259,N/A,1,0,1,N/A,11.529,Kepler-band,5884,1,1.13,41773,683,2014,Kepler CCD Array,0
+637,HIP 116454,b,Transit,9.1205,0.0906,0.205,88.43,0.037,Mass,0.226,4.17,0,1,1,55.2,10.19,V (Johnson),5089,0.78,0.72,41992,690,2014,Kepler CCD Array,0
+982,Kepler-117,c,Transit,50.790391,0.2804,0.0323,89.64,1.84,Mass,1.101,1.74,1,0,1,1430,14.274,Kepler-band,6150,1.13,1.61,41962,704,2014,Kepler CCD Array,0
+1607,Kepler-167,c,Transit,7.406114,0.0684,0,89.3,N/A,,0.138,N/A,1,0,1,330,14.023,Kepler-band,4890,0.77,0.73,42439,768,2014,Kepler CCD Array,0
+1606,Kepler-167,b,Transit,4.3931632,0.0483,0,89.33,N/A,,0.144,N/A,1,0,1,330,14.023,Kepler-band,4890,0.77,0.73,42439,914,2014,Kepler CCD Array,0
+981,Kepler-117,b,Transit,18.7959228,0.1445,0.0493,88.74,0.094,Mass,0.719,0.3,1,0,1,1430,14.274,Kepler-band,6150,1.13,1.61,41962,984,2014,Kepler CCD Array,0
+2958,Kepler-93,b,Transit,4.72673978,0.053,0,89.183,0.01265,Mass,0.132,6.88,1,0,1,N/A,9.931,Kepler-band,5669,0.91,0.92,42110,1037,2014,Kepler CCD Array,0
+2303,Kepler-428,b,Transit,3.52563254,0.0433,0.22,89.36,1.27,Mass,1.08,1.02,1,0,1,720,15.405,V (Johnson),5150,0.87,0.8,41915,1070,2014,Kepler CCD Array,0
+2300,Kepler-425,b,Transit,3.79701816,0.0464,0.33,87.02,0.25,Mass,0.978,0.27,1,0,1,650,14.97,V (Johnson),5170,0.93,0.86,41915,1070,2014,Kepler CCD Array,0
+2302,Kepler-427,b,Transit,10.290994,0.091,0.57,89.5,0.29,Mass,1.23,0.16,1,0,1,1100,14.42,V (Johnson),5800,0.96,1.35,41915,1100,2014,Kepler CCD Array,0
+2301,Kepler-426,b,Transit,3.21751883,0.0414,0.18,85.74,0.34,Mass,1.09,0.26,1,0,1,880,15.073,V (Johnson),5725,0.91,0.92,41915,1300,2014,Kepler CCD Array,0
+765,Kepler-101,c,Transit,6.02976,0.0684,0,84.6,0.01,Mass,0.112,10.5,1,0,1,N/A,13.8,V (Johnson),5667,1.17,1.56,41907,1413,2014,Kepler CCD Array,0
+3173,WASP-28,b,Transit,3.40883,0.04469,0,88.61,0.907,Mass,1.213,0.676,0,1,1,410,12.03,V (Johnson),6150,1.02,1.09,42068,1468,2014,iKon-L CCD Camera,0
+764,Kepler-101,b,Transit,3.4876812,0.0474,0.086,85.82,0.16,Mass,0.51,1.45,1,0,1,N/A,13.8,V (Johnson),5667,1.17,1.56,41907,1513,2014,Kepler CCD Array,0
+2297,Kepler-423,b,Transit,2.6843285,0.03585,0.019,87.828,0.595,Mass,1.192,0.459,1,0,1,725,14.29,Kepler-band,5560,0.85,0.95,42026,1605,2014,Kepler CCD Array,0
+2278,Kepler-412,b,Transit,1.7208604,0.02897,,80.559,0.941,Mass,1.341,0.52,1,0,1,1056,13.73,V (Johnson),5750,1.17,1.29,42292,1850,2014,Kepler CCD Array,0
+1843,Kepler-249,b,Transit,3.306539,0.035,,,N/A,,0.097,N/A,1,0,1,N/A,15.234,Kepler-band,3568,,0.48,41773,N/A,2014,Kepler CCD Array,0
+1844,Kepler-249,c,Transit,7.113702,0.058,,,N/A,,0.135,N/A,1,0,1,N/A,15.234,Kepler-band,3568,,0.48,41773,N/A,2014,Kepler CCD Array,0
+1845,Kepler-249,d,Transit,15.368459,0.097,,,N/A,,0.14,N/A,1,0,1,N/A,15.234,Kepler-band,3568,,0.48,41773,N/A,2014,Kepler CCD Array,0
+2178,Kepler-369,b,Transit,2.732756,0.03,,,N/A,,0.101,N/A,1,0,1,N/A,15.673,Kepler-band,3591,0.54,0.47,41773,N/A,2014,Kepler CCD Array,0
+2179,Kepler-369,c,Transit,14.871572,0.094,,,N/A,,0.126,N/A,1,0,1,N/A,15.673,Kepler-band,3591,0.54,0.47,41773,N/A,2014,Kepler CCD Array,0
+1776,Kepler-225,b,Transit,6.738975,0.056,,,N/A,,0.107,N/A,1,0,1,N/A,15.962,Kepler-band,3682,,0.48,41773,N/A,2014,Kepler CCD Array,0
+1777,Kepler-225,c,Transit,18.794234,0.111,,,N/A,,0.164,N/A,1,0,1,N/A,15.962,Kepler-band,3682,,0.48,41773,N/A,2014,Kepler CCD Array,0
+1981,Kepler-296,e,Transit,34.14211,0.169,0.33,,N/A,,0.136,N/A,1,0,1,226,15.921,Kepler-band,3740,0.5,0.48,42250,N/A,2014,Kepler CCD Array,0
+1978,Kepler-296,b,Transit,10.864384,0.079,0.33,,N/A,,0.144,N/A,1,0,1,226,15.921,Kepler-band,3740,0.5,0.48,42250,N/A,2014,Kepler CCD Array,0
+1982,Kepler-296,f,Transit,63.33627,0.255,0.33,,N/A,,0.161,N/A,1,0,1,226,15.921,Kepler-band,3740,0.5,0.48,42250,N/A,2014,Kepler CCD Array,0
+1979,Kepler-296,c,Transit,5.8416366,0.0521,0.33,,N/A,,0.178,N/A,1,0,1,226,15.921,Kepler-band,3740,0.5,0.48,42250,N/A,2014,Kepler CCD Array,0
+1980,Kepler-296,d,Transit,19.850291,0.118,0.33,,N/A,,0.186,N/A,1,0,1,226,15.921,Kepler-band,3740,0.5,0.48,42250,N/A,2014,Kepler CCD Array,0
+1806,Kepler-236,b,Transit,8.295611,0.065,,,N/A,,0.14,N/A,1,0,1,N/A,15.414,Kepler-band,3750,0.56,0.51,41773,N/A,2014,Kepler CCD Array,0
+1807,Kepler-236,c,Transit,23.968127,0.132,,,N/A,,0.178,N/A,1,0,1,N/A,15.414,Kepler-band,3750,0.56,0.51,41773,N/A,2014,Kepler CCD Array,0
+1661,Kepler-186,b,Transit,3.8867907,0.0343,,,N/A,,0.095,N/A,1,0,1,172,14.625,Kepler-band,3755,0.54,0.52,41773,N/A,2014,Kepler CCD Array,0
+1665,Kepler-186,f,Transit,129.9441,0.432,0.04,89.96,N/A,,0.104,N/A,1,0,1,172,14.625,Kepler-band,3755,0.54,0.52,42018,N/A,2014,Kepler CCD Array,0
+1662,Kepler-186,c,Transit,7.267302,0.0451,,,N/A,,0.112,N/A,1,0,1,172,14.625,Kepler-band,3755,0.54,0.52,41773,N/A,2014,Kepler CCD Array,0
+1664,Kepler-186,e,Transit,22.407704,0.11,,,N/A,,0.113,N/A,1,0,1,172,14.625,Kepler-band,3755,0.54,0.52,41773,N/A,2014,Kepler CCD Array,0
+1663,Kepler-186,d,Transit,13.342996,0.0781,,,N/A,,0.125,N/A,1,0,1,172,14.625,Kepler-band,3755,0.54,0.52,41773,N/A,2014,Kepler CCD Array,0
+1794,Kepler-231,b,Transit,10.065275,0.074,,,N/A,,0.154,N/A,1,0,1,N/A,15.385,Kepler-band,3767,0.58,0.49,41773,N/A,2014,Kepler CCD Array,0
+1795,Kepler-231,c,Transit,19.271566,0.114,,,N/A,,0.172,N/A,1,0,1,N/A,15.385,Kepler-band,3767,0.58,0.49,41773,N/A,2014,Kepler CCD Array,0
+2068,Kepler-327,c,Transit,5.212333,0.047,,,N/A,,0.092,N/A,1,0,1,N/A,15.018,Kepler-band,3799,0.55,0.49,41773,N/A,2014,Kepler CCD Array,0
+2067,Kepler-327,b,Transit,2.549575,0.029,,,N/A,,0.099,N/A,1,0,1,N/A,15.018,Kepler-band,3799,0.55,0.49,41773,N/A,2014,Kepler CCD Array,0
+2069,Kepler-327,d,Transit,13.969457,0.09,,,N/A,,0.154,N/A,1,0,1,N/A,15.018,Kepler-band,3799,0.55,0.49,41773,N/A,2014,Kepler CCD Array,0
+1084,Kepler-125,c,Transit,5.774464,0.051,,,N/A,,0.066,N/A,1,0,1,N/A,14.752,Kepler-band,3810,0.55,0.51,41773,N/A,2014,Kepler CCD Array,0
+1083,Kepler-125,b,Transit,4.164389,0.041,,,N/A,,0.211,N/A,1,0,1,N/A,14.752,Kepler-band,3810,0.55,0.51,41773,N/A,2014,Kepler CCD Array,0
+2140,Kepler-353,b,Transit,5.795278,0.051,,,N/A,,0.079,N/A,1,0,1,N/A,15.773,Kepler-band,3903,0.54,0.5,41773,N/A,2014,Kepler CCD Array,0
+2141,Kepler-353,c,Transit,8.410894,0.065,,,N/A,,0.123,N/A,1,0,1,N/A,15.773,Kepler-band,3903,0.54,0.5,41773,N/A,2014,Kepler CCD Array,0
+1880,Kepler-26,d,Transit,3.543919,0.039,,,N/A,,0.095,N/A,1,0,1,N/A,15.473,Kepler-band,3914,0.54,0.51,41773,N/A,2014,Kepler CCD Array,0
+1881,Kepler-26,e,Transit,46.827915,0.22,,,N/A,,0.215,N/A,1,0,1,N/A,15.473,Kepler-band,3914,0.54,0.51,41773,N/A,2014,Kepler CCD Array,0
+2002,Kepler-303,b,Transit,1.937055,0.024,,,N/A,,0.079,N/A,1,0,1,N/A,14.39,Kepler-band,3944,0.59,0.48,41773,N/A,2014,Kepler CCD Array,0
+2003,Kepler-303,c,Transit,7.061149,0.057,,,N/A,,0.102,N/A,1,0,1,N/A,14.39,Kepler-band,3944,0.59,0.48,41773,N/A,2014,Kepler CCD Array,0
+1019,Kepler-120,c,Transit,12.794585,0.088,,,N/A,,0.136,N/A,1,0,1,N/A,14.735,Kepler-band,4096,,0.53,41773,N/A,2014,Kepler CCD Array,0
+1018,Kepler-120,b,Transit,6.312501,0.055,,,N/A,,0.192,N/A,1,0,1,N/A,14.735,Kepler-band,4096,,0.53,41773,N/A,2014,Kepler CCD Array,0
+2037,Kepler-316,b,Transit,2.240508,0.027,,,N/A,,0.095,N/A,1,0,1,N/A,15.224,Kepler-band,4204,0.53,0.52,41773,N/A,2014,Kepler CCD Array,0
+2038,Kepler-316,c,Transit,6.827766,0.058,,,N/A,,0.103,N/A,1,0,1,N/A,15.224,Kepler-band,4204,0.53,0.52,41773,N/A,2014,Kepler CCD Array,0
+1856,Kepler-252,b,Transit,6.668391,0.058,,,N/A,,0.11,N/A,1,0,1,N/A,15.058,Kepler-band,4208,0.52,0.55,41773,N/A,2014,Kepler CCD Array,0
+1857,Kepler-252,c,Transit,10.848463,0.08,,,N/A,,0.192,N/A,1,0,1,N/A,15.058,Kepler-band,4208,0.52,0.55,41773,N/A,2014,Kepler CCD Array,0
+2460,Kepler-54,d,Transit,20.995694,0.126,,,N/A,,0.136,N/A,1,0,1,N/A,15.847,Kepler-band,4252,0.51,0.55,41773,N/A,2014,Kepler CCD Array,0
+2391,Kepler-49,e,Transit,18.596108,0.116,,,N/A,,0.139,N/A,1,0,1,N/A,15.264,Kepler-band,4252,0.55,0.56,41773,N/A,2014,Kepler CCD Array,0
+2390,Kepler-49,d,Transit,2.576549,0.031,,,N/A,,0.143,N/A,1,0,1,N/A,15.264,Kepler-band,4252,0.55,0.56,41773,N/A,2014,Kepler CCD Array,0
+1803,Kepler-235,c,Transit,7.824904,0.065,,,N/A,,0.114,N/A,1,0,1,N/A,15.954,Kepler-band,4255,0.59,0.55,41773,N/A,2014,Kepler CCD Array,0
+1804,Kepler-235,d,Transit,20.060548,0.122,,,N/A,,0.183,N/A,1,0,1,N/A,15.954,Kepler-band,4255,0.59,0.55,41773,N/A,2014,Kepler CCD Array,0
+1805,Kepler-235,e,Transit,46.183669,0.213,,,N/A,,0.198,N/A,1,0,1,N/A,15.954,Kepler-band,4255,0.59,0.55,41773,N/A,2014,Kepler CCD Array,0
+1802,Kepler-235,b,Transit,3.340222,0.037,,,N/A,,0.199,N/A,1,0,1,N/A,15.954,Kepler-band,4255,0.59,0.55,41773,N/A,2014,Kepler CCD Array,0
+2072,Kepler-329,b,Transit,7.416397,0.061,,,N/A,,0.125,N/A,1,0,1,N/A,15.434,Kepler-band,4257,0.53,0.52,41773,N/A,2014,Kepler CCD Array,0
+2073,Kepler-329,c,Transit,18.684737,0.113,,,N/A,,0.172,N/A,1,0,1,N/A,15.434,Kepler-band,4257,0.53,0.52,41773,N/A,2014,Kepler CCD Array,0
+1898,Kepler-267,b,Transit,3.353728,0.037,,,N/A,,0.177,N/A,1,0,1,N/A,15.438,Kepler-band,4258,0.56,0.56,41773,N/A,2014,Kepler CCD Array,0
+1899,Kepler-267,c,Transit,6.87745,0.06,,,N/A,,0.19,N/A,1,0,1,N/A,15.438,Kepler-band,4258,0.56,0.56,41773,N/A,2014,Kepler CCD Array,0
+1900,Kepler-267,d,Transit,28.464515,0.154,,,N/A,,0.203,N/A,1,0,1,N/A,15.438,Kepler-band,4258,0.56,0.56,41773,N/A,2014,Kepler CCD Array,0
+2088,Kepler-333,c,Transit,24.08821,0.135,,,N/A,,0.099,N/A,1,0,1,N/A,14.731,Kepler-band,4259,0.54,0.53,41773,N/A,2014,Kepler CCD Array,0
+2087,Kepler-333,b,Transit,12.551158,0.087,,,N/A,,0.118,N/A,1,0,1,N/A,14.731,Kepler-band,4259,0.54,0.53,41773,N/A,2014,Kepler CCD Array,0
+2238,Kepler-395,b,Transit,7.054346,0.061,,,N/A,,0.092,N/A,1,0,1,N/A,15.987,Kepler-band,4262,0.53,0.56,41773,N/A,2014,Kepler CCD Array,0
+2239,Kepler-395,c,Transit,34.989262,0.177,,,N/A,,0.118,N/A,1,0,1,N/A,15.987,Kepler-band,4262,0.53,0.56,41773,N/A,2014,Kepler CCD Array,0
+2430,Kepler-52,d,Transit,36.445171,0.182,,,N/A,,0.174,N/A,1,0,1,N/A,15.095,Kepler-band,4263,0.54,0.56,41773,N/A,2014,Kepler CCD Array,0
+1716,Kepler-205,b,Transit,2.75564,0.032,,,N/A,,0.135,N/A,1,0,1,N/A,13.506,Kepler-band,4321,,0.55,41773,N/A,2014,Kepler CCD Array,0
+1717,Kepler-205,c,Transit,20.306546,0.122,,,N/A,,0.146,N/A,1,0,1,N/A,13.506,Kepler-band,4321,,0.55,41773,N/A,2014,Kepler CCD Array,0
+2083,Kepler-331,d,Transit,32.134328,0.159,,,N/A,,0.146,N/A,1,0,1,N/A,15.862,Kepler-band,4347,0.51,0.49,41773,N/A,2014,Kepler CCD Array,0
+2081,Kepler-331,b,Transit,8.457496,0.065,,,N/A,,0.162,N/A,1,0,1,N/A,15.862,Kepler-band,4347,0.51,0.49,41773,N/A,2014,Kepler CCD Array,0
+2082,Kepler-331,c,Transit,17.28111,0.105,,,N/A,,0.164,N/A,1,0,1,N/A,15.862,Kepler-band,4347,0.51,0.49,41773,N/A,2014,Kepler CCD Array,0
+1943,Kepler-283,c,Transit,92.743711,0.341,,,N/A,,0.162,N/A,1,0,1,N/A,15.847,Kepler-band,4351,,0.57,41773,N/A,2014,Kepler CCD Array,0
+1942,Kepler-283,b,Transit,11.008151,0.082,,,N/A,,0.19,N/A,1,0,1,N/A,15.847,Kepler-band,4351,,0.57,41773,N/A,2014,Kepler CCD Array,0
+1986,Kepler-298,c,Transit,22.92881,0.136,,,N/A,,0.172,N/A,1,0,1,N/A,15.415,Kepler-band,4465,0.65,0.58,41773,N/A,2014,Kepler CCD Array,0
+1985,Kepler-298,b,Transit,10.475464,0.08,,,N/A,,0.175,N/A,1,0,1,N/A,15.415,Kepler-band,4465,0.65,0.58,41773,N/A,2014,Kepler CCD Array,0
+1987,Kepler-298,d,Transit,77.473633,0.305,,,N/A,,0.223,N/A,1,0,1,N/A,15.415,Kepler-band,4465,0.65,0.58,41773,N/A,2014,Kepler CCD Array,0
+2244,Kepler-398,b,Transit,4.081423,0.044,,,N/A,,0.083,N/A,1,0,1,N/A,13.256,Kepler-band,4493,,0.61,41773,N/A,2014,Kepler CCD Array,0
+2245,Kepler-398,c,Transit,11.419412,0.087,,,N/A,,0.09,N/A,1,0,1,N/A,13.256,Kepler-band,4493,,0.61,41773,N/A,2014,Kepler CCD Array,0
+2223,Kepler-388,b,Transit,3.173315,0.036,,,N/A,,0.072,N/A,1,0,1,N/A,14.993,Kepler-band,4498,0.59,0.59,41773,N/A,2014,Kepler CCD Array,0
+2224,Kepler-388,c,Transit,13.297004,0.093,,,N/A,,0.077,N/A,1,0,1,N/A,14.993,Kepler-band,4498,0.59,0.59,41773,N/A,2014,Kepler CCD Array,0
+2808,Kepler-81,d,Transit,20.837846,0.128,,,N/A,,0.108,N/A,1,0,1,N/A,15.019,Kepler-band,4500,0.64,0.59,41773,N/A,2014,Kepler CCD Array,0
+2475,Kepler-55,e,Transit,4.617534,0.048,,,N/A,,0.138,N/A,1,0,1,N/A,15.791,Kepler-band,4503,0.62,0.62,41773,N/A,2014,Kepler CCD Array,0
+2474,Kepler-55,d,Transit,2.211099,0.029,,,N/A,,0.142,N/A,1,0,1,N/A,15.791,Kepler-band,4503,0.62,0.62,41773,N/A,2014,Kepler CCD Array,0
+2476,Kepler-55,f,Transit,10.198545,0.081,,,N/A,,0.142,N/A,1,0,1,N/A,15.791,Kepler-band,4503,0.62,0.62,41773,N/A,2014,Kepler CCD Array,0
+2121,Kepler-345,b,Transit,7.415563,0.066,,,N/A,,0.066,N/A,1,0,1,N/A,14.028,Kepler-band,4504,0.59,0.62,41773,N/A,2014,Kepler CCD Array,0
+2122,Kepler-345,c,Transit,9.387427,0.077,,,N/A,,0.107,N/A,1,0,1,N/A,14.028,Kepler-band,4504,0.59,0.62,41773,N/A,2014,Kepler CCD Array,0
+1478,Kepler-155,b,Transit,5.931194,0.056,,,N/A,,0.186,N/A,1,0,1,N/A,14.258,Kepler-band,4508,0.58,0.62,41773,N/A,2014,Kepler CCD Array,0
+1479,Kepler-155,c,Transit,52.661793,0.242,,,N/A,,0.2,N/A,1,0,1,N/A,14.258,Kepler-band,4508,0.58,0.62,41773,N/A,2014,Kepler CCD Array,0
+1731,Kepler-210,b,Transit,2.453234,0.032,,,N/A,,0.262,N/A,1,0,1,N/A,13.822,Kepler-band,4559,,0.65,41773,N/A,2014,Kepler CCD Array,0
+1732,Kepler-210,c,Transit,7.972513,0.07,,,N/A,,0.323,N/A,1,0,1,N/A,13.822,Kepler-band,4559,,0.65,41773,N/A,2014,Kepler CCD Array,0
+942,Kepler-114,b,Transit,5.188549,0.053,,,N/A,,0.112,N/A,1,0,1,N/A,13.738,Kepler-band,4605,0.56,0.67,41773,N/A,2014,Kepler CCD Array,0
+2793,Kepler-80,e,Transit,4.645387,0.049,,,N/A,,0.146,N/A,1,0,1,N/A,14.804,Kepler-band,4613,0.72,0.64,41773,N/A,2014,Kepler CCD Array,0
+2792,Kepler-80,d,Transit,3.072186,0.037,,,N/A,,0.155,N/A,1,0,1,N/A,14.804,Kepler-band,4613,0.72,0.64,41773,N/A,2014,Kepler CCD Array,0
+1516,Kepler-158,c,Transit,28.551383,0.158,,,N/A,,0.17,N/A,1,0,1,N/A,14.427,Kepler-band,4623,,0.62,41773,N/A,2014,Kepler CCD Array,0
+1515,Kepler-158,b,Transit,16.709184,0.111,,,N/A,,0.189,N/A,1,0,1,N/A,14.427,Kepler-band,4623,,0.62,41773,N/A,2014,Kepler CCD Array,0
+1527,Kepler-159,b,Transit,10.139623,0.082,,,N/A,,0.212,N/A,1,0,1,N/A,14.902,Kepler-band,4625,,0.66,41773,N/A,2014,Kepler CCD Array,0
+1528,Kepler-159,c,Transit,43.595792,0.218,,,N/A,,0.304,N/A,1,0,1,N/A,14.902,Kepler-band,4625,,0.66,41773,N/A,2014,Kepler CCD Array,0
+1757,Kepler-220,b,Transit,4.159807,0.046,,,N/A,,0.072,N/A,1,0,1,N/A,13.177,Kepler-band,4632,,0.67,41773,N/A,2014,Kepler CCD Array,0
+1759,Kepler-220,d,Transit,28.122397,0.163,,,N/A,,0.087,N/A,1,0,1,N/A,13.177,Kepler-band,4632,,0.67,41773,N/A,2014,Kepler CCD Array,0
+1760,Kepler-220,e,Transit,45.902733,0.226,,,N/A,,0.119,N/A,1,0,1,N/A,13.177,Kepler-band,4632,,0.67,41773,N/A,2014,Kepler CCD Array,0
+1758,Kepler-220,c,Transit,9.034199,0.076,,,N/A,,0.14,N/A,1,0,1,N/A,13.177,Kepler-band,4632,,0.67,41773,N/A,2014,Kepler CCD Array,0
+2144,Kepler-354,d,Transit,24.209842,0.146,,,N/A,,0.111,N/A,1,0,1,N/A,15.549,Kepler-band,4648,0.65,0.67,41773,N/A,2014,Kepler CCD Array,0
+2143,Kepler-354,c,Transit,16.934402,0.115,,,N/A,,0.117,N/A,1,0,1,N/A,15.549,Kepler-band,4648,0.65,0.67,41773,N/A,2014,Kepler CCD Array,0
+2142,Kepler-354,b,Transit,5.47666,0.054,,,N/A,,0.164,N/A,1,0,1,N/A,15.549,Kepler-band,4648,0.65,0.67,41773,N/A,2014,Kepler CCD Array,0
+2836,Kepler-83,d,Transit,5.169796,0.051,,,N/A,,0.173,N/A,1,0,1,N/A,15.777,Kepler-band,4648,0.66,0.59,41773,N/A,2014,Kepler CCD Array,0
+2203,Kepler-378,c,Transit,28.906009,0.166,,,N/A,,0.062,N/A,1,0,1,N/A,12.485,Kepler-band,4661,0.96,0.67,41773,N/A,2014,Kepler CCD Array,0
+2202,Kepler-378,b,Transit,16.092361,0.112,,,N/A,,0.067,N/A,1,0,1,N/A,12.485,Kepler-band,4661,0.96,0.67,41773,N/A,2014,Kepler CCD Array,0
+1709,Kepler-202,b,Transit,4.069427,0.045,,,N/A,,0.145,N/A,1,0,1,N/A,13.872,Kepler-band,4668,,0.67,41773,N/A,2014,Kepler CCD Array,0
+1710,Kepler-202,c,Transit,16.282493,0.113,,,N/A,,0.165,N/A,1,0,1,N/A,13.872,Kepler-band,4668,,0.67,41773,N/A,2014,Kepler CCD Array,0
+1823,Kepler-241,b,Transit,12.718092,0.094,,,N/A,,0.208,N/A,1,0,1,N/A,15.389,Kepler-band,4699,,0.67,41773,N/A,2014,Kepler CCD Array,0
+1824,Kepler-241,c,Transit,36.065978,0.189,,,N/A,,0.229,N/A,1,0,1,N/A,15.389,Kepler-band,4699,,0.67,41773,N/A,2014,Kepler CCD Array,0
+2279,Kepler-413,b,Transit,66.262,0.3553,0.1181,89.929,0.211,Mass,0.388,3.2,1,0,1,N/A,15.52,Kepler-band,4700,0.82,0.78,41773,N/A,2014,Kepler CCD Array,0
+2175,Kepler-367,c,Transit,53.578637,0.253,,,N/A,,0.107,N/A,1,0,1,N/A,12.879,Kepler-band,4710,0.75,0.69,41773,N/A,2014,Kepler CCD Array,0
+2214,Kepler-383,c,Transit,31.200751,0.172,,,N/A,,0.111,N/A,1,0,1,N/A,15.07,Kepler-band,4710,0.67,0.67,41773,N/A,2014,Kepler CCD Array,0
+2174,Kepler-367,b,Transit,37.815724,0.201,,,N/A,,0.116,N/A,1,0,1,N/A,12.879,Kepler-band,4710,0.75,0.69,41773,N/A,2014,Kepler CCD Array,0
+2213,Kepler-383,b,Transit,12.904532,0.095,,,N/A,,0.118,N/A,1,0,1,N/A,15.07,Kepler-band,4710,0.67,0.67,41773,N/A,2014,Kepler CCD Array,0
+2019,Kepler-309,b,Transit,5.923653,0.059,,,N/A,,0.139,N/A,1,0,1,N/A,15.157,Kepler-band,4713,,0.72,41773,N/A,2014,Kepler CCD Array,0
+2020,Kepler-309,c,Transit,105.356383,0.401,,,N/A,,0.224,N/A,1,0,1,N/A,15.157,Kepler-band,4713,,0.72,41773,N/A,2014,Kepler CCD Array,0
+2005,Kepler-304,c,Transit,5.315946,0.054,,,N/A,,0.194,N/A,1,0,1,N/A,14.84,Kepler-band,4731,0.8,0.69,41773,N/A,2014,Kepler CCD Array,0
+2006,Kepler-304,d,Transit,9.653471,0.08,,,N/A,,0.245,N/A,1,0,1,N/A,14.84,Kepler-band,4731,0.8,0.69,41773,N/A,2014,Kepler CCD Array,0
+2004,Kepler-304,b,Transit,3.295709,0.039,,,N/A,,0.255,N/A,1,0,1,N/A,14.84,Kepler-band,4731,0.8,0.69,41773,N/A,2014,Kepler CCD Array,0
+1808,Kepler-237,b,Transit,4.715106,0.05,,,N/A,,0.126,N/A,1,0,1,N/A,15.289,Kepler-band,4861,0.7,0.72,41773,N/A,2014,Kepler CCD Array,0
+1809,Kepler-237,c,Transit,8.103636,0.071,,,N/A,,0.186,N/A,1,0,1,N/A,15.289,Kepler-band,4861,0.7,0.72,41773,N/A,2014,Kepler CCD Array,0
+1630,Kepler-174,c,Transit,44.000529,0.214,,,N/A,,0.133,N/A,1,0,1,N/A,14.287,Kepler-band,4880,,0.62,41773,N/A,2014,Kepler CCD Array,0
+1629,Kepler-174,b,Transit,13.98179,0.1,,,N/A,,0.175,N/A,1,0,1,N/A,14.287,Kepler-band,4880,,0.62,41773,N/A,2014,Kepler CCD Array,0
+1631,Kepler-174,d,Transit,247.35373,0.677,,,N/A,,0.195,N/A,1,0,1,N/A,14.287,Kepler-band,4880,,0.62,41773,N/A,2014,Kepler CCD Array,0
+1295,Kepler-141,b,Transit,3.107675,0.039,,,N/A,,0.062,N/A,1,0,1,N/A,13.448,Kepler-band,4910,1,0.79,41773,N/A,2014,Kepler CCD Array,0
+1296,Kepler-141,c,Transit,7.010606,0.067,,,N/A,,0.126,N/A,1,0,1,N/A,13.448,Kepler-band,4910,1,0.79,41773,N/A,2014,Kepler CCD Array,0
+1815,Kepler-239,b,Transit,11.763051,0.095,,,N/A,,0.208,N/A,1,0,1,N/A,15.208,Kepler-band,4914,0.74,0.76,41773,N/A,2014,Kepler CCD Array,0
+1816,Kepler-239,c,Transit,56.228098,0.268,,,N/A,,0.224,N/A,1,0,1,N/A,15.208,Kepler-band,4914,0.74,0.76,41773,N/A,2014,Kepler CCD Array,0
+2230,Kepler-391,b,Transit,7.416755,0.082,,,N/A,,0.285,N/A,1,0,1,N/A,13.007,Kepler-band,4940,1.22,3.57,41773,N/A,2014,Kepler CCD Array,0
+2231,Kepler-391,c,Transit,20.485435,0.161,,,N/A,,0.316,N/A,1,0,1,N/A,13.007,Kepler-band,4940,1.22,3.57,41773,N/A,2014,Kepler CCD Array,0
+1875,Kepler-258,c,Transit,33.653079,0.193,,,N/A,,0.322,N/A,1,0,1,N/A,15.223,Kepler-band,4942,0.8,0.92,41773,N/A,2014,Kepler CCD Array,0
+1874,Kepler-258,b,Transit,13.19722,0.103,,,N/A,,0.362,N/A,1,0,1,N/A,15.223,Kepler-band,4942,0.8,0.92,41773,N/A,2014,Kepler CCD Array,0
+2011,Kepler-306,b,Transit,4.646186,0.05,,,N/A,,0.136,N/A,1,0,1,N/A,15.565,Kepler-band,4954,0.82,0.72,41773,N/A,2014,Kepler CCD Array,0
+2014,Kepler-306,e,Transit,44.840975,0.227,,,N/A,,0.203,N/A,1,0,1,N/A,15.565,Kepler-band,4954,0.82,0.72,41773,N/A,2014,Kepler CCD Array,0
+2012,Kepler-306,c,Transit,7.240193,0.067,,,N/A,,0.21,N/A,1,0,1,N/A,15.565,Kepler-band,4954,0.82,0.72,41773,N/A,2014,Kepler CCD Array,0
+2013,Kepler-306,d,Transit,17.326644,0.12,,,N/A,,0.22,N/A,1,0,1,N/A,15.565,Kepler-band,4954,0.82,0.72,41773,N/A,2014,Kepler CCD Array,0
+2085,Kepler-332,c,Transit,15.995622,0.114,,,N/A,,0.097,N/A,1,0,1,N/A,14.017,Kepler-band,4955,0.8,0.72,41773,N/A,2014,Kepler CCD Array,0
+2084,Kepler-332,b,Transit,7.626324,0.07,,,N/A,,0.104,N/A,1,0,1,N/A,14.017,Kepler-band,4955,0.8,0.72,41773,N/A,2014,Kepler CCD Array,0
+2086,Kepler-332,d,Transit,34.21154,0.189,,,N/A,,0.105,N/A,1,0,1,N/A,14.017,Kepler-band,4955,0.8,0.72,41773,N/A,2014,Kepler CCD Array,0
+1069,Kepler-124,b,Transit,3.410493,0.039,,,N/A,,0.065,N/A,1,0,1,N/A,14.139,Kepler-band,4984,,0.64,41773,N/A,2014,Kepler CCD Array,0
+1071,Kepler-124,d,Transit,30.950851,0.17,,,N/A,,0.099,N/A,1,0,1,N/A,14.139,Kepler-band,4984,,0.64,41773,N/A,2014,Kepler CCD Array,0
+1070,Kepler-124,c,Transit,13.821375,0.1,,,N/A,,0.156,N/A,1,0,1,N/A,14.139,Kepler-band,4984,,0.64,41773,N/A,2014,Kepler CCD Array,0
+1821,Kepler-240,b,Transit,4.144495,0.048,,,N/A,,0.122,N/A,1,0,1,N/A,15.66,Kepler-band,4985,,0.74,41773,N/A,2014,Kepler CCD Array,0
+1822,Kepler-240,c,Transit,7.953528,0.074,,,N/A,,0.196,N/A,1,0,1,N/A,15.66,Kepler-band,4985,,0.74,41773,N/A,2014,Kepler CCD Array,0
+1928,Kepler-278,c,Transit,51.078775,0.294,,,N/A,,0.32,N/A,1,0,1,N/A,11.584,Kepler-band,4991,,2.94,41773,N/A,2014,Kepler CCD Array,0
+1927,Kepler-278,b,Transit,30.160546,0.207,,,N/A,,0.363,N/A,1,0,1,N/A,11.584,Kepler-band,4991,,2.94,41773,N/A,2014,Kepler CCD Array,0
+1612,Kepler-169,b,Transit,3.250619,0.04,,,N/A,,0.101,N/A,1,0,1,N/A,14.194,Kepler-band,4997,0.86,0.76,41773,N/A,2014,Kepler CCD Array,0
+1613,Kepler-169,c,Transit,6.195469,0.062,,,N/A,,0.108,N/A,1,0,1,N/A,14.194,Kepler-band,4997,0.86,0.76,41773,N/A,2014,Kepler CCD Array,0
+1614,Kepler-169,d,Transit,8.348125,0.075,,,N/A,,0.112,N/A,1,0,1,N/A,14.194,Kepler-band,4997,0.86,0.76,41773,N/A,2014,Kepler CCD Array,0
+1615,Kepler-169,e,Transit,13.767102,0.105,,,N/A,,0.196,N/A,1,0,1,N/A,14.194,Kepler-band,4997,0.86,0.76,41773,N/A,2014,Kepler CCD Array,0
+1616,Kepler-169,f,Transit,87.090195,0.359,,,N/A,,0.23,N/A,1,0,1,N/A,14.194,Kepler-band,4997,0.86,0.76,41773,N/A,2014,Kepler CCD Array,0
+1772,Kepler-224,b,Transit,3.132924,0.038,,,N/A,,0.124,N/A,1,0,1,N/A,15.644,Kepler-band,5018,0.74,0.68,41773,N/A,2014,Kepler CCD Array,0
+1775,Kepler-224,e,Transit,18.643577,0.124,,,N/A,,0.176,N/A,1,0,1,N/A,15.644,Kepler-band,5018,0.74,0.68,41773,N/A,2014,Kepler CCD Array,0
+1774,Kepler-224,d,Transit,11.349393,0.089,,,N/A,,0.205,N/A,1,0,1,N/A,15.644,Kepler-band,5018,0.74,0.68,41773,N/A,2014,Kepler CCD Array,0
+1773,Kepler-224,c,Transit,5.925003,0.058,,,N/A,,0.278,N/A,1,0,1,N/A,15.644,Kepler-band,5018,0.74,0.68,41773,N/A,2014,Kepler CCD Array,0
+1826,Kepler-242,c,Transit,14.496481,0.109,,,N/A,,0.178,N/A,1,0,1,N/A,15.376,Kepler-band,5020,,0.85,41773,N/A,2014,Kepler CCD Array,0
+1825,Kepler-242,b,Transit,8.20395,0.075,,,N/A,,0.233,N/A,1,0,1,N/A,15.376,Kepler-band,5020,,0.85,41773,N/A,2014,Kepler CCD Array,0
+2149,Kepler-357,b,Transit,6.475434,0.063,,,N/A,,0.164,N/A,1,0,1,N/A,15.565,Kepler-band,5036,0.78,0.83,41773,N/A,2014,Kepler CCD Array,0
+2150,Kepler-357,c,Transit,16.85837,0.12,,,N/A,,0.238,N/A,1,0,1,N/A,15.565,Kepler-band,5036,0.78,0.83,41773,N/A,2014,Kepler CCD Array,0
+2151,Kepler-357,d,Transit,49.499875,0.246,,,N/A,,0.306,N/A,1,0,1,N/A,15.565,Kepler-band,5036,0.78,0.83,41773,N/A,2014,Kepler CCD Array,0
+1553,Kepler-161,c,Transit,7.06424,0.068,,,N/A,,0.183,N/A,1,0,1,N/A,14.196,Kepler-band,5078,0.77,0.81,41773,N/A,2014,Kepler CCD Array,0
+1552,Kepler-161,b,Transit,4.921355,0.054,,,N/A,,0.189,N/A,1,0,1,N/A,14.196,Kepler-band,5078,0.77,0.81,41773,N/A,2014,Kepler CCD Array,0
+1436,Kepler-152,c,Transit,88.255055,0.356,,,N/A,,0.213,N/A,1,0,1,N/A,14.29,Kepler-band,5088,,0.72,41773,N/A,2014,Kepler CCD Array,0
+1435,Kepler-152,b,Transit,18.207973,0.124,,,N/A,,0.249,N/A,1,0,1,N/A,14.29,Kepler-band,5088,,0.72,41773,N/A,2014,Kepler CCD Array,0
+1490,Kepler-156,b,Transit,4.973456,0.054,,,N/A,,0.205,N/A,1,0,1,N/A,14.172,Kepler-band,5094,,0.81,41773,N/A,2014,Kepler CCD Array,0
+1491,Kepler-156,c,Transit,15.906801,0.117,,,N/A,,0.227,N/A,1,0,1,N/A,14.172,Kepler-band,5094,,0.81,41773,N/A,2014,Kepler CCD Array,0
+1885,Kepler-261,c,Transit,24.570858,0.156,,,N/A,,0.178,N/A,1,0,1,N/A,13.562,Kepler-band,5098,0.87,0.79,41773,N/A,2014,Kepler CCD Array,0
+1884,Kepler-261,b,Transit,10.381227,0.088,,,N/A,,0.194,N/A,1,0,1,N/A,13.562,Kepler-band,5098,0.87,0.79,41773,N/A,2014,Kepler CCD Array,0
+1838,Kepler-247,b,Transit,3.33616,0.042,,,N/A,,0.146,N/A,1,0,1,N/A,15.067,Kepler-band,5100,,0.77,41773,N/A,2014,Kepler CCD Array,0
+1833,Kepler-245,c,Transit,17.460812,0.124,,,N/A,,0.194,N/A,1,0,1,N/A,15.599,Kepler-band,5100,0.8,0.8,41773,N/A,2014,Kepler CCD Array,0
+1832,Kepler-245,b,Transit,7.49019,0.071,,,N/A,,0.229,N/A,1,0,1,N/A,15.599,Kepler-band,5100,0.8,0.8,41773,N/A,2014,Kepler CCD Array,0
+2010,Kepler-305,d,Transit,16.738661,0.121,,,N/A,,0.242,N/A,1,0,1,N/A,15.812,Kepler-band,5100,0.76,0.79,41773,N/A,2014,Kepler CCD Array,0
+1834,Kepler-245,d,Transit,36.277108,0.202,,,N/A,,0.27,N/A,1,0,1,N/A,15.599,Kepler-band,5100,0.8,0.8,41773,N/A,2014,Kepler CCD Array,0
+1840,Kepler-247,d,Transit,20.477912,0.14,,,N/A,,0.352,N/A,1,0,1,N/A,15.067,Kepler-band,5100,,0.77,41773,N/A,2014,Kepler CCD Array,0
+1839,Kepler-247,c,Transit,9.439452,0.084,,,N/A,,0.365,N/A,1,0,1,N/A,15.067,Kepler-band,5100,,0.77,41773,N/A,2014,Kepler CCD Array,0
+2066,Kepler-326,d,Transit,6.766888,0.066,,,N/A,,0.108,N/A,1,0,1,N/A,13.693,Kepler-band,5105,0.98,0.8,41773,N/A,2014,Kepler CCD Array,0
+2065,Kepler-326,c,Transit,4.580358,0.051,,,N/A,,0.125,N/A,1,0,1,N/A,13.693,Kepler-band,5105,0.98,0.8,41773,N/A,2014,Kepler CCD Array,0
+2064,Kepler-326,b,Transit,2.248329,0.032,,,N/A,,0.136,N/A,1,0,1,N/A,13.693,Kepler-band,5105,0.98,0.8,41773,N/A,2014,Kepler CCD Array,0
+1675,Kepler-190,c,Transit,3.763024,0.045,,,N/A,,0.13,N/A,1,0,1,N/A,14.137,Kepler-band,5106,0.84,0.8,41773,N/A,2014,Kepler CCD Array,0
+1674,Kepler-190,b,Transit,2.019999,0.03,,,N/A,,0.139,N/A,1,0,1,N/A,14.137,Kepler-band,5106,0.84,0.8,41773,N/A,2014,Kepler CCD Array,0
+2079,Kepler-330,b,Transit,8.25978,0.075,,,N/A,,0.12,N/A,1,0,1,N/A,15.261,Kepler-band,5117,0.78,0.72,41773,N/A,2014,Kepler CCD Array,0
+2080,Kepler-330,c,Transit,15.955387,0.116,,,N/A,,0.174,N/A,1,0,1,N/A,15.261,Kepler-band,5117,0.78,0.72,41773,N/A,2014,Kepler CCD Array,0
+1786,Kepler-229,b,Transit,6.252972,0.062,,,N/A,,0.196,N/A,1,0,1,N/A,15.841,Kepler-band,5120,,0.73,41773,N/A,2014,Kepler CCD Array,0
+1788,Kepler-229,d,Transit,41.194912,0.22,,,N/A,,0.343,N/A,1,0,1,N/A,15.841,Kepler-band,5120,,0.73,41773,N/A,2014,Kepler CCD Array,0
+1787,Kepler-229,c,Transit,16.068638,0.117,,,N/A,,0.439,N/A,1,0,1,N/A,15.841,Kepler-band,5120,,0.73,41773,N/A,2014,Kepler CCD Array,0
+1733,Kepler-211,b,Transit,4.138575,0.048,,,N/A,,0.112,N/A,1,0,1,N/A,13.283,Kepler-band,5123,0.97,0.82,41773,N/A,2014,Kepler CCD Array,0
+1734,Kepler-211,c,Transit,6.04045,0.062,,,N/A,,0.115,N/A,1,0,1,N/A,13.283,Kepler-band,5123,0.97,0.82,41773,N/A,2014,Kepler CCD Array,0
+1689,Kepler-196,b,Transit,20.739886,0.138,,,N/A,,0.17,N/A,1,0,1,N/A,14.157,Kepler-band,5128,,0.78,41773,N/A,2014,Kepler CCD Array,0
+1690,Kepler-196,c,Transit,47.427737,0.24,,,N/A,,0.2,N/A,1,0,1,N/A,14.157,Kepler-band,5128,,0.78,41773,N/A,2014,Kepler CCD Array,0
+1962,Kepler-290,b,Transit,14.589347,0.11,,,N/A,,0.201,N/A,1,0,1,N/A,15.596,Kepler-band,5147,,0.74,41773,N/A,2014,Kepler CCD Array,0
+1963,Kepler-290,c,Transit,36.77031,0.205,,,N/A,,0.241,N/A,1,0,1,N/A,15.596,Kepler-band,5147,,0.74,41773,N/A,2014,Kepler CCD Array,0
+1849,Kepler-250,b,Transit,4.148141,0.048,,,N/A,,0.101,N/A,1,0,1,N/A,15.46,Kepler-band,5160,0.8,0.81,41773,N/A,2014,Kepler CCD Array,0
+1851,Kepler-250,d,Transit,17.648312,0.127,,,N/A,,0.194,N/A,1,0,1,N/A,15.46,Kepler-band,5160,0.8,0.81,41773,N/A,2014,Kepler CCD Array,0
+1850,Kepler-250,c,Transit,7.156804,0.069,,,N/A,,0.203,N/A,1,0,1,N/A,15.46,Kepler-band,5160,0.8,0.81,41773,N/A,2014,Kepler CCD Array,0
+2229,Kepler-390,c,Transit,13.060022,0.101,,,N/A,,0.07,N/A,1,0,1,N/A,13.942,Kepler-band,5166,0.67,0.78,41773,N/A,2014,Kepler CCD Array,0
+2228,Kepler-390,b,Transit,6.738088,0.065,,,N/A,,0.073,N/A,1,0,1,N/A,13.942,Kepler-band,5166,0.67,0.78,41773,N/A,2014,Kepler CCD Array,0
+2219,Kepler-386,b,Transit,12.31043,0.096,,,N/A,,0.124,N/A,1,0,1,N/A,15.629,Kepler-band,5178,0.74,0.77,41773,N/A,2014,Kepler CCD Array,0
+2220,Kepler-386,c,Transit,25.193458,0.155,,,N/A,,0.141,N/A,1,0,1,N/A,15.629,Kepler-band,5178,0.74,0.77,41773,N/A,2014,Kepler CCD Array,0
+1871,Kepler-257,b,Transit,2.382667,0.034,,,N/A,,0.233,N/A,1,0,1,N/A,15.471,Kepler-band,5180,,1.04,41773,N/A,2014,Kepler CCD Array,0
+1873,Kepler-257,d,Transit,24.664551,0.16,,,N/A,,0.442,N/A,1,0,1,N/A,15.471,Kepler-band,5180,,1.04,41773,N/A,2014,Kepler CCD Array,0
+1872,Kepler-257,c,Transit,6.581484,0.066,,,N/A,,0.483,N/A,1,0,1,N/A,15.471,Kepler-band,5180,,1.04,41773,N/A,2014,Kepler CCD Array,0
+1239,Kepler-137,b,Transit,8.436387,0.077,,,N/A,,0.131,N/A,1,0,1,N/A,12.99,Kepler-band,5187,,0.8,41773,N/A,2014,Kepler CCD Array,0
+1240,Kepler-137,c,Transit,18.735753,0.13,,,N/A,,0.168,N/A,1,0,1,N/A,12.99,Kepler-band,5187,,0.8,41773,N/A,2014,Kepler CCD Array,0
+1841,Kepler-248,b,Transit,6.308205,0.066,,,N/A,,0.269,N/A,1,0,1,N/A,15.258,Kepler-band,5190,,0.83,41773,N/A,2014,Kepler CCD Array,0
+1842,Kepler-248,c,Transit,16.239494,0.123,,,N/A,,0.363,N/A,1,0,1,N/A,15.258,Kepler-band,5190,,0.83,41773,N/A,2014,Kepler CCD Array,0
+2059,Kepler-324,b,Transit,4.385315,0.05,,,N/A,,0.102,N/A,1,0,1,N/A,14.122,Kepler-band,5194,0.86,0.84,41773,N/A,2014,Kepler CCD Array,0
+2060,Kepler-324,c,Transit,51.805612,0.26,,,N/A,,0.281,N/A,1,0,1,N/A,14.122,Kepler-band,5194,0.86,0.84,41773,N/A,2014,Kepler CCD Array,0
+1837,Kepler-246,c,Transit,11.187161,0.095,,,N/A,,0.134,N/A,1,0,1,N/A,15.024,Kepler-band,5206,0.86,0.83,41773,N/A,2014,Kepler CCD Array,0
+1836,Kepler-246,b,Transit,4.60182,0.052,,,N/A,,0.209,N/A,1,0,1,N/A,15.024,Kepler-band,5206,0.86,0.83,41773,N/A,2014,Kepler CCD Array,0
+1659,Kepler-185,b,Transit,1.6329,0.026,,,N/A,,0.104,N/A,1,0,1,N/A,14.458,Kepler-band,5208,0.79,0.81,41773,N/A,2014,Kepler CCD Array,0
+1858,Kepler-253,b,Transit,3.783986,0.046,,,N/A,,0.145,N/A,1,0,1,N/A,15.532,Kepler-band,5208,,0.79,41773,N/A,2014,Kepler CCD Array,0
+1660,Kepler-185,c,Transit,20.729042,0.139,,,N/A,,0.18,N/A,1,0,1,N/A,14.458,Kepler-band,5208,0.79,0.81,41773,N/A,2014,Kepler CCD Array,0
+1859,Kepler-253,c,Transit,10.281951,0.089,,,N/A,,0.236,N/A,1,0,1,N/A,15.532,Kepler-band,5208,,0.79,41773,N/A,2014,Kepler CCD Array,0
+1860,Kepler-253,d,Transit,18.119869,0.13,,,N/A,,0.283,N/A,1,0,1,N/A,15.532,Kepler-band,5208,,0.79,41773,N/A,2014,Kepler CCD Array,0
+1602,Kepler-165,c,Transit,15.31299,0.11,,,N/A,,0.199,N/A,1,0,1,N/A,14.802,Kepler-band,5211,,0.77,41773,N/A,2014,Kepler CCD Array,0
+1601,Kepler-165,b,Transit,8.180848,0.072,,,N/A,,0.207,N/A,1,0,1,N/A,14.802,Kepler-band,5211,,0.77,41773,N/A,2014,Kepler CCD Array,0
+2138,Kepler-352,b,Transit,10.05537,0.085,,,N/A,,0.077,N/A,1,0,1,N/A,12.957,Kepler-band,5212,0.79,0.78,41773,N/A,2014,Kepler CCD Array,0
+2139,Kepler-352,c,Transit,16.332995,0.118,,,N/A,,0.111,N/A,1,0,1,N/A,12.957,Kepler-band,5212,0.79,0.78,41773,N/A,2014,Kepler CCD Array,0
+1828,Kepler-243,c,Transit,20.026218,0.142,,,N/A,,0.178,N/A,1,0,1,N/A,15.086,Kepler-band,5228,0.89,0.84,41773,N/A,2014,Kepler CCD Array,0
+1827,Kepler-243,b,Transit,5.715442,0.062,,,N/A,,0.219,N/A,1,0,1,N/A,15.086,Kepler-band,5228,0.89,0.84,41773,N/A,2014,Kepler CCD Array,0
+1634,Kepler-176,b,Transit,5.433074,0.058,,,N/A,,0.128,N/A,1,0,1,N/A,14.55,Kepler-band,5232,,0.89,41773,N/A,2014,Kepler CCD Array,0
+1636,Kepler-176,d,Transit,25.751974,0.163,,,N/A,,0.224,N/A,1,0,1,N/A,14.55,Kepler-band,5232,,0.89,41773,N/A,2014,Kepler CCD Array,0
+1635,Kepler-176,c,Transit,12.759712,0.102,,,N/A,,0.232,N/A,1,0,1,N/A,14.55,Kepler-band,5232,,0.89,41773,N/A,2014,Kepler CCD Array,0
+1670,Kepler-189,b,Transit,10.399931,0.088,,,N/A,,0.108,N/A,1,0,1,N/A,14.859,Kepler-band,5235,0.79,0.75,41773,N/A,2014,Kepler CCD Array,0
+1671,Kepler-189,c,Transit,20.134866,0.137,,,N/A,,0.212,N/A,1,0,1,N/A,14.859,Kepler-band,5235,0.79,0.75,41773,N/A,2014,Kepler CCD Array,0
+1761,Kepler-221,b,Transit,2.795906,0.037,,,N/A,,0.153,N/A,1,0,1,N/A,13.749,Kepler-band,5243,0.72,0.82,41773,N/A,2014,Kepler CCD Array,0
+1764,Kepler-221,e,Transit,18.369917,0.13,,,N/A,,0.235,N/A,1,0,1,N/A,13.749,Kepler-band,5243,0.72,0.82,41773,N/A,2014,Kepler CCD Array,0
+1763,Kepler-221,d,Transit,10.04156,0.087,,,N/A,,0.244,N/A,1,0,1,N/A,13.749,Kepler-band,5243,0.72,0.82,41773,N/A,2014,Kepler CCD Array,0
+1762,Kepler-221,c,Transit,5.690586,0.059,,,N/A,,0.261,N/A,1,0,1,N/A,13.749,Kepler-band,5243,0.72,0.82,41773,N/A,2014,Kepler CCD Array,0
+1883,Kepler-260,c,Transit,76.050178,0.332,,,N/A,,0.155,N/A,1,0,1,N/A,14.138,Kepler-band,5250,0.88,0.86,41773,N/A,2014,Kepler CCD Array,0
+1882,Kepler-260,b,Transit,8.187399,0.075,,,N/A,,0.179,N/A,1,0,1,N/A,14.138,Kepler-band,5250,0.88,0.86,41773,N/A,2014,Kepler CCD Array,0
+1889,Kepler-263,c,Transit,47.332773,0.242,,,N/A,,0.22,N/A,1,0,1,N/A,15.391,Kepler-band,5265,,0.79,41773,N/A,2014,Kepler CCD Array,0
+1888,Kepler-263,b,Transit,16.568087,0.12,,,N/A,,0.238,N/A,1,0,1,N/A,15.391,Kepler-band,5265,,0.79,41773,N/A,2014,Kepler CCD Array,0
+1382,Kepler-148,b,Transit,1.729366,0.028,,,N/A,,0.161,N/A,1,0,1,N/A,15.342,Kepler-band,5272,,0.85,41773,N/A,2014,Kepler CCD Array,0
+1383,Kepler-148,c,Transit,4.180043,0.05,,,N/A,,0.321,N/A,1,0,1,N/A,15.342,Kepler-band,5272,,0.85,41773,N/A,2014,Kepler CCD Array,0
+993,Kepler-118,b,Transit,7.518496,0.073,,,N/A,,0.175,N/A,1,0,1,N/A,14.711,Kepler-band,5274,0.86,1.09,41773,N/A,2014,Kepler CCD Array,0
+994,Kepler-118,c,Transit,20.17202,0.141,,,N/A,,0.685,N/A,1,0,1,N/A,14.711,Kepler-band,5274,0.86,1.09,41773,N/A,2014,Kepler CCD Array,0
+1676,Kepler-191,b,Transit,9.939632,0.087,,,N/A,,0.12,N/A,1,0,1,N/A,14.808,Kepler-band,5282,0.85,0.79,41773,N/A,2014,Kepler CCD Array,0
+1677,Kepler-191,c,Transit,17.738506,0.128,,,N/A,,0.166,N/A,1,0,1,N/A,14.808,Kepler-band,5282,0.85,0.79,41773,N/A,2014,Kepler CCD Array,0
+1912,Kepler-272,b,Transit,2.971353,0.038,,,N/A,,0.128,N/A,1,0,1,N/A,14.678,Kepler-band,5297,0.79,0.93,41773,N/A,2014,Kepler CCD Array,0
+1913,Kepler-272,c,Transit,6.057342,0.061,,,N/A,,0.16,N/A,1,0,1,N/A,14.678,Kepler-band,5297,0.79,0.93,41773,N/A,2014,Kepler CCD Array,0
+1914,Kepler-272,d,Transit,10.937304,0.091,,,N/A,,0.201,N/A,1,0,1,N/A,14.678,Kepler-band,5297,0.79,0.93,41773,N/A,2014,Kepler CCD Array,0
+1966,Kepler-292,b,Transit,2.580827,0.035,,,N/A,,0.118,N/A,1,0,1,N/A,15.956,Kepler-band,5299,0.88,0.83,41773,N/A,2014,Kepler CCD Array,0
+1967,Kepler-292,c,Transit,3.715335,0.045,,,N/A,,0.131,N/A,1,0,1,N/A,15.956,Kepler-band,5299,0.88,0.83,41773,N/A,2014,Kepler CCD Array,0
+1968,Kepler-292,d,Transit,7.055679,0.068,,,N/A,,0.199,N/A,1,0,1,N/A,15.956,Kepler-band,5299,0.88,0.83,41773,N/A,2014,Kepler CCD Array,0
+1970,Kepler-292,f,Transit,20.834237,0.141,,,N/A,,0.21,N/A,1,0,1,N/A,15.956,Kepler-band,5299,0.88,0.83,41773,N/A,2014,Kepler CCD Array,0
+1969,Kepler-292,e,Transit,11.97901,0.097,,,N/A,,0.238,N/A,1,0,1,N/A,15.956,Kepler-band,5299,0.88,0.83,41773,N/A,2014,Kepler CCD Array,0
+1643,Kepler-179,b,Transit,2.735926,0.036,,,N/A,,0.146,N/A,1,0,1,N/A,14.613,Kepler-band,5302,,0.76,41773,N/A,2014,Kepler CCD Array,0
+1644,Kepler-179,c,Transit,6.40013,0.064,,,N/A,,0.178,N/A,1,0,1,N/A,14.613,Kepler-band,5302,,0.76,41773,N/A,2014,Kepler CCD Array,0
+2242,Kepler-397,b,Transit,22.250949,0.144,,,N/A,,0.219,N/A,1,0,1,N/A,15.996,Kepler-band,5307,,0.77,41773,N/A,2014,Kepler CCD Array,0
+2243,Kepler-397,c,Transit,135.498527,0.48,,,N/A,,0.551,N/A,1,0,1,N/A,15.996,Kepler-band,5307,,0.77,41773,N/A,2014,Kepler CCD Array,0
+2350,Kepler-46,d,Transit,6.766589,0.067,,,N/A,,0.146,N/A,1,0,1,855,15.262,Kepler-band,5309,0.9,0.79,41773,N/A,2014,Kepler CCD Array,0
+1031,Kepler-121,c,Transit,41.008011,0.216,,,N/A,,0.203,N/A,1,0,1,N/A,14.708,Kepler-band,5311,,0.7,41773,N/A,2014,Kepler CCD Array,0
+1030,Kepler-121,b,Transit,3.177422,0.039,,,N/A,,0.209,N/A,1,0,1,N/A,14.708,Kepler-band,5311,,0.7,41773,N/A,2014,Kepler CCD Array,0
+1688,Kepler-195,c,Transit,34.096863,0.197,,,N/A,,0.138,N/A,1,0,1,N/A,14.813,Kepler-band,5329,,0.78,41773,N/A,2014,Kepler CCD Array,0
+1687,Kepler-195,b,Transit,8.307872,0.077,,,N/A,,0.181,N/A,1,0,1,N/A,14.813,Kepler-band,5329,,0.78,41773,N/A,2014,Kepler CCD Array,0
+1650,Kepler-181,b,Transit,3.137873,0.04,,,N/A,,0.113,N/A,1,0,1,N/A,14.707,Kepler-band,5333,,0.75,41773,N/A,2014,Kepler CCD Array,0
+1651,Kepler-181,c,Transit,4.302149,0.049,,,N/A,,0.178,N/A,1,0,1,N/A,14.707,Kepler-band,5333,,0.75,41773,N/A,2014,Kepler CCD Array,0
+1798,Kepler-233,b,Transit,8.472382,0.077,,,N/A,,0.217,N/A,1,0,1,N/A,15.339,Kepler-band,5360,,0.76,41773,N/A,2014,Kepler CCD Array,0
+1799,Kepler-233,c,Transit,60.418955,0.287,,,N/A,,0.242,N/A,1,0,1,N/A,15.339,Kepler-band,5360,,0.76,41773,N/A,2014,Kepler CCD Array,0
+2226,Kepler-389,c,Transit,14.51143,0.11,,,N/A,,0.13,N/A,1,0,1,N/A,15.77,Kepler-band,5376,0.78,0.79,41773,N/A,2014,Kepler CCD Array,0
+2225,Kepler-389,b,Transit,3.244107,0.041,,,N/A,,0.135,N/A,1,0,1,N/A,15.77,Kepler-band,5376,0.78,0.79,41773,N/A,2014,Kepler CCD Array,0
+2033,Kepler-314,b,Transit,2.461069,0.035,,,N/A,,0.074,N/A,1,0,1,N/A,12.557,Kepler-band,5378,1.02,0.95,41773,N/A,2014,Kepler CCD Array,0
+2034,Kepler-314,c,Transit,5.960392,0.064,,,N/A,,0.259,N/A,1,0,1,N/A,12.557,Kepler-band,5378,1.02,0.95,41773,N/A,2014,Kepler CCD Array,0
+1396,Kepler-149,c,Transit,55.328328,0.281,,,N/A,,0.144,N/A,1,0,1,N/A,14.001,Kepler-band,5381,,0.95,41773,N/A,2014,Kepler CCD Array,0
+1397,Kepler-149,d,Transit,160.018032,0.571,,,N/A,,0.353,N/A,1,0,1,N/A,14.001,Kepler-band,5381,,0.95,41773,N/A,2014,Kepler CCD Array,0
+1395,Kepler-149,b,Transit,29.198943,0.184,,,N/A,,0.376,N/A,1,0,1,N/A,14.001,Kepler-band,5381,,0.95,41773,N/A,2014,Kepler CCD Array,0
+2055,Kepler-322,b,Transit,1.653888,0.027,,,N/A,,0.09,N/A,1,0,1,N/A,13.53,Kepler-band,5388,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+2056,Kepler-322,c,Transit,4.337234,0.051,,,N/A,,0.149,N/A,1,0,1,N/A,13.53,Kepler-band,5388,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+1448,Kepler-153,c,Transit,46.90232,0.237,,,N/A,,0.226,N/A,1,0,1,N/A,14.262,Kepler-band,5404,,0.89,41773,N/A,2014,Kepler CCD Array,0
+1447,Kepler-153,b,Transit,18.870227,0.129,,,N/A,,0.261,N/A,1,0,1,N/A,14.262,Kepler-band,5404,,0.89,41773,N/A,2014,Kepler CCD Array,0
+1947,Kepler-285,c,Transit,6.186676,0.064,,,N/A,,0.1,N/A,1,0,1,N/A,15.173,Kepler-band,5411,0.85,0.81,41773,N/A,2014,Kepler CCD Array,0
+1946,Kepler-285,b,Transit,2.633867,0.036,,,N/A,,0.12,N/A,1,0,1,N/A,15.173,Kepler-band,5411,0.85,0.81,41773,N/A,2014,Kepler CCD Array,0
+1603,Kepler-166,b,Transit,7.650254,0.072,,,N/A,,0.203,N/A,1,0,1,N/A,14.701,Kepler-band,5413,,0.74,41773,N/A,2014,Kepler CCD Array,0
+1604,Kepler-166,c,Transit,34.260281,0.195,,,N/A,,0.212,N/A,1,0,1,N/A,14.701,Kepler-band,5413,,0.74,41773,N/A,2014,Kepler CCD Array,0
+2821,Kepler-82,d,Transit,2.382961,0.034,,,N/A,,0.158,N/A,1,0,1,N/A,15.158,Kepler-band,5428,0.85,0.94,41773,N/A,2014,Kepler CCD Array,0
+2822,Kepler-82,e,Transit,5.902206,0.063,,,N/A,,0.22,N/A,1,0,1,N/A,15.158,Kepler-band,5428,0.85,0.94,41773,N/A,2014,Kepler CCD Array,0
+1765,Kepler-222,b,Transit,3.936981,0.048,,,N/A,,0.282,N/A,1,0,1,N/A,15.063,Kepler-band,5433,,0.87,41773,N/A,2014,Kepler CCD Array,0
+1767,Kepler-222,d,Transit,28.081912,0.18,,,N/A,,0.329,N/A,1,0,1,N/A,15.063,Kepler-band,5433,,0.87,41773,N/A,2014,Kepler CCD Array,0
+1766,Kepler-222,c,Transit,10.08881,0.091,,,N/A,,0.414,N/A,1,0,1,N/A,15.063,Kepler-band,5433,,0.87,41773,N/A,2014,Kepler CCD Array,0
+2864,Kepler-85,d,Transit,17.91323,0.13,,,N/A,,0.107,N/A,1,0,1,N/A,14.779,Kepler-band,5436,0.92,0.89,41773,N/A,2014,Kepler CCD Array,0
+2865,Kepler-85,e,Transit,25.216751,0.163,,,N/A,,0.113,N/A,1,0,1,N/A,14.779,Kepler-band,5436,0.92,0.89,41773,N/A,2014,Kepler CCD Array,0
+2298,Kepler-424,b,Transit,3.3118644,0.044,,,1.03,Mass,0.89,1.94,1,0,1,N/A,14.256,Kepler-band,5460,1.01,0.94,41915,N/A,2014,Kepler CCD Array,0
+1424,Kepler-151,c,Transit,24.674612,0.16,,,N/A,,0.186,N/A,1,0,1,N/A,14.769,Kepler-band,5460,0.83,0.83,41773,N/A,2014,Kepler CCD Array,0
+1423,Kepler-151,b,Transit,15.228958,0.116,,,N/A,,0.273,N/A,1,0,1,N/A,14.769,Kepler-band,5460,0.83,0.83,41773,N/A,2014,Kepler CCD Array,0
+1679,Kepler-192,b,Transit,9.926746,0.09,,,N/A,,0.244,N/A,1,0,1,N/A,14.129,Kepler-band,5479,,1.01,41773,N/A,2014,Kepler CCD Array,0
+1680,Kepler-192,c,Transit,21.2234,0.15,,,N/A,,0.249,N/A,1,0,1,N/A,14.129,Kepler-band,5479,,1.01,41773,N/A,2014,Kepler CCD Array,0
+2040,Kepler-317,c,Transit,8.77501,0.083,,,N/A,,0.153,N/A,1,0,1,N/A,15.377,Kepler-band,5497,0.95,0.94,41773,N/A,2014,Kepler CCD Array,0
+2039,Kepler-317,b,Transit,5.524242,0.061,,,N/A,,0.186,N/A,1,0,1,N/A,15.377,Kepler-band,5497,0.95,0.94,41773,N/A,2014,Kepler CCD Array,0
+2247,Kepler-399,b,Transit,14.425281,0.103,,,N/A,,0.086,N/A,1,0,1,N/A,14.467,Kepler-band,5502,,0.68,41773,N/A,2014,Kepler CCD Array,0
+2248,Kepler-399,c,Transit,26.67569,0.155,,,N/A,,0.128,N/A,1,0,1,N/A,14.467,Kepler-band,5502,,0.68,41773,N/A,2014,Kepler CCD Array,0
+1750,Kepler-218,b,Transit,3.619337,0.046,,,N/A,,0.132,N/A,1,0,1,N/A,13.967,Kepler-band,5502,,1.06,41773,N/A,2014,Kepler CCD Array,0
+2249,Kepler-399,d,Transit,58.034616,0.261,,,N/A,,0.169,N/A,1,0,1,N/A,14.467,Kepler-band,5502,,0.68,41773,N/A,2014,Kepler CCD Array,0
+1751,Kepler-218,c,Transit,44.699576,0.248,,,N/A,,0.28,N/A,1,0,1,N/A,13.967,Kepler-band,5502,,1.06,41773,N/A,2014,Kepler CCD Array,0
+2176,Kepler-368,b,Transit,26.84768,0.186,,,N/A,,0.291,N/A,1,0,1,N/A,12.848,Kepler-band,5502,0.71,2.02,41773,N/A,2014,Kepler CCD Array,0
+2177,Kepler-368,c,Transit,72.379334,0.36,,,N/A,,0.346,N/A,1,0,1,N/A,12.848,Kepler-band,5502,0.71,2.02,41773,N/A,2014,Kepler CCD Array,0
+1728,Kepler-209,b,Transit,16.087845,0.122,,,N/A,,0.202,N/A,1,0,1,N/A,13.998,Kepler-band,5513,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1729,Kepler-209,c,Transit,41.749882,0.231,,,N/A,,0.277,N/A,1,0,1,N/A,13.998,Kepler-band,5513,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1909,Kepler-271,b,Transit,5.217738,0.056,,,N/A,,0.079,N/A,1,0,1,N/A,13.404,Kepler-band,5524,,0.88,41773,N/A,2014,Kepler CCD Array,0
+1910,Kepler-271,c,Transit,7.410935,0.071,,,N/A,,0.089,N/A,1,0,1,N/A,13.404,Kepler-band,5524,,0.88,41773,N/A,2014,Kepler CCD Array,0
+1852,Kepler-251,b,Transit,4.790936,0.053,,,N/A,,0.119,N/A,1,0,1,N/A,15.223,Kepler-band,5526,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+2043,Kepler-319,b,Transit,4.362705,0.051,,,N/A,,0.145,N/A,1,0,1,N/A,13.828,Kepler-band,5526,1.29,0.9,41773,N/A,2014,Kepler CCD Array,0
+1625,Kepler-172,d,Transit,14.627119,0.118,,,N/A,,0.201,N/A,1,0,1,N/A,14.532,Kepler-band,5526,0.86,1.08,41773,N/A,2014,Kepler CCD Array,0
+2045,Kepler-319,d,Transit,31.781925,0.191,,,N/A,,0.204,N/A,1,0,1,N/A,13.828,Kepler-band,5526,1.29,0.9,41773,N/A,2014,Kepler CCD Array,0
+1623,Kepler-172,b,Transit,2.940309,0.04,,,N/A,,0.21,N/A,1,0,1,N/A,14.532,Kepler-band,5526,0.86,1.08,41773,N/A,2014,Kepler CCD Array,0
+2044,Kepler-319,c,Transit,6.941357,0.069,,,N/A,,0.235,N/A,1,0,1,N/A,13.828,Kepler-band,5526,1.29,0.9,41773,N/A,2014,Kepler CCD Array,0
+1626,Kepler-172,e,Transit,35.118736,0.211,,,N/A,,0.246,N/A,1,0,1,N/A,14.532,Kepler-band,5526,0.86,1.08,41773,N/A,2014,Kepler CCD Array,0
+1853,Kepler-251,c,Transit,16.514043,0.122,,,N/A,,0.247,N/A,1,0,1,N/A,15.223,Kepler-band,5526,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+1854,Kepler-251,d,Transit,30.133001,0.182,,,N/A,,0.247,N/A,1,0,1,N/A,15.223,Kepler-band,5526,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+1855,Kepler-251,e,Transit,99.640161,0.404,,,N/A,,0.247,N/A,1,0,1,N/A,15.223,Kepler-band,5526,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+1624,Kepler-172,c,Transit,6.388996,0.068,,,N/A,,0.255,N/A,1,0,1,N/A,14.532,Kepler-band,5526,0.86,1.08,41773,N/A,2014,Kepler CCD Array,0
+917,Kepler-112,b,Transit,8.408878,0.076,,,N/A,,0.211,N/A,1,0,1,N/A,13.771,Kepler-band,5544,,0.84,41773,N/A,2014,Kepler CCD Array,0
+918,Kepler-112,c,Transit,28.574263,0.172,,,N/A,,0.214,N/A,1,0,1,N/A,13.771,Kepler-band,5544,,0.84,41773,N/A,2014,Kepler CCD Array,0
+1867,Kepler-256,b,Transit,1.620493,0.027,,,N/A,,0.142,N/A,1,0,1,N/A,15.065,Kepler-band,5551,1.02,1.3,41773,N/A,2014,Kepler CCD Array,0
+1868,Kepler-256,c,Transit,3.38802,0.045,,,N/A,,0.192,N/A,1,0,1,N/A,15.065,Kepler-band,5551,1.02,1.3,41773,N/A,2014,Kepler CCD Array,0
+1870,Kepler-256,e,Transit,10.681572,0.096,,,N/A,,0.21,N/A,1,0,1,N/A,15.065,Kepler-band,5551,1.02,1.3,41773,N/A,2014,Kepler CCD Array,0
+1869,Kepler-256,d,Transit,5.839172,0.064,,,N/A,,0.221,N/A,1,0,1,N/A,15.065,Kepler-band,5551,1.02,1.3,41773,N/A,2014,Kepler CCD Array,0
+1830,Kepler-244,c,Transit,9.767292,0.087,,,N/A,,0.183,N/A,1,0,1,N/A,15.604,Kepler-band,5554,,0.8,41773,N/A,2014,Kepler CCD Array,0
+1831,Kepler-244,d,Transit,20.050401,0.14,,,N/A,,0.206,N/A,1,0,1,N/A,15.604,Kepler-band,5554,,0.8,41773,N/A,2014,Kepler CCD Array,0
+1829,Kepler-244,b,Transit,4.311792,0.05,,,N/A,,0.246,N/A,1,0,1,N/A,15.604,Kepler-band,5554,,0.8,41773,N/A,2014,Kepler CCD Array,0
+1409,Kepler-150,b,Transit,3.428054,0.044,,,N/A,,0.112,N/A,1,0,1,N/A,14.985,Kepler-band,5560,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1411,Kepler-150,d,Transit,12.56093,0.104,,,N/A,,0.249,N/A,1,0,1,N/A,14.985,Kepler-band,5560,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1412,Kepler-150,e,Transit,30.826557,0.189,,,N/A,,0.278,N/A,1,0,1,N/A,14.985,Kepler-band,5560,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1410,Kepler-150,c,Transit,7.381998,0.073,,,N/A,,0.329,N/A,1,0,1,N/A,14.985,Kepler-band,5560,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1780,Kepler-226,d,Transit,8.109044,0.076,,,N/A,,0.109,N/A,1,0,1,N/A,15.416,Kepler-band,5571,0.86,0.8,41773,N/A,2014,Kepler CCD Array,0
+1778,Kepler-226,b,Transit,3.940997,0.047,,,N/A,,0.138,N/A,1,0,1,N/A,15.416,Kepler-band,5571,0.86,0.8,41773,N/A,2014,Kepler CCD Array,0
+1779,Kepler-226,c,Transit,5.349555,0.058,,,N/A,,0.203,N/A,1,0,1,N/A,15.416,Kepler-band,5571,0.86,0.8,41773,N/A,2014,Kepler CCD Array,0
+1864,Kepler-255,b,Transit,5.714606,0.063,,,N/A,,0.138,N/A,1,0,1,N/A,15.596,Kepler-band,5573,0.97,0.93,41773,N/A,2014,Kepler CCD Array,0
+1865,Kepler-255,c,Transit,9.946047,0.092,,,N/A,,0.267,N/A,1,0,1,N/A,15.596,Kepler-band,5573,0.97,0.93,41773,N/A,2014,Kepler CCD Array,0
+1696,Kepler-198,c,Transit,49.567416,0.259,,,N/A,,0.22,N/A,1,0,1,N/A,13.597,Kepler-band,5574,0.93,0.94,41773,N/A,2014,Kepler CCD Array,0
+1695,Kepler-198,b,Transit,17.790037,0.131,,,N/A,,0.252,N/A,1,0,1,N/A,13.597,Kepler-band,5574,0.93,0.94,41773,N/A,2014,Kepler CCD Array,0
+2215,Kepler-384,b,Transit,22.597053,0.148,,,N/A,,0.1,N/A,1,0,1,N/A,13.584,Kepler-band,5577,0.76,0.88,41773,N/A,2014,Kepler CCD Array,0
+2216,Kepler-384,c,Transit,45.348269,0.236,,,N/A,,0.101,N/A,1,0,1,N/A,13.584,Kepler-band,5577,0.76,0.88,41773,N/A,2014,Kepler CCD Array,0
+1948,Kepler-286,b,Transit,1.796302,0.027,,,N/A,,0.111,N/A,1,0,1,N/A,15.587,Kepler-band,5580,,0.86,41773,N/A,2014,Kepler CCD Array,0
+1950,Kepler-286,d,Transit,5.914323,0.061,,,N/A,,0.119,N/A,1,0,1,N/A,15.587,Kepler-band,5580,,0.86,41773,N/A,2014,Kepler CCD Array,0
+1949,Kepler-286,c,Transit,3.468095,0.042,,,N/A,,0.122,N/A,1,0,1,N/A,15.587,Kepler-band,5580,,0.86,41773,N/A,2014,Kepler CCD Array,0
+1951,Kepler-286,e,Transit,29.221289,0.176,,,N/A,,0.158,N/A,1,0,1,N/A,15.587,Kepler-band,5580,,0.86,41773,N/A,2014,Kepler CCD Array,0
+1793,Kepler-230,c,Transit,91.773242,0.38,,,N/A,,0.182,N/A,1,0,1,N/A,15.082,Kepler-band,5588,,0.82,41773,N/A,2014,Kepler CCD Array,0
+1792,Kepler-230,b,Transit,32.625555,0.191,,,N/A,,0.38,N/A,1,0,1,N/A,15.082,Kepler-band,5588,,0.82,41773,N/A,2014,Kepler CCD Array,0
+2165,Kepler-363,b,Transit,3.614568,0.048,,,N/A,,0.103,N/A,1,0,1,N/A,13.353,Kepler-band,5593,1.23,1.49,41773,N/A,2014,Kepler CCD Array,0
+2166,Kepler-363,c,Transit,7.542427,0.079,,,N/A,,0.151,N/A,1,0,1,N/A,13.353,Kepler-band,5593,1.23,1.49,41773,N/A,2014,Kepler CCD Array,0
+2167,Kepler-363,d,Transit,11.932125,0.107,,,N/A,,0.183,N/A,1,0,1,N/A,13.353,Kepler-band,5593,1.23,1.49,41773,N/A,2014,Kepler CCD Array,0
+1269,Kepler-139,b,Transit,15.771044,0.127,,,N/A,,0.262,N/A,1,0,1,N/A,12.701,Kepler-band,5594,1.08,1.3,41773,N/A,2014,Kepler CCD Array,0
+1270,Kepler-139,c,Transit,157.072878,0.586,,,N/A,,0.302,N/A,1,0,1,N/A,12.701,Kepler-band,5594,1.08,1.3,41773,N/A,2014,Kepler CCD Array,0
+1006,Kepler-119,c,Transit,4.125103,0.049,,,N/A,,0.082,N/A,1,0,1,N/A,14.236,Kepler-band,5595,,0.84,41773,N/A,2014,Kepler CCD Array,0
+1005,Kepler-119,b,Transit,2.422082,0.035,,,N/A,,0.321,N/A,1,0,1,N/A,14.236,Kepler-band,5595,,0.84,41773,N/A,2014,Kepler CCD Array,0
+2211,Kepler-382,b,Transit,5.262155,0.055,,,N/A,,0.118,N/A,1,0,1,N/A,14.623,Kepler-band,5600,0.8,0.94,41773,N/A,2014,Kepler CCD Array,0
+2212,Kepler-382,c,Transit,12.162701,0.097,,,N/A,,0.142,N/A,1,0,1,N/A,14.623,Kepler-band,5600,0.8,0.94,41773,N/A,2014,Kepler CCD Array,0
+1938,Kepler-282,b,Transit,9.220524,0.082,,,N/A,,0.09,N/A,1,0,1,N/A,15.204,Kepler-band,5602,0.97,0.9,41773,N/A,2014,Kepler CCD Array,0
+1939,Kepler-282,c,Transit,13.638723,0.106,,,N/A,,0.107,N/A,1,0,1,N/A,15.204,Kepler-band,5602,0.97,0.9,41773,N/A,2014,Kepler CCD Array,0
+1976,Kepler-295,c,Transit,21.526258,0.142,,,N/A,,0.104,N/A,1,0,1,N/A,14.447,Kepler-band,5603,,0.9,41773,N/A,2014,Kepler CCD Array,0
+1975,Kepler-295,b,Transit,12.645164,0.099,,,N/A,,0.109,N/A,1,0,1,N/A,14.447,Kepler-band,5603,,0.9,41773,N/A,2014,Kepler CCD Array,0
+1977,Kepler-295,d,Transit,33.884054,0.192,,,N/A,,0.121,N/A,1,0,1,N/A,14.447,Kepler-band,5603,,0.9,41773,N/A,2014,Kepler CCD Array,0
+1944,Kepler-284,b,Transit,12.699149,0.104,,,N/A,,0.2,N/A,1,0,1,N/A,15.824,Kepler-band,5615,,0.81,41773,N/A,2014,Kepler CCD Array,0
+1945,Kepler-284,c,Transit,37.514456,0.213,,,N/A,,0.233,N/A,1,0,1,N/A,15.824,Kepler-band,5615,,0.81,41773,N/A,2014,Kepler CCD Array,0
+1988,Kepler-299,b,Transit,2.927128,0.04,,,N/A,,0.118,N/A,1,0,1,N/A,15.017,Kepler-band,5617,0.97,1.03,41773,N/A,2014,Kepler CCD Array,0
+1990,Kepler-299,d,Transit,15.054786,0.118,,,N/A,,0.166,N/A,1,0,1,N/A,15.017,Kepler-band,5617,0.97,1.03,41773,N/A,2014,Kepler CCD Array,0
+1991,Kepler-299,e,Transit,38.285489,0.22,,,N/A,,0.167,N/A,1,0,1,N/A,15.017,Kepler-band,5617,0.97,1.03,41773,N/A,2014,Kepler CCD Array,0
+1989,Kepler-299,c,Transit,6.885875,0.07,,,N/A,,0.236,N/A,1,0,1,N/A,15.017,Kepler-band,5617,0.97,1.03,41773,N/A,2014,Kepler CCD Array,0
+1983,Kepler-297,b,Transit,38.871826,0.217,,,N/A,,0.256,N/A,1,0,1,N/A,14.232,Kepler-band,5619,,0.92,41773,N/A,2014,Kepler CCD Array,0
+1984,Kepler-297,c,Transit,74.920137,0.336,,,N/A,,0.583,N/A,1,0,1,N/A,14.232,Kepler-band,5619,,0.92,41773,N/A,2014,Kepler CCD Array,0
+1915,Kepler-273,b,Transit,2.936532,0.037,,,N/A,,0.134,N/A,1,0,1,N/A,14.968,Kepler-band,5626,,0.81,41773,N/A,2014,Kepler CCD Array,0
+1916,Kepler-273,c,Transit,8.014927,0.073,,,N/A,,0.177,N/A,1,0,1,N/A,14.968,Kepler-band,5626,,0.81,41773,N/A,2014,Kepler CCD Array,0
+2104,Kepler-339,c,Transit,6.988055,0.069,,,N/A,,0.103,N/A,1,0,1,N/A,14.531,Kepler-band,5631,0.84,0.8,41773,N/A,2014,Kepler CCD Array,0
+2105,Kepler-339,d,Transit,10.558345,0.091,,,N/A,,0.104,N/A,1,0,1,N/A,14.531,Kepler-band,5631,0.84,0.8,41773,N/A,2014,Kepler CCD Array,0
+2103,Kepler-339,b,Transit,4.977656,0.055,,,N/A,,0.127,N/A,1,0,1,N/A,14.531,Kepler-band,5631,0.84,0.8,41773,N/A,2014,Kepler CCD Array,0
+1622,Kepler-171,d,Transit,39.595519,0.223,,,N/A,,0.169,N/A,1,0,1,N/A,14.883,Kepler-band,5642,,0.84,41773,N/A,2014,Kepler CCD Array,0
+1620,Kepler-171,b,Transit,4.166972,0.05,,,N/A,,0.209,N/A,1,0,1,N/A,14.883,Kepler-band,5642,,0.84,41773,N/A,2014,Kepler CCD Array,0
+1621,Kepler-171,c,Transit,11.463462,0.098,,,N/A,,0.228,N/A,1,0,1,N/A,14.883,Kepler-band,5642,,0.84,41773,N/A,2014,Kepler CCD Array,0
+2135,Kepler-351,b,Transit,37.054919,0.214,,,N/A,,0.273,N/A,1,0,1,N/A,15.99,Kepler-band,5643,0.89,0.85,41773,N/A,2014,Kepler CCD Array,0
+2136,Kepler-351,c,Transit,57.24809,0.287,,,N/A,,0.285,N/A,1,0,1,N/A,15.99,Kepler-band,5643,0.89,0.85,41773,N/A,2014,Kepler CCD Array,0
+1698,Kepler-199,b,Transit,23.637604,0.158,,,N/A,,0.277,N/A,1,0,1,N/A,13.595,Kepler-band,5644,,0.97,41773,N/A,2014,Kepler CCD Array,0
+1699,Kepler-199,c,Transit,67.093408,0.316,,,N/A,,0.29,N/A,1,0,1,N/A,13.595,Kepler-band,5644,,0.97,41773,N/A,2014,Kepler CCD Array,0
+2264,Kepler-404,b,Transit,11.829851,0.102,,,N/A,,0.113,N/A,1,0,1,N/A,15.228,Kepler-band,5654,,0.88,41773,N/A,2014,Kepler CCD Array,0
+2265,Kepler-404,c,Transit,14.751166,0.118,,,N/A,,0.153,N/A,1,0,1,N/A,15.228,Kepler-band,5654,,0.88,41773,N/A,2014,Kepler CCD Array,0
+2187,Kepler-371,c,Transit,67.968015,0.313,,,N/A,,0.159,N/A,1,0,1,N/A,13.865,Kepler-band,5666,0.94,0.99,41773,N/A,2014,Kepler CCD Array,0
+2186,Kepler-371,b,Transit,34.763278,0.2,,,N/A,,0.169,N/A,1,0,1,N/A,13.865,Kepler-band,5666,0.94,0.99,41773,N/A,2014,Kepler CCD Array,0
+1641,Kepler-178,c,Transit,20.552802,0.142,,,N/A,,0.257,N/A,1,0,1,N/A,14.598,Kepler-band,5676,,1.07,41773,N/A,2014,Kepler CCD Array,0
+1640,Kepler-178,b,Transit,9.576694,0.085,,,N/A,,0.259,N/A,1,0,1,N/A,14.598,Kepler-band,5676,,1.07,41773,N/A,2014,Kepler CCD Array,0
+1642,Kepler-178,d,Transit,96.678988,0.397,,,N/A,,0.352,N/A,1,0,1,N/A,14.598,Kepler-band,5676,,1.07,41773,N/A,2014,Kepler CCD Array,0
+1706,Kepler-200,c,Transit,10.222157,0.09,,,N/A,,0.142,N/A,1,0,1,N/A,13.984,Kepler-band,5678,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1705,Kepler-200,b,Transit,8.594805,0.08,,,N/A,,0.19,N/A,1,0,1,N/A,13.984,Kepler-band,5678,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1619,Kepler-170,c,Transit,16.665863,0.131,,,N/A,,0.255,N/A,1,0,1,N/A,14.387,Kepler-band,5679,,1.03,41773,N/A,2014,Kepler CCD Array,0
+1618,Kepler-170,b,Transit,7.930592,0.08,,,N/A,,0.285,N/A,1,0,1,N/A,14.387,Kepler-band,5679,,1.03,41773,N/A,2014,Kepler CCD Array,0
+2097,Kepler-337,b,Transit,3.292781,0.045,,,N/A,,0.137,N/A,1,0,1,N/A,12.727,Kepler-band,5684,0.96,1.76,41773,N/A,2014,Kepler CCD Array,0
+2098,Kepler-337,c,Transit,9.693201,0.093,,,N/A,,0.183,N/A,1,0,1,N/A,12.727,Kepler-band,5684,0.96,1.76,41773,N/A,2014,Kepler CCD Array,0
+1460,Kepler-154,b,Transit,33.040532,0.198,,,N/A,,0.202,N/A,1,0,1,N/A,14.534,Kepler-band,5690,0.89,1,41773,N/A,2014,Kepler CCD Array,0
+1461,Kepler-154,c,Transit,62.303276,0.303,,,N/A,,0.263,N/A,1,0,1,N/A,14.534,Kepler-band,5690,0.89,1,41773,N/A,2014,Kepler CCD Array,0
+1737,Kepler-213,b,Transit,2.46236,0.036,,,N/A,,0.145,N/A,1,0,1,N/A,13.648,Kepler-band,5696,0.94,1.2,41773,N/A,2014,Kepler CCD Array,0
+1738,Kepler-213,c,Transit,4.822962,0.057,,,N/A,,0.209,N/A,1,0,1,N/A,13.648,Kepler-band,5696,0.94,1.2,41773,N/A,2014,Kepler CCD Array,0
+804,Kepler-104,b,Transit,11.427548,0.094,,,N/A,,0.277,N/A,1,0,1,N/A,12.596,Kepler-band,5711,0.81,1.35,41773,N/A,2014,Kepler CCD Array,0
+805,Kepler-104,c,Transit,23.668205,0.153,,,N/A,,0.279,N/A,1,0,1,N/A,12.596,Kepler-band,5711,0.81,1.35,41773,N/A,2014,Kepler CCD Array,0
+806,Kepler-104,d,Transit,51.755394,0.257,,,N/A,,0.319,N/A,1,0,1,N/A,12.596,Kepler-band,5711,0.81,1.35,41773,N/A,2014,Kepler CCD Array,0
+1936,Kepler-281,b,Transit,14.646008,0.117,,,N/A,,0.252,N/A,1,0,1,N/A,15.773,Kepler-band,5723,0.98,0.9,41773,N/A,2014,Kepler CCD Array,0
+1937,Kepler-281,c,Transit,36.337373,0.215,,,N/A,,0.474,N/A,1,0,1,N/A,15.773,Kepler-band,5723,0.98,0.9,41773,N/A,2014,Kepler CCD Array,0
+2031,Kepler-313,b,Transit,14.970418,0.125,,,N/A,,0.226,N/A,1,0,1,N/A,14.167,Kepler-band,5727,0.9,1.54,41773,N/A,2014,Kepler CCD Array,0
+2032,Kepler-313,c,Transit,32.273273,0.208,,,N/A,,0.229,N/A,1,0,1,N/A,14.167,Kepler-band,5727,0.9,1.54,41773,N/A,2014,Kepler CCD Array,0
+1648,Kepler-180,b,Transit,13.817124,0.109,,,N/A,,0.134,N/A,1,0,1,N/A,14.35,Kepler-band,5731,0.84,1.06,41773,N/A,2014,Kepler CCD Array,0
+1649,Kepler-180,c,Transit,41.885775,0.229,,,N/A,,0.269,N/A,1,0,1,N/A,14.35,Kepler-band,5731,0.84,1.06,41773,N/A,2014,Kepler CCD Array,0
+1188,Kepler-133,b,Transit,8.129976,0.083,,,N/A,,0.157,N/A,1,0,1,N/A,12.848,Kepler-band,5736,,1.43,41773,N/A,2014,Kepler CCD Array,0
+1189,Kepler-133,c,Transit,31.517586,0.204,,,N/A,,0.253,N/A,1,0,1,N/A,12.848,Kepler-band,5736,,1.43,41773,N/A,2014,Kepler CCD Array,0
+1741,Kepler-215,b,Transit,9.360672,0.084,,,N/A,,0.145,N/A,1,0,1,N/A,13.58,Kepler-band,5739,0.77,1.03,41773,N/A,2014,Kepler CCD Array,0
+1744,Kepler-215,e,Transit,68.16101,0.314,,,N/A,,0.156,N/A,1,0,1,N/A,13.58,Kepler-band,5739,0.77,1.03,41773,N/A,2014,Kepler CCD Array,0
+1742,Kepler-215,c,Transit,14.667108,0.113,,,N/A,,0.158,N/A,1,0,1,N/A,13.58,Kepler-band,5739,0.77,1.03,41773,N/A,2014,Kepler CCD Array,0
+1743,Kepler-215,d,Transit,30.864423,0.185,,,N/A,,0.213,N/A,1,0,1,N/A,13.58,Kepler-band,5739,0.77,1.03,41773,N/A,2014,Kepler CCD Array,0
+2053,Kepler-321,b,Transit,4.915379,0.057,,,N/A,,0.158,N/A,1,0,1,N/A,12.706,Kepler-band,5740,1.01,1.19,41773,N/A,2014,Kepler CCD Array,0
+2054,Kepler-321,c,Transit,13.093921,0.11,,,N/A,,0.207,N/A,1,0,1,N/A,12.706,Kepler-band,5740,1.01,1.19,41773,N/A,2014,Kepler CCD Array,0
+2000,Kepler-302,b,Transit,30.184104,0.193,,,N/A,,0.362,N/A,1,0,1,N/A,15.505,Kepler-band,5740,,1.22,41773,N/A,2014,Kepler CCD Array,0
+2001,Kepler-302,c,Transit,127.282184,0.503,,,N/A,,1.111,N/A,1,0,1,N/A,15.505,Kepler-band,5740,,1.22,41773,N/A,2014,Kepler CCD Array,0
+1934,Kepler-280,b,Transit,2.139542,0.032,,,N/A,,0.129,N/A,1,0,1,N/A,14.466,Kepler-band,5744,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+1935,Kepler-280,c,Transit,4.807091,0.056,,,N/A,,0.179,N/A,1,0,1,N/A,14.466,Kepler-band,5744,0.91,0.89,41773,N/A,2014,Kepler CCD Array,0
+2042,Kepler-318,c,Transit,11.815007,0.105,,,N/A,,0.328,N/A,1,0,1,N/A,13.297,Kepler-band,5746,1.05,1.19,41773,N/A,2014,Kepler CCD Array,0
+2041,Kepler-318,b,Transit,4.662715,0.056,,,N/A,,0.42,N/A,1,0,1,N/A,13.297,Kepler-band,5746,1.05,1.19,41773,N/A,2014,Kepler CCD Array,0
+1810,Kepler-238,b,Transit,2.090876,0.034,,,N/A,,0.154,N/A,1,0,1,N/A,15.084,Kepler-band,5751,1.06,1.43,41773,N/A,2014,Kepler CCD Array,0
+1811,Kepler-238,c,Transit,6.155557,0.069,,,N/A,,0.213,N/A,1,0,1,N/A,15.084,Kepler-band,5751,1.06,1.43,41773,N/A,2014,Kepler CCD Array,0
+1812,Kepler-238,d,Transit,13.233549,0.115,,,N/A,,0.274,N/A,1,0,1,N/A,15.084,Kepler-band,5751,1.06,1.43,41773,N/A,2014,Kepler CCD Array,0
+2062,Kepler-325,c,Transit,12.762172,0.105,,,N/A,,0.227,N/A,1,0,1,N/A,15.009,Kepler-band,5752,0.87,1,41773,N/A,2014,Kepler CCD Array,0
+2063,Kepler-325,d,Transit,38.715185,0.22,,,N/A,,0.249,N/A,1,0,1,N/A,15.009,Kepler-band,5752,0.87,1,41773,N/A,2014,Kepler CCD Array,0
+2061,Kepler-325,b,Transit,4.544439,0.053,,,N/A,,0.26,N/A,1,0,1,N/A,15.009,Kepler-band,5752,0.87,1,41773,N/A,2014,Kepler CCD Array,0
+1720,Kepler-206,d,Transit,23.44281,0.163,,,N/A,,0.106,N/A,1,0,1,N/A,13.484,Kepler-band,5764,0.94,1.19,41773,N/A,2014,Kepler CCD Array,0
+1718,Kepler-206,b,Transit,7.781987,0.078,,,N/A,,0.107,N/A,1,0,1,N/A,13.484,Kepler-band,5764,0.94,1.19,41773,N/A,2014,Kepler CCD Array,0
+1719,Kepler-206,c,Transit,13.137471,0.111,,,N/A,,0.158,N/A,1,0,1,N/A,13.484,Kepler-band,5764,0.94,1.19,41773,N/A,2014,Kepler CCD Array,0
+1135,Kepler-129,b,Transit,15.79186,0.131,,,N/A,,0.211,N/A,1,0,1,N/A,11.696,Kepler-band,5770,1.18,1.64,41773,N/A,2014,Kepler CCD Array,0
+1136,Kepler-129,c,Transit,82.20017,0.393,,,N/A,,0.227,N/A,1,0,1,N/A,11.696,Kepler-band,5770,1.18,1.64,41773,N/A,2014,Kepler CCD Array,0
+2222,Kepler-387,c,Transit,11.837549,0.098,,,N/A,,0.079,N/A,1,0,1,N/A,13.987,Kepler-band,5774,1.03,1.05,41773,N/A,2014,Kepler CCD Array,0
+2221,Kepler-387,b,Transit,6.791636,0.068,,,N/A,,0.092,N/A,1,0,1,N/A,13.987,Kepler-band,5774,1.03,1.05,41773,N/A,2014,Kepler CCD Array,0
+1502,Kepler-157,b,Transit,1.732342,0.028,,,N/A,,0.118,N/A,1,0,1,N/A,14.002,Kepler-band,5774,,1.04,41773,N/A,2014,Kepler CCD Array,0
+1503,Kepler-157,c,Transit,13.5405,0.11,,,N/A,,0.2,N/A,1,0,1,N/A,14.002,Kepler-band,5774,,1.04,41773,N/A,2014,Kepler CCD Array,0
+2119,Kepler-344,b,Transit,21.963945,0.153,,,N/A,,0.233,N/A,1,0,1,N/A,15.378,Kepler-band,5774,0.9,0.98,41773,N/A,2014,Kepler CCD Array,0
+2120,Kepler-344,c,Transit,125.596809,0.488,,,N/A,,0.263,N/A,1,0,1,N/A,15.378,Kepler-band,5774,0.9,0.98,41773,N/A,2014,Kepler CCD Array,0
+1576,Kepler-163,b,Transit,7.810937,0.078,,,N/A,,0.094,N/A,1,0,1,N/A,14.415,Kepler-band,5776,0.96,0.92,41773,N/A,2014,Kepler CCD Array,0
+1577,Kepler-163,c,Transit,21.347262,0.152,,,N/A,,0.202,N/A,1,0,1,N/A,14.415,Kepler-band,5776,0.96,0.92,41773,N/A,2014,Kepler CCD Array,0
+1755,Kepler-219,d,Transit,47.903645,0.272,,,N/A,,0.251,N/A,1,0,1,N/A,13.764,Kepler-band,5786,,1.49,41773,N/A,2014,Kepler CCD Array,0
+1753,Kepler-219,b,Transit,4.585512,0.057,,,N/A,,0.263,N/A,1,0,1,N/A,13.764,Kepler-band,5786,,1.49,41773,N/A,2014,Kepler CCD Array,0
+1754,Kepler-219,c,Transit,22.714613,0.165,,,N/A,,0.319,N/A,1,0,1,N/A,13.764,Kepler-band,5786,,1.49,41773,N/A,2014,Kepler CCD Array,0
+2192,Kepler-373,c,Transit,16.725948,0.126,,,N/A,,0.111,N/A,1,0,1,N/A,14.514,Kepler-band,5787,0.87,0.84,41773,N/A,2014,Kepler CCD Array,0
+2191,Kepler-373,b,Transit,5.535309,0.06,,,N/A,,0.121,N/A,1,0,1,N/A,14.514,Kepler-band,5787,0.87,0.84,41773,N/A,2014,Kepler CCD Array,0
+2163,Kepler-362,b,Transit,10.327186,0.087,,,N/A,,0.079,N/A,1,0,1,N/A,14.5,Kepler-band,5788,0.77,0.72,41773,N/A,2014,Kepler CCD Array,0
+2164,Kepler-362,c,Transit,37.866281,0.207,,,N/A,,0.129,N/A,1,0,1,N/A,14.5,Kepler-band,5788,0.77,0.72,41773,N/A,2014,Kepler CCD Array,0
+1657,Kepler-184,c,Transit,20.303005,0.141,,,N/A,,0.176,N/A,1,0,1,N/A,14.338,Kepler-band,5788,,0.87,41773,N/A,2014,Kepler CCD Array,0
+1656,Kepler-184,b,Transit,10.687576,0.092,,,N/A,,0.211,N/A,1,0,1,N/A,14.338,Kepler-band,5788,,0.87,41773,N/A,2014,Kepler CCD Array,0
+1658,Kepler-184,d,Transit,29.022358,0.179,,,N/A,,0.222,N/A,1,0,1,N/A,14.338,Kepler-band,5788,,0.87,41773,N/A,2014,Kepler CCD Array,0
+1307,Kepler-142,b,Transit,2.024152,0.032,,,N/A,,0.178,N/A,1,0,1,N/A,13.203,Kepler-band,5790,0.99,1.27,41773,N/A,2014,Kepler CCD Array,0
+1309,Kepler-142,d,Transit,41.809118,0.242,,,N/A,,0.193,N/A,1,0,1,N/A,13.203,Kepler-band,5790,0.99,1.27,41773,N/A,2014,Kepler CCD Array,0
+1308,Kepler-142,c,Transit,4.761702,0.057,,,N/A,,0.255,N/A,1,0,1,N/A,13.203,Kepler-band,5790,0.99,1.27,41773,N/A,2014,Kepler CCD Array,0
+2035,Kepler-315,b,Transit,96.101141,0.402,,,N/A,,0.336,N/A,1,0,1,N/A,15.321,Kepler-band,5796,0.78,1.04,41773,N/A,2014,Kepler CCD Array,0
+2036,Kepler-315,c,Transit,265.469335,0.791,,,N/A,,0.37,N/A,1,0,1,N/A,15.321,Kepler-band,5796,0.78,1.04,41773,N/A,2014,Kepler CCD Array,0
+2024,Kepler-310,b,Transit,13.930698,0.111,,,N/A,,0.106,N/A,1,0,1,N/A,14.279,Kepler-band,5797,0.85,0.88,41773,N/A,2014,Kepler CCD Array,0
+2026,Kepler-310,d,Transit,92.876125,0.392,,,N/A,,0.22,N/A,1,0,1,N/A,14.279,Kepler-band,5797,0.85,0.88,41773,N/A,2014,Kepler CCD Array,0
+2025,Kepler-310,c,Transit,56.47542,0.281,,,N/A,,0.302,N/A,1,0,1,N/A,14.279,Kepler-band,5797,0.85,0.88,41773,N/A,2014,Kepler CCD Array,0
+1971,Kepler-293,b,Transit,19.254196,0.144,,,N/A,,0.274,N/A,1,0,1,N/A,15.368,Kepler-band,5804,1.01,0.96,41773,N/A,2014,Kepler CCD Array,0
+1972,Kepler-293,c,Transit,54.155743,0.286,,,N/A,,0.342,N/A,1,0,1,N/A,15.368,Kepler-band,5804,1.01,0.96,41773,N/A,2014,Kepler CCD Array,0
+1952,Kepler-287,b,Transit,20.342199,0.145,,,N/A,,0.208,N/A,1,0,1,N/A,14.775,Kepler-band,5806,,1.03,41773,N/A,2014,Kepler CCD Array,0
+1953,Kepler-287,c,Transit,44.851896,0.246,,,N/A,,0.291,N/A,1,0,1,N/A,14.775,Kepler-band,5806,,1.03,41773,N/A,2014,Kepler CCD Array,0
+2118,Kepler-343,c,Transit,23.22182,0.167,,,N/A,,0.18,N/A,1,0,1,N/A,14.128,Kepler-band,5807,1.04,1.43,41773,N/A,2014,Kepler CCD Array,0
+2117,Kepler-343,b,Transit,8.96855,0.088,,,N/A,,0.215,N/A,1,0,1,N/A,14.128,Kepler-band,5807,1.04,1.43,41773,N/A,2014,Kepler CCD Array,0
+1715,Kepler-204,c,Transit,25.660593,0.173,,,N/A,,0.16,N/A,1,0,1,N/A,13.909,Kepler-band,5812,0.96,1.24,41773,N/A,2014,Kepler CCD Array,0
+1714,Kepler-204,b,Transit,14.400974,0.117,,,N/A,,0.226,N/A,1,0,1,N/A,13.909,Kepler-band,5812,0.96,1.24,41773,N/A,2014,Kepler CCD Array,0
+1997,Kepler-301,b,Transit,2.508553,0.036,,,N/A,,0.12,N/A,1,0,1,N/A,14.271,Kepler-band,5815,0.91,0.9,41773,N/A,2014,Kepler CCD Array,0
+1998,Kepler-301,c,Transit,5.419026,0.06,,,N/A,,0.12,N/A,1,0,1,N/A,14.271,Kepler-band,5815,0.91,0.9,41773,N/A,2014,Kepler CCD Array,0
+1999,Kepler-301,d,Transit,13.751243,0.112,,,N/A,,0.156,N/A,1,0,1,N/A,14.271,Kepler-band,5815,0.91,0.9,41773,N/A,2014,Kepler CCD Array,0
+1564,Kepler-162,b,Transit,6.919798,0.069,,,N/A,,0.112,N/A,1,0,1,N/A,14.248,Kepler-band,5816,,0.96,41773,N/A,2014,Kepler CCD Array,0
+1565,Kepler-162,c,Transit,19.446355,0.137,,,N/A,,0.27,N/A,1,0,1,N/A,14.248,Kepler-band,5816,,0.96,41773,N/A,2014,Kepler CCD Array,0
+2266,Kepler-405,b,Transit,10.613839,0.095,,,N/A,,0.186,N/A,1,0,1,N/A,15.855,Kepler-band,5818,,0.89,41773,N/A,2014,Kepler CCD Array,0
+2267,Kepler-405,c,Transit,29.726682,0.188,,,N/A,,0.416,N/A,1,0,1,N/A,15.855,Kepler-band,5818,,0.89,41773,N/A,2014,Kepler CCD Array,0
+1713,Kepler-203,d,Transit,11.32972,0.1,,,N/A,,0.128,N/A,1,0,1,N/A,13.989,Kepler-band,5821,0.98,1.11,41773,N/A,2014,Kepler CCD Array,0
+1712,Kepler-203,c,Transit,5.370647,0.061,,,N/A,,0.22,N/A,1,0,1,N/A,13.989,Kepler-band,5821,0.98,1.11,41773,N/A,2014,Kepler CCD Array,0
+1711,Kepler-203,b,Transit,3.162697,0.043,,,N/A,,0.229,N/A,1,0,1,N/A,13.989,Kepler-band,5821,0.98,1.11,41773,N/A,2014,Kepler CCD Array,0
+2196,Kepler-375,b,Transit,12.125934,0.101,,,N/A,,0.129,N/A,1,0,1,N/A,15.699,Kepler-band,5826,0.89,0.84,41773,N/A,2014,Kepler CCD Array,0
+2197,Kepler-375,c,Transit,19.986326,0.141,,,N/A,,0.236,N/A,1,0,1,N/A,15.699,Kepler-band,5826,0.89,0.84,41773,N/A,2014,Kepler CCD Array,0
+1791,Kepler-23,d,Transit,15.274299,0.124,,,N/A,,0.196,N/A,1,0,1,800,13.438,Kepler-band,5828,1.11,1.55,41773,N/A,2014,Kepler CCD Array,0
+2089,Kepler-334,b,Transit,5.470319,0.061,,,N/A,,0.1,N/A,1,0,1,N/A,12.776,Kepler-band,5828,1,1.07,41773,N/A,2014,Kepler CCD Array,0
+2091,Kepler-334,d,Transit,25.09849,0.168,,,N/A,,0.126,N/A,1,0,1,N/A,12.776,Kepler-band,5828,1,1.07,41773,N/A,2014,Kepler CCD Array,0
+2090,Kepler-334,c,Transit,12.758005,0.107,,,N/A,,0.128,N/A,1,0,1,N/A,12.776,Kepler-band,5828,1,1.07,41773,N/A,2014,Kepler CCD Array,0
+1768,Kepler-223,b,Transit,7.384108,0.073,,,N/A,,0.151,N/A,1,0,1,N/A,15.344,Kepler-band,5829,,1.02,41773,N/A,2014,Kepler CCD Array,0
+1769,Kepler-223,c,Transit,9.848183,0.088,,,N/A,,0.178,N/A,1,0,1,N/A,15.344,Kepler-band,5829,,1.02,41773,N/A,2014,Kepler CCD Array,0
+1771,Kepler-223,e,Transit,19.721734,0.14,,,N/A,,0.214,N/A,1,0,1,N/A,15.344,Kepler-band,5829,,1.02,41773,N/A,2014,Kepler CCD Array,0
+1770,Kepler-223,d,Transit,14.788759,0.116,,,N/A,,0.266,N/A,1,0,1,N/A,15.344,Kepler-band,5829,,1.02,41773,N/A,2014,Kepler CCD Array,0
+1892,Kepler-265,b,Transit,6.846262,0.069,,,N/A,,0.166,N/A,1,0,1,N/A,15.381,Kepler-band,5835,1.03,1.1,41773,N/A,2014,Kepler CCD Array,0
+1894,Kepler-265,d,Transit,43.130617,0.236,,,N/A,,0.222,N/A,1,0,1,N/A,15.381,Kepler-band,5835,1.03,1.1,41773,N/A,2014,Kepler CCD Array,0
+1895,Kepler-265,e,Transit,67.831024,0.319,,,N/A,,0.231,N/A,1,0,1,N/A,15.381,Kepler-band,5835,1.03,1.1,41773,N/A,2014,Kepler CCD Array,0
+1893,Kepler-265,c,Transit,17.028937,0.127,,,N/A,,0.235,N/A,1,0,1,N/A,15.381,Kepler-band,5835,1.03,1.1,41773,N/A,2014,Kepler CCD Array,0
+1886,Kepler-262,b,Transit,13.060855,0.108,,,N/A,,0.121,N/A,1,0,1,N/A,14.246,Kepler-band,5841,,0.88,41773,N/A,2014,Kepler CCD Array,0
+1887,Kepler-262,c,Transit,21.853722,0.152,,,N/A,,0.146,N/A,1,0,1,N/A,14.246,Kepler-band,5841,,0.88,41773,N/A,2014,Kepler CCD Array,0
+1904,Kepler-269,c,Transit,8.127899,0.081,,,N/A,,0.151,N/A,1,0,1,N/A,15.808,Kepler-band,5847,0.98,0.96,41773,N/A,2014,Kepler CCD Array,0
+1903,Kepler-269,b,Transit,5.326718,0.061,,,N/A,,0.22,N/A,1,0,1,N/A,15.808,Kepler-band,5847,0.98,0.96,41773,N/A,2014,Kepler CCD Array,0
+1796,Kepler-232,b,Transit,4.431222,0.054,,,N/A,,0.275,N/A,1,0,1,N/A,15.367,Kepler-band,5847,,0.97,41773,N/A,2014,Kepler CCD Array,0
+1797,Kepler-232,c,Transit,11.379349,0.101,,,N/A,,0.342,N/A,1,0,1,N/A,15.367,Kepler-band,5847,,0.97,41773,N/A,2014,Kepler CCD Array,0
+1320,Kepler-143,b,Transit,16.007583,0.127,,,N/A,,0.215,N/A,1,0,1,N/A,13.77,Kepler-band,5848,,1.36,41773,N/A,2014,Kepler CCD Array,0
+1321,Kepler-143,c,Transit,27.082511,0.181,,,N/A,,0.301,N/A,1,0,1,N/A,13.77,Kepler-band,5848,,1.36,41773,N/A,2014,Kepler CCD Array,0
+848,Kepler-107,d,Transit,7.958203,0.082,,,N/A,,0.095,N/A,1,0,1,N/A,12.487,Kepler-band,5851,,1.41,41773,N/A,2014,Kepler CCD Array,0
+846,Kepler-107,b,Transit,3.179997,0.044,,,N/A,,0.139,N/A,1,0,1,N/A,12.487,Kepler-band,5851,,1.41,41773,N/A,2014,Kepler CCD Array,0
+847,Kepler-107,c,Transit,4.901425,0.059,,,N/A,,0.161,N/A,1,0,1,N/A,12.487,Kepler-band,5851,,1.41,41773,N/A,2014,Kepler CCD Array,0
+849,Kepler-107,e,Transit,14.749049,0.123,,,N/A,,0.308,N/A,1,0,1,N/A,12.487,Kepler-band,5851,,1.41,41773,N/A,2014,Kepler CCD Array,0
+1735,Kepler-212,b,Transit,16.257582,0.133,,,N/A,,0.097,N/A,1,0,1,N/A,13.178,Kepler-band,5852,1.16,1.46,41773,N/A,2014,Kepler CCD Array,0
+2184,Kepler-370,b,Transit,4.57953,0.054,,,N/A,,0.142,N/A,1,0,1,N/A,15.198,Kepler-band,5852,0.94,0.9,41773,N/A,2014,Kepler CCD Array,0
+2185,Kepler-370,c,Transit,19.02293,0.14,,,N/A,,0.17,N/A,1,0,1,N/A,15.198,Kepler-band,5852,0.94,0.9,41773,N/A,2014,Kepler CCD Array,0
+1736,Kepler-212,c,Transit,31.805174,0.207,,,N/A,,0.244,N/A,1,0,1,N/A,13.178,Kepler-band,5852,1.16,1.46,41773,N/A,2014,Kepler CCD Array,0
+1782,Kepler-227,c,Transit,54.418694,0.29,,,N/A,,0.271,N/A,1,0,1,N/A,15.347,Kepler-band,5854,,1.09,41773,N/A,2014,Kepler CCD Array,0
+1781,Kepler-227,b,Transit,9.488015,0.09,,,N/A,,0.277,N/A,1,0,1,N/A,15.347,Kepler-band,5854,,1.09,41773,N/A,2014,Kepler CCD Array,0
+862,Kepler-108,c,Transit,190.323494,0.721,,,N/A,,0.73,N/A,1,0,1,N/A,12.654,Kepler-band,5854,0.87,2.19,41773,N/A,2014,Kepler CCD Array,0
+861,Kepler-108,b,Transit,49.183921,0.292,,,N/A,,0.772,N/A,1,0,1,N/A,12.654,Kepler-band,5854,0.87,2.19,41773,N/A,2014,Kepler CCD Array,0
+1540,Kepler-160,b,Transit,4.309427,0.05,,,N/A,,0.137,N/A,1,0,1,N/A,14.619,Kepler-band,5857,,0.88,41773,N/A,2014,Kepler CCD Array,0
+1541,Kepler-160,c,Transit,13.699087,0.109,,,N/A,,0.322,N/A,1,0,1,N/A,14.619,Kepler-band,5857,,0.88,41773,N/A,2014,Kepler CCD Array,0
+2446,Kepler-53,d,Transit,9.751962,0.091,,,N/A,,0.189,N/A,1,0,1,N/A,15.386,Kepler-band,5858,0.98,0.89,41773,N/A,2014,Kepler CCD Array,0
+2094,Kepler-336,b,Transit,2.024823,0.033,,,N/A,,0.091,N/A,1,0,1,N/A,13.598,Kepler-band,5867,0.89,1.3,41773,N/A,2014,Kepler CCD Array,0
+2095,Kepler-336,c,Transit,9.600001,0.092,,,N/A,,0.187,N/A,1,0,1,N/A,13.598,Kepler-band,5867,0.89,1.3,41773,N/A,2014,Kepler CCD Array,0
+2096,Kepler-336,d,Transit,20.678772,0.154,,,N/A,,0.211,N/A,1,0,1,N/A,13.598,Kepler-band,5867,0.89,1.3,41773,N/A,2014,Kepler CCD Array,0
+2093,Kepler-335,c,Transit,67.844469,0.356,,,N/A,,0.274,N/A,1,0,1,N/A,13.996,Kepler-band,5877,0.99,1.85,41773,N/A,2014,Kepler CCD Array,0
+2092,Kepler-335,b,Transit,6.562331,0.075,,,N/A,,0.302,N/A,1,0,1,N/A,13.996,Kepler-band,5877,0.99,1.85,41773,N/A,2014,Kepler CCD Array,0
+1147,Kepler-130,b,Transit,8.457458,0.079,,,N/A,,0.091,N/A,1,0,1,N/A,11.529,Kepler-band,5884,1,1.13,41773,N/A,2014,Kepler CCD Array,0
+1149,Kepler-130,d,Transit,87.517905,0.377,,,N/A,,0.146,N/A,1,0,1,N/A,11.529,Kepler-band,5884,1,1.13,41773,N/A,2014,Kepler CCD Array,0
+1896,Kepler-266,b,Transit,6.61833,0.071,,,N/A,,0.221,N/A,1,0,1,N/A,15.59,Kepler-band,5885,0.99,1.03,41773,N/A,2014,Kepler CCD Array,0
+1897,Kepler-266,c,Transit,107.723601,0.457,,,N/A,,0.347,N/A,1,0,1,N/A,15.59,Kepler-band,5885,0.99,1.03,41773,N/A,2014,Kepler CCD Array,0
+2253,Kepler-400,c,Transit,17.340824,0.134,,,N/A,,0.133,N/A,1,0,1,N/A,13.642,Kepler-band,5886,,1.15,41773,N/A,2014,Kepler CCD Array,0
+2252,Kepler-400,b,Transit,9.024389,0.087,,,N/A,,0.147,N/A,1,0,1,N/A,13.642,Kepler-band,5886,,1.15,41773,N/A,2014,Kepler CCD Array,0
+1588,Kepler-164,b,Transit,5.03503,0.058,,,N/A,,0.126,N/A,1,0,1,N/A,14.282,Kepler-band,5888,1.11,1.15,41773,N/A,2014,Kepler CCD Array,0
+1654,Kepler-183,b,Transit,5.687945,0.064,,,N/A,,0.184,N/A,1,0,1,N/A,14.943,Kepler-band,5888,,0.96,41773,N/A,2014,Kepler CCD Array,0
+1655,Kepler-183,c,Transit,11.637071,0.103,,,N/A,,0.203,N/A,1,0,1,N/A,14.943,Kepler-band,5888,,0.96,41773,N/A,2014,Kepler CCD Array,0
+1590,Kepler-164,d,Transit,28.986769,0.187,,,N/A,,0.219,N/A,1,0,1,N/A,14.282,Kepler-band,5888,1.11,1.15,41773,N/A,2014,Kepler CCD Array,0
+1589,Kepler-164,c,Transit,10.945723,0.097,,,N/A,,0.244,N/A,1,0,1,N/A,14.282,Kepler-band,5888,1.11,1.15,41773,N/A,2014,Kepler CCD Array,0
+2017,Kepler-308,b,Transit,9.694928,0.09,,,N/A,,0.189,N/A,1,0,1,N/A,15.809,Kepler-band,5895,,0.94,41773,N/A,2014,Kepler CCD Array,0
+2018,Kepler-308,c,Transit,15.38231,0.123,,,N/A,,0.193,N/A,1,0,1,N/A,15.809,Kepler-band,5895,,0.94,41773,N/A,2014,Kepler CCD Array,0
+1819,Kepler-24,d,Transit,4.244384,0.051,,,N/A,,0.149,N/A,1,0,1,1200,14.925,Kepler-band,5897,1.03,1.29,41773,N/A,2014,Kepler CCD Array,0
+1820,Kepler-24,e,Transit,18.998355,0.138,,,N/A,,0.248,N/A,1,0,1,1200,14.925,Kepler-band,5897,1.03,1.29,41773,N/A,2014,Kepler CCD Array,0
+2198,Kepler-376,b,Transit,4.920199,0.057,,,N/A,,0.095,N/A,1,0,1,N/A,13.776,Kepler-band,5900,1.05,1.18,41773,N/A,2014,Kepler CCD Array,0
+2199,Kepler-376,c,Transit,14.172327,0.115,,,N/A,,0.16,N/A,1,0,1,N/A,13.776,Kepler-band,5900,1.05,1.18,41773,N/A,2014,Kepler CCD Array,0
+2028,Kepler-311,c,Transit,19.738286,0.145,,,N/A,,0.128,N/A,1,0,1,N/A,13.797,Kepler-band,5905,1.06,1.19,41773,N/A,2014,Kepler CCD Array,0
+2027,Kepler-311,b,Transit,9.176092,0.087,,,N/A,,0.152,N/A,1,0,1,N/A,13.797,Kepler-band,5905,1.06,1.19,41773,N/A,2014,Kepler CCD Array,0
+2152,Kepler-358,b,Transit,34.060467,0.21,,,N/A,,0.243,N/A,1,0,1,N/A,15.375,Kepler-band,5908,0.95,0.95,41773,N/A,2014,Kepler CCD Array,0
+2153,Kepler-358,c,Transit,83.488369,0.381,,,N/A,,0.254,N/A,1,0,1,N/A,15.375,Kepler-band,5908,0.95,0.95,41773,N/A,2014,Kepler CCD Array,0
+1973,Kepler-294,b,Transit,3.701212,0.048,,,N/A,,0.158,N/A,1,0,1,N/A,15.843,Kepler-band,5913,,0.98,41773,N/A,2014,Kepler CCD Array,0
+1974,Kepler-294,c,Transit,6.6264,0.071,,,N/A,,0.242,N/A,1,0,1,N/A,15.843,Kepler-band,5913,,0.98,41773,N/A,2014,Kepler CCD Array,0
+1954,Kepler-288,b,Transit,6.097326,0.065,,,N/A,,0.149,N/A,1,0,1,N/A,15.151,Kepler-band,5918,0.89,1.09,41773,N/A,2014,Kepler CCD Array,0
+1956,Kepler-288,d,Transit,56.633742,0.287,,,N/A,,0.238,N/A,1,0,1,N/A,15.151,Kepler-band,5918,0.89,1.09,41773,N/A,2014,Kepler CCD Array,0
+1955,Kepler-288,c,Transit,19.305772,0.14,,,N/A,,0.254,N/A,1,0,1,N/A,15.151,Kepler-band,5918,0.89,1.09,41773,N/A,2014,Kepler CCD Array,0
+1722,Kepler-207,c,Transit,3.071571,0.044,,,N/A,,0.134,N/A,1,0,1,N/A,13.182,Kepler-band,5920,,1.59,41773,N/A,2014,Kepler CCD Array,0
+1721,Kepler-207,b,Transit,1.611865,0.029,,,N/A,,0.14,N/A,1,0,1,N/A,13.182,Kepler-band,5920,,1.59,41773,N/A,2014,Kepler CCD Array,0
+1723,Kepler-207,d,Transit,5.868075,0.068,,,N/A,,0.295,N/A,1,0,1,N/A,13.182,Kepler-band,5920,,1.59,41773,N/A,2014,Kepler CCD Array,0
+2100,Kepler-338,c,Transit,24.310856,0.172,,,N/A,,0.209,N/A,1,0,1,N/A,12.119,Kepler-band,5923,1.1,1.74,41773,N/A,2014,Kepler CCD Array,0
+2099,Kepler-338,b,Transit,13.726976,0.117,,,N/A,,0.218,N/A,1,0,1,N/A,12.119,Kepler-band,5923,1.1,1.74,41773,N/A,2014,Kepler CCD Array,0
+2101,Kepler-338,d,Transit,44.431014,0.257,,,N/A,,0.268,N/A,1,0,1,N/A,12.119,Kepler-band,5923,1.1,1.74,41773,N/A,2014,Kepler CCD Array,0
+2232,Kepler-392,b,Transit,5.341853,0.059,,,N/A,,0.089,N/A,1,0,1,N/A,13.455,Kepler-band,5938,1.13,1.13,41773,N/A,2014,Kepler CCD Array,0
+2233,Kepler-392,c,Transit,10.423118,0.093,,,N/A,,0.098,N/A,1,0,1,N/A,13.455,Kepler-band,5938,1.13,1.13,41773,N/A,2014,Kepler CCD Array,0
+1877,Kepler-259,c,Transit,36.924931,0.217,,,N/A,,0.241,N/A,1,0,1,N/A,15.219,Kepler-band,5938,,0.9,41773,N/A,2014,Kepler CCD Array,0
+1876,Kepler-259,b,Transit,8.115317,0.079,,,N/A,,0.25,N/A,1,0,1,N/A,15.219,Kepler-band,5938,,0.9,41773,N/A,2014,Kepler CCD Array,0
+1357,Kepler-146,c,Transit,76.732171,0.364,,,N/A,,0.279,N/A,1,0,1,N/A,13.838,Kepler-band,5948,,1.21,41773,N/A,2014,Kepler CCD Array,0
+1356,Kepler-146,b,Transit,31.158799,0.2,,,N/A,,0.331,N/A,1,0,1,N/A,13.838,Kepler-band,5948,,1.21,41773,N/A,2014,Kepler CCD Array,0
+2200,Kepler-377,b,Transit,12.509529,0.109,,,N/A,,0.124,N/A,1,0,1,N/A,13.86,Kepler-band,5949,0.88,1.22,41773,N/A,2014,Kepler CCD Array,0
+2201,Kepler-377,c,Transit,27.014976,0.182,,,N/A,,0.184,N/A,1,0,1,N/A,13.86,Kepler-band,5949,0.88,1.22,41773,N/A,2014,Kepler CCD Array,0
+905,Kepler-111,b,Transit,3.341815,0.046,,,N/A,,0.141,N/A,1,0,1,N/A,13.492,Kepler-band,5952,,1.16,41773,N/A,2014,Kepler CCD Array,0
+906,Kepler-111,c,Transit,224.784608,0.761,,,N/A,,0.651,N/A,1,0,1,N/A,13.492,Kepler-band,5952,,1.16,41773,N/A,2014,Kepler CCD Array,0
+2129,Kepler-349,b,Transit,5.929778,0.065,,,N/A,,0.17,N/A,1,0,1,N/A,14.746,Kepler-band,5956,0.97,0.93,41773,N/A,2014,Kepler CCD Array,0
+2130,Kepler-349,c,Transit,12.247629,0.105,,,N/A,,0.175,N/A,1,0,1,N/A,14.746,Kepler-band,5956,0.97,0.93,41773,N/A,2014,Kepler CCD Array,0
+1862,Kepler-254,c,Transit,12.412183,0.105,,,N/A,,0.192,N/A,1,0,1,N/A,15.843,Kepler-band,5957,,0.91,41773,N/A,2014,Kepler CCD Array,0
+1863,Kepler-254,d,Transit,18.746477,0.139,,,N/A,,0.223,N/A,1,0,1,N/A,15.843,Kepler-band,5957,,0.91,41773,N/A,2014,Kepler CCD Array,0
+1861,Kepler-254,b,Transit,5.826662,0.064,,,N/A,,0.345,N/A,1,0,1,N/A,15.843,Kepler-band,5957,,0.91,41773,N/A,2014,Kepler CCD Array,0
+893,Kepler-110,b,Transit,12.691112,0.107,,,N/A,,0.163,N/A,1,0,1,N/A,12.935,Kepler-band,5960,,1.15,41773,N/A,2014,Kepler CCD Array,0
+894,Kepler-110,c,Transit,31.719775,0.198,,,N/A,,0.197,N/A,1,0,1,N/A,12.935,Kepler-band,5960,,1.15,41773,N/A,2014,Kepler CCD Array,0
+2296,Kepler-422,b,Transit,7.8914483,0.082,,,0.43,Mass,1.15,0.38,1,0,1,N/A,13.435,Kepler-band,5972,1.15,1.24,41915,N/A,2014,Kepler CCD Array,0
+2193,Kepler-374,b,Transit,1.897806,0.029,,,N/A,,0.092,N/A,1,0,1,N/A,14.686,Kepler-band,5977,0.84,0.91,41773,N/A,2014,Kepler CCD Array,0
+2194,Kepler-374,c,Transit,3.282807,0.042,,,N/A,,0.098,N/A,1,0,1,N/A,14.686,Kepler-band,5977,0.84,0.91,41773,N/A,2014,Kepler CCD Array,0
+2195,Kepler-374,d,Transit,5.028219,0.056,,,N/A,,0.117,N/A,1,0,1,N/A,14.686,Kepler-band,5977,0.84,0.91,41773,N/A,2014,Kepler CCD Array,0
+956,Kepler-115,b,Transit,2.403679,0.036,,,N/A,,0.097,N/A,1,0,1,N/A,13.431,Kepler-band,5979,1,1.21,41773,N/A,2014,Kepler CCD Array,0
+957,Kepler-115,c,Transit,8.990889,0.087,,,N/A,,0.232,N/A,1,0,1,N/A,13.431,Kepler-band,5979,1,1.21,41773,N/A,2014,Kepler CCD Array,0
+1202,Kepler-134,c,Transit,10.105785,0.092,,,N/A,,0.112,N/A,1,0,1,N/A,12.324,Kepler-band,5983,,1.18,41773,N/A,2014,Kepler CCD Array,0
+1201,Kepler-134,b,Transit,5.317429,0.06,,,N/A,,0.178,N/A,1,0,1,N/A,12.324,Kepler-band,5983,,1.18,41773,N/A,2014,Kepler CCD Array,0
+1995,Kepler-300,b,Transit,10.446347,0.094,,,N/A,,0.149,N/A,1,0,1,N/A,14.201,Kepler-band,5986,0.94,0.9,41773,N/A,2014,Kepler CCD Array,0
+1996,Kepler-300,c,Transit,40.714955,0.232,,,N/A,,0.201,N/A,1,0,1,N/A,14.201,Kepler-band,5986,0.94,0.9,41773,N/A,2014,Kepler CCD Array,0
+2057,Kepler-323,b,Transit,1.678327,0.028,,,N/A,,0.128,N/A,1,0,1,N/A,12.722,Kepler-band,5987,1.09,1.18,41773,N/A,2014,Kepler CCD Array,0
+2058,Kepler-323,c,Transit,3.553822,0.046,,,N/A,,0.145,N/A,1,0,1,N/A,12.722,Kepler-band,5987,1.09,1.18,41773,N/A,2014,Kepler CCD Array,0
+1958,Kepler-289,c,Transit,125.8518,0.51,,89.794,0.42,Mass,1.034,0.47,1,0,1,700,13.956,Kepler-band,5990,1.08,1,41962,N/A,2014,Kepler CCD Array,0
+1959,Kepler-289,d,Transit,66.0634,0.33,,89.73,0.013,Mass,0.239,1.2,1,0,1,700,13.956,Kepler-band,5990,1.08,1,41962,N/A,2014,Kepler CCD Array,0
+1957,Kepler-289,b,Transit,34.545,0.21,,89.59,0.023,Mass,0.192,4.1,1,0,1,700,13.956,Kepler-band,5990,1.08,1,41962,N/A,2014,Kepler CCD Array,0
+1965,Kepler-291,c,Transit,5.700786,0.065,,,N/A,,0.168,N/A,1,0,1,N/A,15.934,Kepler-band,6002,1.03,1.02,41773,N/A,2014,Kepler CCD Array,0
+1964,Kepler-291,b,Transit,3.546511,0.047,,,N/A,,0.193,N/A,1,0,1,N/A,15.934,Kepler-band,6002,1.03,1.02,41773,N/A,2014,Kepler CCD Array,0
+1173,Kepler-132,b,Transit,6.178196,0.067,,,N/A,,0.108,N/A,1,0,1,N/A,11.818,Kepler-band,6003,,1.18,41773,N/A,2014,Kepler CCD Array,0
+1174,Kepler-132,c,Transit,6.414914,0.068,,,N/A,,0.114,N/A,1,0,1,N/A,11.818,Kepler-band,6003,,1.18,41773,N/A,2014,Kepler CCD Array,0
+1175,Kepler-132,d,Transit,18.010199,0.136,,,N/A,,0.138,N/A,1,0,1,N/A,11.818,Kepler-band,6003,,1.18,41773,N/A,2014,Kepler CCD Array,0
+1694,Kepler-197,e,Transit,25.209715,0.164,,,N/A,,0.081,N/A,1,0,1,N/A,11.811,Kepler-band,6004,,1.12,41773,N/A,2014,Kepler CCD Array,0
+1691,Kepler-197,b,Transit,5.599308,0.06,,,N/A,,0.091,N/A,1,0,1,N/A,11.811,Kepler-band,6004,,1.12,41773,N/A,2014,Kepler CCD Array,0
+1693,Kepler-197,d,Transit,15.677563,0.119,,,N/A,,0.109,N/A,1,0,1,N/A,11.811,Kepler-band,6004,,1.12,41773,N/A,2014,Kepler CCD Array,0
+1692,Kepler-197,c,Transit,10.349695,0.09,,,N/A,,0.11,N/A,1,0,1,N/A,11.811,Kepler-band,6004,,1.12,41773,N/A,2014,Kepler CCD Array,0
+2109,Kepler-341,b,Transit,5.195528,0.06,,,N/A,,0.105,N/A,1,0,1,N/A,14.601,Kepler-band,6012,0.94,1.02,41773,N/A,2014,Kepler CCD Array,0
+1370,Kepler-147,b,Transit,12.610584,0.113,,,N/A,,0.136,N/A,1,0,1,N/A,13.954,Kepler-band,6012,1.01,1.47,41773,N/A,2014,Kepler CCD Array,0
+2171,Kepler-365,c,Transit,17.784129,0.137,,,N/A,,0.146,N/A,1,0,1,N/A,14.651,Kepler-band,6012,0.99,1.05,41773,N/A,2014,Kepler CCD Array,0
+2110,Kepler-341,c,Transit,8.01041,0.08,,,N/A,,0.152,N/A,1,0,1,N/A,14.601,Kepler-band,6012,0.94,1.02,41773,N/A,2014,Kepler CCD Array,0
+2111,Kepler-341,d,Transit,27.666313,0.182,,,N/A,,0.165,N/A,1,0,1,N/A,14.601,Kepler-band,6012,0.94,1.02,41773,N/A,2014,Kepler CCD Array,0
+2112,Kepler-341,e,Transit,42.473269,0.242,,,N/A,,0.178,N/A,1,0,1,N/A,14.601,Kepler-band,6012,0.94,1.02,41773,N/A,2014,Kepler CCD Array,0
+2170,Kepler-365,b,Transit,10.664903,0.098,,,N/A,,0.182,N/A,1,0,1,N/A,14.651,Kepler-band,6012,0.99,1.05,41773,N/A,2014,Kepler CCD Array,0
+1371,Kepler-147,c,Transit,33.416423,0.216,,,N/A,,0.217,N/A,1,0,1,N/A,13.954,Kepler-band,6012,1.01,1.47,41773,N/A,2014,Kepler CCD Array,0
+1668,Kepler-188,b,Transit,2.061897,0.032,,,N/A,,0.15,N/A,1,0,1,N/A,14.674,Kepler-band,6021,,1.14,41773,N/A,2014,Kepler CCD Array,0
+1669,Kepler-188,c,Transit,5.996553,0.066,,,N/A,,0.285,N/A,1,0,1,N/A,14.674,Kepler-band,6021,,1.14,41773,N/A,2014,Kepler CCD Array,0
+1917,Kepler-274,b,Transit,11.634788,0.101,,,N/A,,0.137,N/A,1,0,1,N/A,15.035,Kepler-band,6023,,1.01,41773,N/A,2014,Kepler CCD Array,0
+1918,Kepler-274,c,Transit,33.197861,0.204,,,N/A,,0.164,N/A,1,0,1,N/A,15.035,Kepler-band,6023,,1.01,41773,N/A,2014,Kepler CCD Array,0
+1627,Kepler-173,b,Transit,4.263742,0.048,,,N/A,,0.115,N/A,1,0,1,N/A,14.209,Kepler-band,6031,0.78,0.95,41773,N/A,2014,Kepler CCD Array,0
+2849,Kepler-84,d,Transit,4.224537,0.052,,,N/A,,0.123,N/A,1,0,1,N/A,14.764,Kepler-band,6031,1,1.17,41773,N/A,2014,Kepler CCD Array,0
+2851,Kepler-84,f,Transit,44.552169,0.25,,,N/A,,0.196,N/A,1,0,1,N/A,14.764,Kepler-band,6031,1,1.17,41773,N/A,2014,Kepler CCD Array,0
+1628,Kepler-173,c,Transit,8.005777,0.074,,,N/A,,0.217,N/A,1,0,1,N/A,14.209,Kepler-band,6031,0.78,0.95,41773,N/A,2014,Kepler CCD Array,0
+2850,Kepler-84,e,Transit,27.434389,0.181,,,N/A,,0.232,N/A,1,0,1,N/A,14.764,Kepler-band,6031,1,1.17,41773,N/A,2014,Kepler CCD Array,0
+2123,Kepler-346,b,Transit,6.511127,0.071,,,N/A,,0.237,N/A,1,0,1,N/A,15.214,Kepler-band,6033,0.97,1.02,41773,N/A,2014,Kepler CCD Array,0
+2124,Kepler-346,c,Transit,23.851549,0.168,,,N/A,,0.274,N/A,1,0,1,N/A,15.214,Kepler-band,6033,0.97,1.02,41773,N/A,2014,Kepler CCD Array,0
+1783,Kepler-228,b,Transit,2.566546,0.038,,,N/A,,0.136,N/A,1,0,1,N/A,15.714,Kepler-band,6043,,1.01,41773,N/A,2014,Kepler CCD Array,0
+1784,Kepler-228,c,Transit,4.134444,0.052,,,N/A,,0.241,N/A,1,0,1,N/A,15.714,Kepler-band,6043,,1.01,41773,N/A,2014,Kepler CCD Array,0
+1785,Kepler-228,d,Transit,11.094286,0.101,,,N/A,,0.36,N/A,1,0,1,N/A,15.714,Kepler-band,6043,,1.01,41773,N/A,2014,Kepler CCD Array,0
+2207,Kepler-380,b,Transit,3.930821,0.05,,,N/A,,0.106,N/A,1,0,1,N/A,13.652,Kepler-band,6045,1.05,1.22,41773,N/A,2014,Kepler CCD Array,0
+2208,Kepler-380,c,Transit,7.630004,0.078,,,N/A,,0.113,N/A,1,0,1,N/A,13.652,Kepler-band,6045,1.05,1.22,41773,N/A,2014,Kepler CCD Array,0
+1044,Kepler-122,d,Transit,21.587475,0.155,,,N/A,,0.196,N/A,1,0,1,N/A,14.247,Kepler-band,6050,0.99,1.22,41773,N/A,2014,Kepler CCD Array,0
+1042,Kepler-122,b,Transit,5.766193,0.064,,,N/A,,0.209,N/A,1,0,1,N/A,14.247,Kepler-band,6050,0.99,1.22,41773,N/A,2014,Kepler CCD Array,0
+1045,Kepler-122,e,Transit,37.993273,0.227,,,N/A,,0.232,N/A,1,0,1,N/A,14.247,Kepler-band,6050,0.99,1.22,41773,N/A,2014,Kepler CCD Array,0
+1043,Kepler-122,c,Transit,12.465988,0.108,,,N/A,,0.524,N/A,1,0,1,N/A,14.247,Kepler-band,6050,0.99,1.22,41773,N/A,2014,Kepler CCD Array,0
+2159,Kepler-360,b,Transit,3.289672,0.044,,,N/A,,0.147,N/A,1,0,1,N/A,14.866,Kepler-band,6053,0.95,1.06,41773,N/A,2014,Kepler CCD Array,0
+2160,Kepler-360,c,Transit,7.186434,0.075,,,N/A,,0.187,N/A,1,0,1,N/A,14.866,Kepler-band,6053,0.95,1.06,41773,N/A,2014,Kepler CCD Array,0
+2204,Kepler-379,b,Transit,20.09838,0.152,,,N/A,,0.148,N/A,1,0,1,N/A,13.358,Kepler-band,6054,1.08,1.31,41773,N/A,2014,Kepler CCD Array,0
+2205,Kepler-379,c,Transit,62.784697,0.326,,,N/A,,0.204,N/A,1,0,1,N/A,13.358,Kepler-band,6054,1.08,1.31,41773,N/A,2014,Kepler CCD Array,0
+1632,Kepler-175,b,Transit,11.903515,0.105,,,N/A,,0.228,N/A,1,0,1,N/A,14.939,Kepler-band,6064,1.04,1.01,41773,N/A,2014,Kepler CCD Array,0
+1633,Kepler-175,c,Transit,34.035257,0.213,,,N/A,,0.277,N/A,1,0,1,N/A,14.939,Kepler-band,6064,1.04,1.01,41773,N/A,2014,Kepler CCD Array,0
+1707,Kepler-201,b,Transit,25.672083,0.175,,,N/A,,0.219,N/A,1,0,1,N/A,13.004,Kepler-band,6065,1.17,1.23,41773,N/A,2014,Kepler CCD Array,0
+1708,Kepler-201,c,Transit,151.884058,0.573,,,N/A,,0.254,N/A,1,0,1,N/A,13.004,Kepler-band,6065,1.17,1.23,41773,N/A,2014,Kepler CCD Array,0
+1908,Kepler-270,c,Transit,25.262887,0.18,,,N/A,,0.158,N/A,1,0,1,N/A,13.908,Kepler-band,6067,,1.46,41773,N/A,2014,Kepler CCD Array,0
+1907,Kepler-270,b,Transit,11.476094,0.107,,,N/A,,0.179,N/A,1,0,1,N/A,13.908,Kepler-band,6067,,1.46,41773,N/A,2014,Kepler CCD Array,0
+1332,Kepler-144,b,Transit,5.885273,0.066,,,N/A,,0.119,N/A,1,0,1,N/A,11.992,Kepler-band,6075,1.03,1.24,41773,N/A,2014,Kepler CCD Array,0
+1333,Kepler-144,c,Transit,10.104665,0.094,,,N/A,,0.12,N/A,1,0,1,N/A,11.992,Kepler-band,6075,1.03,1.24,41773,N/A,2014,Kepler CCD Array,0
+1283,Kepler-140,b,Transit,3.25427,0.045,,,N/A,,0.144,N/A,1,0,1,N/A,12.996,Kepler-band,6077,,1.29,41773,N/A,2014,Kepler CCD Array,0
+1284,Kepler-140,c,Transit,91.353282,0.414,,,N/A,,0.161,N/A,1,0,1,N/A,12.996,Kepler-band,6077,,1.29,41773,N/A,2014,Kepler CCD Array,0
+1901,Kepler-268,b,Transit,25.934138,0.18,,,N/A,,0.227,N/A,1,0,1,N/A,13.703,Kepler-band,6081,,1.27,41773,N/A,2014,Kepler CCD Array,0
+1902,Kepler-268,c,Transit,83.446393,0.391,,,N/A,,0.302,N/A,1,0,1,N/A,13.703,Kepler-band,6081,,1.27,41773,N/A,2014,Kepler CCD Array,0
+2126,Kepler-347,c,Transit,27.320871,0.183,,,N/A,,0.156,N/A,1,0,1,N/A,14.513,Kepler-band,6088,1.04,1,41773,N/A,2014,Kepler CCD Array,0
+2125,Kepler-347,b,Transit,12.79836,0.11,,,N/A,,0.176,N/A,1,0,1,N/A,14.513,Kepler-band,6088,1.04,1,41773,N/A,2014,Kepler CCD Array,0
+1058,Kepler-123,c,Transit,26.695074,0.181,,,N/A,,0.132,N/A,1,0,1,N/A,14.061,Kepler-band,6089,1.03,1.26,41773,N/A,2014,Kepler CCD Array,0
+1684,Kepler-194,b,Transit,2.092281,0.032,,,N/A,,0.135,N/A,1,0,1,N/A,14.915,Kepler-band,6089,,1.02,41773,N/A,2014,Kepler CCD Array,0
+1686,Kepler-194,d,Transit,52.814973,0.275,,,N/A,,0.214,N/A,1,0,1,N/A,14.915,Kepler-band,6089,,1.02,41773,N/A,2014,Kepler CCD Array,0
+1685,Kepler-194,c,Transit,17.308032,0.131,,,N/A,,0.231,N/A,1,0,1,N/A,14.915,Kepler-band,6089,,1.02,41773,N/A,2014,Kepler CCD Array,0
+1057,Kepler-123,b,Transit,17.232366,0.135,,,N/A,,0.262,N/A,1,0,1,N/A,14.061,Kepler-band,6089,1.03,1.26,41773,N/A,2014,Kepler CCD Array,0
+1214,Kepler-135,c,Transit,11.448708,0.103,,,N/A,,0.103,N/A,1,0,1,N/A,12.73,Kepler-band,6090,,1.27,41773,N/A,2014,Kepler CCD Array,0
+2257,Kepler-402,b,Transit,4.028751,0.051,,,N/A,,0.109,N/A,1,0,1,N/A,13.268,Kepler-band,6090,,1.26,41773,N/A,2014,Kepler CCD Array,0
+2261,Kepler-403,b,Transit,7.031462,0.076,,,N/A,,0.112,N/A,1,0,1,N/A,12.805,Kepler-band,6090,,1.33,41773,N/A,2014,Kepler CCD Array,0
+2259,Kepler-402,d,Transit,8.921099,0.087,,,N/A,,0.123,N/A,1,0,1,N/A,13.268,Kepler-band,6090,,1.26,41773,N/A,2014,Kepler CCD Array,0
+2260,Kepler-402,e,Transit,11.242861,0.102,,,N/A,,0.13,N/A,1,0,1,N/A,13.268,Kepler-band,6090,,1.26,41773,N/A,2014,Kepler CCD Array,0
+2258,Kepler-402,c,Transit,6.124821,0.068,,,N/A,,0.139,N/A,1,0,1,N/A,13.268,Kepler-band,6090,,1.26,41773,N/A,2014,Kepler CCD Array,0
+2262,Kepler-403,c,Transit,54.280749,0.297,,,N/A,,0.156,N/A,1,0,1,N/A,12.805,Kepler-band,6090,,1.33,41773,N/A,2014,Kepler CCD Array,0
+1213,Kepler-135,b,Transit,6.00253,0.067,,,N/A,,0.161,N/A,1,0,1,N/A,12.73,Kepler-band,6090,,1.27,41773,N/A,2014,Kepler CCD Array,0
+1745,Kepler-216,b,Transit,7.693641,0.079,,,N/A,,0.21,N/A,1,0,1,N/A,13.998,Kepler-band,6091,,1.26,41773,N/A,2014,Kepler CCD Array,0
+1746,Kepler-216,c,Transit,17.406669,0.136,,,N/A,,0.271,N/A,1,0,1,N/A,13.998,Kepler-band,6091,,1.26,41773,N/A,2014,Kepler CCD Array,0
+1726,Kepler-208,d,Transit,11.131786,0.103,,,N/A,,0.107,N/A,1,0,1,N/A,13.749,Kepler-band,6092,1.03,1.31,41773,N/A,2014,Kepler CCD Array,0
+1725,Kepler-208,c,Transit,7.466623,0.079,,,N/A,,0.124,N/A,1,0,1,N/A,13.749,Kepler-band,6092,1.03,1.31,41773,N/A,2014,Kepler CCD Array,0
+1727,Kepler-208,e,Transit,16.259458,0.132,,,N/A,,0.132,N/A,1,0,1,N/A,13.749,Kepler-band,6092,1.03,1.31,41773,N/A,2014,Kepler CCD Array,0
+1724,Kepler-208,b,Transit,4.22864,0.054,,,N/A,,0.145,N/A,1,0,1,N/A,13.749,Kepler-band,6092,1.03,1.31,41773,N/A,2014,Kepler CCD Array,0
+2515,Kepler-58,d,Transit,40.101371,0.236,,,N/A,,0.262,N/A,1,0,1,N/A,14.82,Kepler-band,6099,0.95,1.13,41773,N/A,2014,Kepler CCD Array,0
+1666,Kepler-187,b,Transit,4.938864,0.059,,,N/A,,0.126,N/A,1,0,1,N/A,14.173,Kepler-band,6105,0.85,1.29,41773,N/A,2014,Kepler CCD Array,0
+1667,Kepler-187,c,Transit,10.640263,0.099,,,N/A,,0.238,N/A,1,0,1,N/A,14.173,Kepler-band,6105,0.85,1.29,41773,N/A,2014,Kepler CCD Array,0
+1922,Kepler-276,b,Transit,14.12841,0.119,,,N/A,,0.256,N/A,1,0,1,N/A,15.368,Kepler-band,6105,1.1,1.05,41773,N/A,2014,Kepler CCD Array,0
+1110,Kepler-127,b,Transit,14.435889,0.125,,,N/A,,0.125,N/A,1,0,1,N/A,11.485,Kepler-band,6106,,1.36,41773,N/A,2014,Kepler CCD Array,0
+1112,Kepler-127,d,Transit,48.630408,0.28,,,N/A,,0.236,N/A,1,0,1,N/A,11.485,Kepler-band,6106,,1.36,41773,N/A,2014,Kepler CCD Array,0
+1111,Kepler-127,c,Transit,29.393195,0.2,,,N/A,,0.237,N/A,1,0,1,N/A,11.485,Kepler-band,6106,,1.36,41773,N/A,2014,Kepler CCD Array,0
+2168,Kepler-364,b,Transit,25.745718,0.178,,,N/A,,0.138,N/A,1,0,1,N/A,13.66,Kepler-band,6108,1.2,1.28,41773,N/A,2014,Kepler CCD Array,0
+2169,Kepler-364,c,Transit,59.980627,0.312,,,N/A,,0.192,N/A,1,0,1,N/A,13.66,Kepler-band,6108,1.2,1.28,41773,N/A,2014,Kepler CCD Array,0
+2029,Kepler-312,b,Transit,1.772419,0.031,,,N/A,,0.115,N/A,1,0,1,N/A,12.949,Kepler-band,6115,1.23,1.47,41773,N/A,2014,Kepler CCD Array,0
+2030,Kepler-312,c,Transit,19.747412,0.153,,,N/A,,0.281,N/A,1,0,1,N/A,12.949,Kepler-band,6115,1.23,1.47,41773,N/A,2014,Kepler CCD Array,0
+2254,Kepler-401,b,Transit,14.383035,0.122,,,N/A,,0.153,N/A,1,0,1,N/A,13.312,Kepler-band,6117,,1.33,41773,N/A,2014,Kepler CCD Array,0
+2255,Kepler-401,c,Transit,47.318218,0.269,,,N/A,,0.192,N/A,1,0,1,N/A,13.312,Kepler-band,6117,,1.33,41773,N/A,2014,Kepler CCD Array,0
+2147,Kepler-356,b,Transit,4.612696,0.057,,,N/A,,0.14,N/A,1,0,1,N/A,12.992,Kepler-band,6133,0.97,1.33,41773,N/A,2014,Kepler CCD Array,0
+2148,Kepler-356,c,Transit,13.121632,0.115,,,N/A,,0.161,N/A,1,0,1,N/A,12.992,Kepler-band,6133,0.97,1.33,41773,N/A,2014,Kepler CCD Array,0
+970,Kepler-116,c,Transit,13.07163,0.116,,,N/A,,0.205,N/A,1,0,1,N/A,13.717,Kepler-band,6142,1.16,1.45,41773,N/A,2014,Kepler CCD Array,0
+969,Kepler-116,b,Transit,5.968734,0.069,,,N/A,,0.305,N/A,1,0,1,N/A,13.717,Kepler-band,6142,1.16,1.45,41773,N/A,2014,Kepler CCD Array,0
+2209,Kepler-381,b,Transit,5.629021,0.066,,,N/A,,0.088,N/A,1,0,1,N/A,10.421,Kepler-band,6152,1.34,1.57,41773,N/A,2014,Kepler CCD Array,0
+2210,Kepler-381,c,Transit,13.391635,0.117,,,N/A,,0.1,N/A,1,0,1,N/A,10.421,Kepler-band,6152,1.34,1.57,41773,N/A,2014,Kepler CCD Array,0
+1891,Kepler-264,c,Transit,140.101261,0.566,,,N/A,,0.252,N/A,1,0,1,N/A,13.038,Kepler-band,6158,1.32,1.55,41773,N/A,2014,Kepler CCD Array,0
+1890,Kepler-264,b,Transit,40.806231,0.249,,,N/A,,0.297,N/A,1,0,1,N/A,13.038,Kepler-band,6158,1.32,1.55,41773,N/A,2014,Kepler CCD Array,0
+1227,Kepler-136,c,Transit,16.399235,0.133,,,N/A,,0.178,N/A,1,0,1,N/A,12.459,Kepler-band,6165,1.2,1.35,41773,N/A,2014,Kepler CCD Array,0
+1226,Kepler-136,b,Transit,11.5789,0.106,,,N/A,,0.183,N/A,1,0,1,N/A,12.459,Kepler-band,6165,1.2,1.35,41773,N/A,2014,Kepler CCD Array,0
+1919,Kepler-275,b,Transit,10.300682,0.098,,,N/A,,0.209,N/A,1,0,1,N/A,15.319,Kepler-band,6165,1.24,1.38,41773,N/A,2014,Kepler CCD Array,0
+1921,Kepler-275,d,Transit,35.676062,0.224,,,N/A,,0.297,N/A,1,0,1,N/A,15.319,Kepler-band,6165,1.24,1.38,41773,N/A,2014,Kepler CCD Array,0
+1920,Kepler-275,c,Transit,16.088134,0.132,,,N/A,,0.302,N/A,1,0,1,N/A,15.319,Kepler-band,6165,1.24,1.38,41773,N/A,2014,Kepler CCD Array,0
+2161,Kepler-361,b,Transit,8.486616,0.086,,,N/A,,0.129,N/A,1,0,1,N/A,13.573,Kepler-band,6169,1.07,1.34,41773,N/A,2014,Kepler CCD Array,0
+1740,Kepler-214,c,Transit,28.7798,0.194,,,N/A,,0.19,N/A,1,0,1,N/A,13.949,Kepler-band,6169,,1.35,41773,N/A,2014,Kepler CCD Array,0
+2162,Kepler-361,c,Transit,55.188023,0.3,,,N/A,,0.225,N/A,1,0,1,N/A,13.573,Kepler-band,6169,1.07,1.34,41773,N/A,2014,Kepler CCD Array,0
+1739,Kepler-214,b,Transit,15.660544,0.13,,,N/A,,0.233,N/A,1,0,1,N/A,13.949,Kepler-band,6169,,1.35,41773,N/A,2014,Kepler CCD Array,0
+1748,Kepler-217,c,Transit,8.586004,0.089,,,N/A,,0.165,N/A,1,0,1,N/A,13.294,Kepler-band,6171,,1.8,41773,N/A,2014,Kepler CCD Array,0
+1747,Kepler-217,b,Transit,5.374943,0.065,,,N/A,,0.199,N/A,1,0,1,N/A,13.294,Kepler-band,6171,,1.8,41773,N/A,2014,Kepler CCD Array,0
+2777,Kepler-79,d,Transit,52.0902,0.287,0.025,89.93,0.019,Mass,0.639,0.09,1,0,1,N/A,13.914,Kepler-band,6174,1.17,1.3,42439,N/A,2014,Kepler CCD Array,0
+2778,Kepler-79,e,Transit,81.0659,0.386,0.012,89.13,0.013,Mass,0.311,0.53,1,0,1,N/A,13.914,Kepler-band,6174,1.17,1.3,42439,N/A,2014,Kepler CCD Array,0
+2114,Kepler-342,c,Transit,26.234138,0.185,,,N/A,,0.175,N/A,1,0,1,N/A,13.147,Kepler-band,6175,1.13,1.47,41773,N/A,2014,Kepler CCD Array,0
+2113,Kepler-342,b,Transit,15.170318,0.128,,,N/A,,0.201,N/A,1,0,1,N/A,13.147,Kepler-band,6175,1.13,1.47,41773,N/A,2014,Kepler CCD Array,0
+2115,Kepler-342,d,Transit,39.459357,0.242,,,N/A,,0.222,N/A,1,0,1,N/A,13.147,Kepler-band,6175,1.13,1.47,41773,N/A,2014,Kepler CCD Array,0
+2128,Kepler-348,c,Transit,17.265427,0.138,,,N/A,,0.119,N/A,1,0,1,N/A,12.556,Kepler-band,6177,1.15,1.36,41773,N/A,2014,Kepler CCD Array,0
+2127,Kepler-348,b,Transit,7.05677,0.076,,,N/A,,0.136,N/A,1,0,1,N/A,12.556,Kepler-band,6177,1.15,1.36,41773,N/A,2014,Kepler CCD Array,0
+2145,Kepler-355,b,Transit,11.03189,0.102,,,N/A,,0.13,N/A,1,0,1,N/A,15.087,Kepler-band,6184,1.05,1.07,41773,N/A,2014,Kepler CCD Array,0
+2146,Kepler-355,c,Transit,25.762294,0.179,,,N/A,,0.242,N/A,1,0,1,N/A,15.087,Kepler-band,6184,1.05,1.07,41773,N/A,2014,Kepler CCD Array,0
+2132,Kepler-350,b,Transit,11.189562,0.104,,,N/A,,0.165,N/A,1,0,1,N/A,13.781,Kepler-band,6186,1,1.53,41773,N/A,2014,Kepler CCD Array,0
+2234,Kepler-393,b,Transit,9.182417,0.091,,,N/A,,0.115,N/A,1,0,1,N/A,13.223,Kepler-band,6189,1.32,1.38,41773,N/A,2014,Kepler CCD Array,0
+2235,Kepler-393,c,Transit,14.613612,0.124,,,N/A,,0.119,N/A,1,0,1,N/A,13.223,Kepler-band,6189,1.32,1.38,41773,N/A,2014,Kepler CCD Array,0
+2172,Kepler-366,b,Transit,3.281959,0.045,,,N/A,,0.13,N/A,1,0,1,N/A,14.842,Kepler-band,6209,1.05,1.05,41773,N/A,2014,Kepler CCD Array,0
+2173,Kepler-366,c,Transit,12.51616,0.11,,,N/A,,0.16,N/A,1,0,1,N/A,14.842,Kepler-band,6209,1.05,1.05,41773,N/A,2014,Kepler CCD Array,0
+1801,Kepler-234,c,Transit,7.21205,0.077,,,N/A,,0.313,N/A,1,0,1,N/A,15.541,Kepler-band,6224,,1.11,41773,N/A,2014,Kepler CCD Array,0
+1800,Kepler-234,b,Transit,2.711506,0.04,,,N/A,,0.33,N/A,1,0,1,N/A,15.541,Kepler-band,6224,,1.11,41773,N/A,2014,Kepler CCD Array,0
+1097,Kepler-126,b,Transit,10.495711,0.099,,,N/A,,0.136,N/A,1,0,1,N/A,10.5,Kepler-band,6239,,1.36,41773,N/A,2014,Kepler CCD Array,0
+1098,Kepler-126,c,Transit,21.869741,0.162,,,N/A,,0.141,N/A,1,0,1,N/A,10.5,Kepler-band,6239,,1.36,41773,N/A,2014,Kepler CCD Array,0
+1099,Kepler-126,d,Transit,100.283134,0.448,,,N/A,,0.223,N/A,1,0,1,N/A,10.5,Kepler-band,6239,,1.36,41773,N/A,2014,Kepler CCD Array,0
+2154,Kepler-359,b,Transit,25.563222,0.178,,,N/A,,0.315,N/A,1,0,1,N/A,15.886,Kepler-band,6248,1.07,1.09,41773,N/A,2014,Kepler CCD Array,0
+2156,Kepler-359,d,Transit,77.095691,0.372,,,N/A,,0.358,N/A,1,0,1,N/A,15.886,Kepler-band,6248,1.07,1.09,41773,N/A,2014,Kepler CCD Array,0
+2155,Kepler-359,c,Transit,57.68802,0.307,,,N/A,,0.384,N/A,1,0,1,N/A,15.886,Kepler-band,6248,1.07,1.09,41773,N/A,2014,Kepler CCD Array,0
+1652,Kepler-182,b,Transit,9.825792,0.096,,,N/A,,0.23,N/A,1,0,1,N/A,14.896,Kepler-band,6250,1.14,1.15,41773,N/A,2014,Kepler CCD Array,0
+1653,Kepler-182,c,Transit,20.684342,0.157,,,N/A,,0.306,N/A,1,0,1,N/A,14.896,Kepler-band,6250,1.14,1.15,41773,N/A,2014,Kepler CCD Array,0
+1610,Kepler-168,b,Transit,4.425391,0.056,,,N/A,,0.13,N/A,1,0,1,N/A,14.606,Kepler-band,6282,,1.11,41773,N/A,2014,Kepler CCD Array,0
+1611,Kepler-168,c,Transit,13.193242,0.116,,,N/A,,0.24,N/A,1,0,1,N/A,14.606,Kepler-band,6282,,1.11,41773,N/A,2014,Kepler CCD Array,0
+2217,Kepler-385,b,Transit,10.043686,0.097,,,N/A,,0.244,N/A,1,0,1,N/A,15.212,Kepler-band,6326,1.09,1.13,41773,N/A,2014,Kepler CCD Array,0
+2218,Kepler-385,c,Transit,15.163161,0.127,,,N/A,,0.271,N/A,1,0,1,N/A,15.212,Kepler-band,6326,1.09,1.13,41773,N/A,2014,Kepler CCD Array,0
+1682,Kepler-193,b,Transit,11.38848,0.106,,,N/A,,0.213,N/A,1,0,1,N/A,14.615,Kepler-band,6335,,1.15,41773,N/A,2014,Kepler CCD Array,0
+1683,Kepler-193,c,Transit,50.697494,0.286,,,N/A,,0.245,N/A,1,0,1,N/A,14.615,Kepler-band,6335,,1.15,41773,N/A,2014,Kepler CCD Array,0
+2023,Kepler-31,d,Transit,87.6451,0.4,,,6.8,Mass,0.348,N/A,1,0,1,2100,15.237,Kepler-band,6340,1.21,1.22,42453,N/A,2014,Kepler CCD Array,0
+1929,Kepler-279,b,Transit,12.309681,0.112,,,N/A,,0.323,N/A,1,0,1,N/A,13.659,Kepler-band,6363,1.1,1.75,41773,N/A,2014,Kepler CCD Array,0
+2236,Kepler-394,b,Transit,8.005013,0.083,,,N/A,,0.143,N/A,1,0,1,N/A,14.79,Kepler-band,6402,1.11,1.13,41773,N/A,2014,Kepler CCD Array,0
+2237,Kepler-394,c,Transit,12.130686,0.11,,,N/A,,0.148,N/A,1,0,1,N/A,14.79,Kepler-band,6402,1.11,1.13,41773,N/A,2014,Kepler CCD Array,0
+2289,Kepler-419,b,Transit,69.7546,0.37,0.833,88.95,2.5,Mass,0.96,N/A,1,0,1,N/A,13.005,Kepler-band,6430,1.39,1.74,41815,N/A,2014,Kepler CCD Array,0
+2051,Kepler-320,b,Transit,8.371554,0.085,,,N/A,,0.102,N/A,1,0,1,N/A,13.474,Kepler-band,6435,,1.11,41773,N/A,2014,Kepler CCD Array,0
+2052,Kepler-320,c,Transit,17.934937,0.142,,,N/A,,0.122,N/A,1,0,1,N/A,13.474,Kepler-band,6435,,1.11,41773,N/A,2014,Kepler CCD Array,0
+2188,Kepler-372,b,Transit,6.849692,0.075,,,N/A,,0.121,N/A,1,0,1,N/A,14.881,Kepler-band,6509,1.15,1.14,41773,N/A,2014,Kepler CCD Array,0
+2190,Kepler-372,d,Transit,30.092568,0.201,,,N/A,,0.151,N/A,1,0,1,N/A,14.881,Kepler-band,6509,1.15,1.14,41773,N/A,2014,Kepler CCD Array,0
+2189,Kepler-372,c,Transit,20.053763,0.154,,,N/A,,0.186,N/A,1,0,1,N/A,14.881,Kepler-band,6509,1.15,1.14,41773,N/A,2014,Kepler CCD Array,0
+2107,Kepler-340,b,Transit,14.844387,0.134,,,N/A,,0.226,N/A,1,0,1,N/A,12.345,Kepler-band,6620,2.11,1.85,41773,N/A,2014,Kepler CCD Array,0
+2108,Kepler-340,c,Transit,22.824669,0.178,,,N/A,,0.301,N/A,1,0,1,N/A,12.345,Kepler-band,6620,2.11,1.85,41773,N/A,2014,Kepler CCD Array,0
+2343,Kepler-452,b,Transit,384.843,1.046,,89.806,N/A,,0.145,N/A,1,0,1,N/A,13.426,Kepler-band,5757,1.04,1.11,42208,265,2015,Kepler CCD Array,0
+677,K2-18,b,Transit,32.94488,0.1491,,,N/A,,0.2,N/A,0,1,1,34,13.496,V (Johnson),3503,0.41,0.39,42201,272,2015,Kepler CCD Array,0
+708,K2-9,b,Transit,18.4498,0.091,,87.983,N/A,,0.201,N/A,0,1,1,110,15.63,V (Johnson),3390,0.3,0.31,42390,314,2015,Kepler CCD Array,0
+682,K2-21,c,Transit,15.5012,0.1026,,89.08,N/A,,0.171,5.4,0,1,1,65,12.85,V (Johnson),4043,0.64,0.6,42265,420,2015,Kepler CCD Array,0
+2306,Kepler-430,c,Transit,110.979,0.4757,,,N/A,,0.16,N/A,1,0,1,N/A,13.848,Kepler-band,5884,1.17,1.49,41962,458,2015,Kepler CCD Array,0
+676,K2-17,b,Transit,17.96753,0.119,,,N/A,,0.199,N/A,0,1,1,134,13.519,V (Johnson),4320,0.71,0.66,42201,487,2015,Kepler CCD Array,0
+672,K2-14,b,Transit,8.36802,0.0627,,,N/A,,0.429,N/A,0,1,1,219,16.31,V (Johnson),3789,0.47,0.45,42201,488,2015,Kepler CCD Array,0
+681,K2-21,b,Transit,9.32414,0.0731,,88.3,N/A,,0.142,2.7,0,1,1,65,12.85,V (Johnson),4043,0.64,0.6,42265,500,2015,Kepler CCD Array,0
+704,K2-5,c,Transit,10.93406,0.0783,,,N/A,,0.171,N/A,0,1,1,N/A,14.912,V (Johnson),4102,0.53,0.52,42201,511,2015,Kepler CCD Array,0
+671,K2-13,b,Transit,39.91488,0.2114,,,N/A,,0.169,N/A,0,1,1,290,12.901,V (Johnson),5698,0.8,0.78,42201,511,2015,Kepler CCD Array,0
+675,K2-16,c,Transit,19.07536,0.122,,,N/A,,0.191,N/A,0,1,1,324,14.648,V (Johnson),4761,0.67,0.64,42201,523,2015,Kepler CCD Array,0
+702,K2-4,b,Transit,10.00329,0.0777,,,N/A,,0.211,N/A,0,1,1,N/A,14.907,V (Johnson),4197,0.63,0.6,42201,563,2015,Kepler CCD Array,0
+705,K2-6,b,Transit,30.94191,0.1898,,,N/A,,0.223,N/A,0,1,1,N/A,12.654,V (Johnson),5850,0.97,0.96,42201,615,2015,Kepler CCD Array,0
+703,K2-5,b,Transit,5.73491,0.0509,,,N/A,,0.171,N/A,0,1,1,N/A,14.912,V (Johnson),4102,0.53,0.52,42201,634,2015,Kepler CCD Array,0
+706,K2-7,b,Transit,28.67992,0.1814,,,N/A,,0.238,N/A,0,1,1,N/A,13.213,V (Johnson),5772,0.97,0.96,42201,651,2015,Kepler CCD Array,0
+2305,Kepler-430,b,Transit,35.968,0.2244,,,N/A,,0.29,N/A,1,0,1,N/A,13.848,Kepler-band,5884,1.17,1.49,41962,667,2015,Kepler CCD Array,0
+673,K2-15,b,Transit,11.8104,0.091,,,N/A,,0.221,N/A,0,1,1,437,14.663,V (Johnson),5131,0.72,0.68,42201,676,2015,Kepler CCD Array,0
+707,K2-8,b,Transit,10.35176,0.0856,,,N/A,,0.265,N/A,0,1,1,N/A,14.609,V (Johnson),4890,0.79,0.74,42201,691,2015,Kepler CCD Array,0
+674,K2-16,b,Transit,7.62067,0.0662,,,N/A,,0.19,N/A,0,1,1,324,14.648,V (Johnson),4761,0.67,0.64,42201,710,2015,Kepler CCD Array,0
+669,K2-11,b,Transit,39.93767,0.2257,,,N/A,,0.674,N/A,0,1,1,2019,13.386,V (Johnson),5433,1.35,5.15,42201,734,2015,Kepler CCD Array,0
+2309,Kepler-431,d,Transit,11.922,0.1045,,,N/A,,0.1,N/A,1,0,1,N/A,11.973,Kepler-band,6004,1.07,1.09,41962,856,2015,Kepler CCD Array,0
+2308,Kepler-431,c,Transit,8.703,0.0847,,,N/A,,0.06,N/A,1,0,1,N/A,11.973,Kepler-band,6004,1.07,1.09,41962,951,2015,Kepler CCD Array,0
+2313,Kepler-434,b,Transit,12.8747099,0.1143,0.131,86.46,2.86,Mass,1.13,2.4,1,0,1,1240,14.517,Kepler-band,5977,1.2,1.38,42018,1000,2015,Kepler CCD Array,0
+670,K2-12,b,Transit,8.28212,0.0802,,,N/A,,0.208,N/A,0,1,1,294,12.258,V (Johnson),5800,1.01,1.01,42201,1003,2015,Kepler CCD Array,0
+2307,Kepler-431,b,Transit,6.803,0.0719,,,N/A,,0.068,N/A,1,0,1,N/A,11.973,Kepler-band,6004,1.07,1.09,41962,1032,2015,Kepler CCD Array,0
+2314,Kepler-435,b,Transit,8.6001536,0.0948,0.114,85.51,0.84,Mass,1.99,0.131,1,0,1,2070,13.643,Kepler-band,6161,1.54,3.21,42018,1729,2015,Kepler CCD Array,0
+2312,Kepler-433,b,Transit,5.33408384,0.0679,0.119,89.21,2.82,Mass,1.45,1.13,1,0,1,1870,14.463,Kepler-band,6360,1.46,2.26,42018,1776,2015,Kepler CCD Array,0
+188,HAT-P-56,b,Transit,2.7908327,0.0423,0.246,82.13,2.18,Mass,1.466,0.86,0,1,1,310.5,10.908,V (Johnson),6566,1.3,1.43,42208,1840,2015,2K CCD Sensor,0
+683,K2-22,b,Transit,0.381078,0.0088,,,1.4,Mass,0.223,N/A,0,1,1,225,15.597,V (Johnson),3830,0.6,0.57,42292,2100,2015,Kepler CCD Array,0
+2318,Kepler-438,b,Transit,35.23319,0.166,0.03,89.86,N/A,,0.1,N/A,1,0,1,145,14.467,Kepler-band,3748,0.54,0.52,42010,N/A,2015,Kepler CCD Array,0
+2321,Kepler-440,b,Transit,101.11141,0.242,0.34,89.93,N/A,,0.17,N/A,1,0,1,261,15.134,Kepler-band,4134,0.57,0.56,42010,N/A,2015,Kepler CCD Array,0
+2322,Kepler-441,b,Transit,207.2482,0.64,0.1,89.97,N/A,,0.15,N/A,1,0,1,284,15.142,Kepler-band,4340,0.57,0.55,42010,N/A,2015,Kepler CCD Array,0
+2323,Kepler-442,b,Transit,112.3053,0.409,0.04,89.94,N/A,,0.12,N/A,1,0,1,342,14.976,Kepler-band,4402,0.61,0.6,42010,N/A,2015,Kepler CCD Array,0
+2317,Kepler-437,b,Transit,66.65062,0.288,0.02,89.9,N/A,,0.19,N/A,1,0,1,417,14.352,Kepler-band,4551,0.71,0.68,42010,N/A,2015,Kepler CCD Array,0
+2315,Kepler-436,b,Transit,64.00205,0.339,0.19,89.93,N/A,,0.24,N/A,1,0,1,618,15.856,Kepler-band,4651,0.73,0.7,42010,N/A,2015,Kepler CCD Array,0
+2324,Kepler-443,b,Transit,177.6693,0.495,0.11,89.94,N/A,,0.21,N/A,1,0,1,779,15.891,Kepler-band,4723,0.74,0.71,42010,N/A,2015,Kepler CCD Array,0
+2310,Kepler-432,b,Transit,52.501129,0.301,0.5134,88.17,5.41,Mass,1.145,4.46,1,0,1,870,12.465,V (Johnson),4995,1.32,4.06,42124,N/A,2015,Kepler CCD Array,0
+2325,Kepler-444,b,Transit,3.6001053,0.04178,0.16,88,N/A,,0.036,N/A,1,0,1,35.7,8.88,V (Johnson),5046,0.76,0.75,42033,N/A,2015,Kepler CCD Array,0
+2326,Kepler-444,c,Transit,4.5458841,0.04881,0.31,88.2,N/A,,0.044,N/A,1,0,1,35.7,8.88,V (Johnson),5046,0.76,0.75,42033,N/A,2015,Kepler CCD Array,0
+2327,Kepler-444,d,Transit,6.189392,0.06,0.18,88.16,N/A,,0.047,N/A,1,0,1,35.7,8.88,V (Johnson),5046,0.76,0.75,42033,N/A,2015,Kepler CCD Array,0
+2328,Kepler-444,e,Transit,7.743493,0.0696,0.1,89.13,N/A,,0.049,N/A,1,0,1,35.7,8.88,V (Johnson),5046,0.76,0.75,42033,N/A,2015,Kepler CCD Array,0
+2329,Kepler-444,f,Transit,9.740486,0.0811,0.29,87.96,N/A,,0.066,N/A,1,0,1,35.7,8.88,V (Johnson),5046,0.76,0.75,42033,N/A,2015,Kepler CCD Array,0
+678,K2-19,b,Transit,7.921101,0.0762,0.119,88.87,0.13844,Mass,0.666,0.492,0,1,1,291,13.002,V (Johnson),5390,0.95,0.91,42327,N/A,2015,Kepler CCD Array,0
+679,K2-19,c,Transit,11.90727,0.1001,,88.92,0.05003,Mass,0.402,0.94,0,1,1,291,13.002,V (Johnson),5390,0.95,0.91,42327,N/A,2015,Kepler CCD Array,0
+2319,Kepler-439,b,Transit,178.1396,0.563,0.03,89.95,N/A,,0.2,N/A,1,0,1,693,14.56,Kepler-band,5431,0.88,0.87,42010,N/A,2015,Kepler CCD Array,0
+2336,Kepler-447,b,Transit,7.79430132,0.0769,0.123,86.55,1.37,Mass,1.65,0.4,1,0,1,N/A,12.394,Kepler-band,5493,1,1.05,42054,N/A,2015,Kepler CCD Array,0
+2344,Kepler-453,b,Transit,240.503,0.7903,0.0359,89.443,0.00063,Mass,0.553,N/A,1,0,1,N/A,13.552,Kepler-band,5527,0.94,0.83,42194,N/A,2015,Kepler CCD Array,0
+2345,Kepler-454,b,Transit,10.57375339,0.0954,0,87.09,0.02152,Mass,0.211,2.76,1,0,1,N/A,11.57,V (Johnson),5701,1.03,1.07,42341,N/A,2015,Kepler CCD Array,0
+730,KOI-12,b,Transit,17.8552333,0.151,0.72,88.95,10,Mass,1.43,N/A,1,0,1,426,11.353,Kepler-band,6820,1.45,1.63,42138,N/A,2015,Kepler CCD Array,0
+692,K2-3,c,Transit,24.6491,0.1405,0.04,89.7,0.00661,Mass,0.147,1.82,0,1,1,42,12.17,V (Johnson),N/A,0.61,0.55,42292,N/A,2015,Kepler CCD Array,0
+691,K2-3,b,Transit,10.05429,0.0775,0.06,89.59,0.02643,Mass,0.185,4.32,0,1,1,42,12.17,V (Johnson),N/A,0.61,0.55,42292,N/A,2015,Kepler CCD Array,0
+693,K2-3,d,Transit,44.5705,0.2086,0.045,89.79,0.03492,Mass,0.136,17.5,0,1,1,42,12.17,V (Johnson),N/A,0.61,0.55,42292,N/A,2015,Kepler CCD Array,0
+1609,Kepler-167,e,Transit,1071.23228,1.89,0.062,89.976,N/A,,0.906,N/A,1,0,1,330,14.023,Kepler-band,4890,0.77,0.73,42439,131,2016,Kepler CCD Array,0
+2456,Kepler-539,b,Transit,125.63243,0.4988,0.39,89.845,0.97,Mass,0.747,2.9,1,0,1,313,12.391,Kepler-band,5820,1.05,0.95,42500,388,2016,Kepler CCD Array,0
+687,K2-26,b,Transit,14.5665,0.0962,,88.4,N/A,,0.238,N/A,0,1,1,93,14.53,V (Johnson),3785,0.56,0.52,42390,430,2016,Kepler CCD Array,0
+1608,Kepler-167,d,Transit,21.803855,0.1405,0.12,89.352,N/A,,0.107,N/A,1,0,1,330,14.023,Kepler-band,4890,0.77,0.73,42439,536,2016,Kepler CCD Array,0
+689,K2-28,b,Transit,2.260455,0.0214,0,88.9,N/A,,0.207,N/A,0,1,1,53,16.061,V (Johnson),3214,0.26,0.29,42425,568,2016,Kepler CCD Array,0
+685,K2-24,c,Transit,42.3633,0.247,0,89.76,0.08495,Mass,0.698,0.31,0,1,1,181,11.28,V (Johnson),5743,1.12,1.21,42411,606,2016,Kepler CCD Array,0
+684,K2-24,b,Transit,20.8851,0.154,0,89.25,0.06607,Mass,0.507,0.63,0,1,1,181,11.28,V (Johnson),5743,1.12,1.21,42411,767,2016,Kepler CCD Array,0
+699,K2-33,b,Transit,5.42513,0.0409,0,86.9,3.6,Mass,0.514,N/A,0,1,1,139,15.714,V (Johnson),3410,0.31,1.1,42544,850,2016,Kepler CCD Array,0
+694,K2-30,b,Transit,4.098503,0.04839,0,86.92,0.579,Mass,1.039,0.64,0,1,1,278,13.53,V (Johnson),5425,0.9,0.84,42474,1092,2016,Kepler CCD Array,0
+690,K2-29,b,Transit,3.2588321,0.04217,0.066,86.656,0.73,Mass,1.19,0.53,0,1,1,185,12.526,V (Johnson),5358,0.94,0.86,42453,1171,2016,Kepler CCD Array,0
+3160,WASP-157,b,Transit,3.9516205,0.0529,0,84.93,0.574,Mass,1.065,0.64,0,1,1,N/A,12.91,V (Johnson),5838,1.26,1.13,42544,1339,2016,iKon-L CCD Camera,0
+700,K2-34,b,Transit,2.995607,0.04419,0,82.06,1.76,Mass,1.35,0.94,0,1,1,377,11.548,V (Johnson),6132,1.28,1.53,42524,1742,2016,Kepler CCD Array,0
+701,K2-39,b,Transit,4.60543,0.062,0,80.39,0.15826,Mass,0.732,0.5,0,1,1,N/A,10.832,V (Johnson),4881,1.53,3.88,42524,N/A,2016,Kepler CCD Array,0
+1600,Kepler-1647,b,Transit,1107.5923,2.7205,0.0581,90.097,1.51968,Mass,1.059,N/A,1,0,1,N/A,13.545,Kepler-band,6210,1.22,1.79,42509,N/A,2016,Kepler CCD Array,0
+,Pluto,,,N/A,39.5294,,,N/A,,0.017,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Mercury,,,N/A,0.3871,,,N/A,,0.035,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Mars,,,N/A,1.5273,,,N/A,,0.048,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Venus,,,N/A,0.7233,,,N/A,,0.087,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Earth,,,N/A,1,,,N/A,,0.0892,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Neptune,,,N/A,30.0611,,,N/A,,0.352,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Uranus,,,N/A,19.1914,,,N/A,,0.363,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Saturn,,,N/A,9.5388,,,N/A,,0.833,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
+,Jupiter,,,N/A,5.2028,,,N/A,,1,N/A,,,,N/A,,,5778,,,,N/A,N/A,,1
