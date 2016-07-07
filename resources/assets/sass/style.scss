@@ -1,0 +1,186 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+body {
+	position: relative;
+	padding-top: 40px;
+	background-color: #f2f2f2;
+	color: #4e4e56;
+}
+
+.navbar-default {
+  background-color: #4e4e56;
+  border-width: 0px;
+}
+	.navbar-default .navbar-brand {
+	  color: #c45953;
+	}
+	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	  color: #c45953;
+	}
+	.navbar-default .navbar-text {
+	  color: #f2f2f2;
+	}
+	.navbar-default .navbar-nav > li > a {
+	  color: #f2f2f2;
+	}
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	  color: #c45953;
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	  color: #c45953;
+	  background-color: #2e2e33;
+	}
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	  color: #c45953;
+	  background-color: #2e2e33;
+	}
+	.navbar-default .navbar-toggle {
+	  border-color: #2e2e33;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	  background-color: #2e2e33;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	  background-color: #f2f2f2;
+	}
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+	  border-color: #f2f2f2;
+	}
+	.navbar-default .navbar-link {
+	  color: #f2f2f2;
+	}
+	.navbar-default .navbar-link:hover {
+	  color: #c45953;
+	}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f2f2f2;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c45953;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c45953;
+    background-color: #2e2e33;
+  }
+  body {
+	padding-top: 260px;
+  }
+}
+
+h1 {
+	font-family: 'Yellowtail', cursive;
+	font-size: 5em !important;
+}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	h3 {
+
+	}
+
+	h4 {
+		font-weight: bold;
+	}
+
+hr {
+	border-color: #c45953;
+}
+
+a:link, a:visited {
+	color: #c45953;
+	text-decoration: none;
+}
+a:hover {
+	color: #c45953;
+	text-decoration: underline;
+}
+
+.jumbotron {
+	background-color: #4e4e56;
+	color: #c45953;
+}
+
+div.heading {
+	text-align: center;
+}
+
+@media (max-width: $screen-sm) {
+    div.heading {
+	font-size: 10em;
+};}
+
+@media (max-width: $screen-xs) {
+    div.heading {
+	font-size: 20em;
+};}
+
+.heading.contact {
+	color: #f2f2f2;
+}
+
+.footer {
+	background-color: #4e4e56;
+	color: #f2f2f2;
+	padding: 3% 0% 3% 0%;
+	margin-top: 2.5%;
+}
+
+	.contactGlyph {
+		font-size:1.25em;
+		text-align: center;
+
+	}
+
+	.contactLines {
+		font-size: 1.25em;
+	}	
+	.footer a:link, .footer a:visited {
+		color: #f2f2f2;
+		text-decoration: none;
+	}
+	.footer a:hover {
+		color: #c45953;
+		text-decoration: underline;
+	}
+
+.row {
+	display: flex;
+    align-items: center;
+}
+
+a.anchor {
+	display: block; 
+	position: relative; 
+	top: -250px; 
+	visibility: hidden;
+}
+
+/* Skills Chart*/
+.yLabel text {
+	  fill: #f2f2f2;
+}
+  
+.xLabel text {
+  fill: black;
+}
+
+.yLabel text, .xLabel text {
+  alignment-baseline: central;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 12px;
+  
+  cursor : default;
+  pointer-events: none;
+
+	@include user-select(none);  
+}
+
+
+
+
