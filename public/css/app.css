@@ -8029,6 +8029,12 @@ body {
   width: 1600px;
   margin: auto auto; }
 
+.container {
+  width: 80%; }
+
+.jumbotron {
+  min-width: 1800px; }
+
 #xAxisTitle {
   font-size: 16px;
   font-weight: bold; }
@@ -8091,16 +8097,5 @@ table, th, td {
 
 .label {
   fill: white; }
-
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
-/*# sourceMappingURL=exoplanetViz.css.map */
 
 /*# sourceMappingURL=app.css.map */
