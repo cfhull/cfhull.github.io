@@ -1,0 +1,16 @@
+@import "_variables";
+
+.jumbotron {
+	background-color: $gray;
+	color: $red;
+	margin-top: 50px;
+
+	h1 {
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+
+	a {
+		color: $offwhite;
+		text-decoration: underline;
+	}
+}
