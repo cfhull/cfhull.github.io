@@ -49,7 +49,7 @@ $(document).ready(function(){
 
 	
 	// import csv data
-	d3.csv("data/data.csv", type, function(data) {
+	d3.csv("public/data/data.csv", type, function(data) {
 		
 		// set scales
 		var xScale = d3.scale.linear()
