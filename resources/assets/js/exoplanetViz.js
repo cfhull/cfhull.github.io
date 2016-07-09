@@ -34,9 +34,9 @@ $(document).ready(function(){
 			.range(["#FF0000", "#FFA500", "#FFFF00", "#FFFFFF", "#CCCCFF", "#6666FF", "#0000FF"]); // red, orange, yellow-white, white, blue-white, blue, blue
 		
 		var planetTempScale = d3.scale.linear()
-			.domain([d3.min(data, function(d){ return d.pl_eqt; }), 270, 314, 500, 1500, d3.max(data, function(d){ 
+			.domain([d3.min(data, function(d){ return d.pl_eqt; }), 184,294, 330, 400, d3.max(data, function(d){ 
 				return d.pl_eqt; })])
-			.range(["#0000FF","#00FF00", "#FFFF00","#FF8000", "#FF0000", "#330000"]); // blue, green, yellow, orange, red, dark red
+			.range(["#78D5E3","#00FFAA","#00CC00", "#CCF000", "#CC6900", "#800000"]); // super-blue, blue with very little green, green, brown with very little green, brown, red
 
 		// create tooltips
 		var tip = d3.tip()
@@ -74,7 +74,7 @@ $(document).ready(function(){
 		// set zoom behavior	
 		var zoom = d3.behavior.zoom()
 			.x(xScale)
-			.translate([400, 0]).scale(25);
+			.translate([125, 0]).scale(30);
 
 		 // create and get svg element
 		var svg = d3.select("div#exoplanetViz").append("svg")
@@ -224,15 +224,15 @@ $(document).ready(function(){
 				}
 			})
 			.attr("r", function (d, i) { 
-				return exoplanetRadiusScale(d.pl_radj);
+				return 0;
 			})
-			.attr("visibility", "hidden");
 
-		planets.transition().delay(function(d, i) { //!!! change transition to come from back (radius starts at zero and ends at true value)
-				return i * 5; 
-			})
-			.attr("visibility", "visible");
-	
+		planets.transition() 
+			.duration(2000)
+			.attr("r", function (d) {
+				return exoplanetRadiusScale(d.pl_radj);
+			});
+
 		planets.on("mouseenter", function(d) {
 			d3.select(this).style("stroke", "blue")
 				.style("stroke-width", 2);
@@ -253,32 +253,35 @@ $(document).ready(function(){
 			tip.hide(d);
         });
 
-        // create planet temp legend
+        // create planet temp legend		
+		var legendHeight = height / 4;
+		var legendIconRadius = legendHeight / 9;
+
 		var legendContainer = container.append("g")
 			.attr("id", "planetTempLegend")
-			.attr("transform", "translate(0, " + 50 + ")");
+			.attr("transform", "translate(0, " + (legendIconRadius+32) + ")");
 
 		legendContainer.append("rect")
 			.style("fill", "black")
 			.style("stroke", "white")
-			.attr("width", 250)
-			.attr("height", height/3 + 5)
-			.attr("transform", "translate(0, " + -20 + ")");
+			.attr("width", 200)
+			.attr("height", legendHeight)
+			.attr("transform", "translate(0, " + (-legendIconRadius-32) + ")");
 
 		var planetTempLegend = d3.legend.color()
-			.labels(["BRRRRR IT'S COLD", "Ahh that's nice... ", "Is it hot in here or is that just me", "Someone turn on the A/C", "Water...need...water", "OMG IT BURNS HELP!!!!!"])
+			.labels(["0 Kelvin (K)", "294 K (Earth Temperature)", "2550 K"])
 			.shape('circle')
-			.shapeRadius(height/36)
-	      	.shapePadding(0)
-			.cells([0, 184, 330, 500, 1500, 2500])
+			.shapeRadius(legendIconRadius)
+	      	.shapePadding(5)
+			.cells([0, 294, 2550])
 			.orient('vertical')
 			.scale(planetTempScale);
 
 		container.select("#planetTempLegend")
 			.append("text")
 				.attr("class", "legendTitle")
-				.attr("transform", "translate(" + 5 + ", " + -30 + ")")
-				.text("Exoplanet Effective Temperature Color Scale");
+				.attr("transform", "translate(" + 5 + ", " + ((-legendIconRadius)-16) + ")")
+				.text("Exoplanet Temperature");
 
 		container.select("#planetTempLegend")
 			.call(planetTempLegend);
@@ -300,7 +303,7 @@ $(document).ready(function(){
 			.append("text")
 				.attr("class", "legendTitle")
 				.attr("transform", "translate(" + 5 + "" + -5 + ")")
-				.text("Host Star Spectral Classification and Temperature Color Scale");
+				.text("Host Star Spectral Classification and Temperature");
 
 		container.select("#stellerTempLegend")
 			.call(stellerTempLegend);
@@ -318,8 +321,12 @@ $(document).ready(function(){
 	// sets the value field of the csv data to be an integer instead of a string
 	function type(d){
 		d.pl_orbsmax = +d.pl_orbsmax;
+		d.pl_orbsper = +d.pl_orbsper;
 		d.pl_radj    = +d.pl_radj;
 		d.pl_eqt	 = +d.pl_eqt;
+		d.st_dist	 = +d.st_dist;
+		d.st_teff	 = +d.st_teff;
+		d.pl_disc	 = +d.pl_disc;
 		return d;
 	}
 });

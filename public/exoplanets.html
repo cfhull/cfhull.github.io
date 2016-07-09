@@ -5,7 +5,7 @@
 		<title>Exoplanet Visualization</title>
 
 		<!-- Local CSS -->
-		<link href="css/app.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		
 		<!-- JS Libraries -->
 		<script src="js/lib/jquery.min.js"></script>
@@ -21,7 +21,7 @@
 	<body>
 		<!-- Fixed navbar -->
 		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="container">
+				<div class="container container-exoplanets">
 						<div class="navbar-header">
 								<a class="navbar-brand active" href="index.html">Exoplanet Visualization</a>
 						</div>
@@ -30,17 +30,37 @@
 
 		<!-- Body of web page goes inside container tags -->
 
-		<div class="container">
+		<div class="container container-exoplanets">
 
-				<!--Jumbotron header -->
-				<section id="jumbotron">
-						<div class="jumbotron">
-								<div class="row">
-										<div class="col-md-12">
-												<div id="exoplanetViz"></div>
-										</div>
-								</div>
+		<!--Jumbotron header -->
+			<section id="jumbotron">
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="exoplanetViz"></div>
 						</div>
-				</section>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Description -->
+			<section id="Description">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div id="exoplanetDescription">
+							<p>The above visualization depicts exoplanets discovered through the Kepler and K2 missions, along with solar system planets for reference. Feel free to zoom in, zoom out, drag, and hover to look at the planets in greater detail.</p>
+							<p>How to read this:</p>
+							<ul>
+								<li>The horizontal axis represents the planet’s orbit semi-major axis, which is the maximum distance between the planet and its host star. The units are in AU (astronomical units), which is defined as the average distance between the Earth and the Sun. The size of the planet is with respect to the planet’s radius.</li>
+								<li>The border of the planet shows the stellar class (and therefore, temperature), of the planet’s host star, with the color scale roughly corresponding to the color of the star.</li>
+								<li>The fill of the planet shows the planet’s effective temperature when available. Planets with green fills are those with effective temperature values between the coldest and hottest recorded temperatures on Earth. While planet temperature data is mostly unavailable (hence all the black fills), I hope to eventually use a rough estimation scheme for the remaining planets.</li>
+							</ul>
+							<p>This visualization has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
 	</body>
 </html>
