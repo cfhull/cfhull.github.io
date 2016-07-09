@@ -10,7 +10,7 @@ var directories = {
 }
 
 elixir(function(mix) {
-	mix.sass(['style.scss', 'exoplanetViz.scss']);
+	mix.sass('style.scss');
 	
 	for (directory in directories) {
 		mix.copy(directory, directories[directory]);

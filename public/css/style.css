@@ -8006,34 +8006,9 @@ button.close {
   cursor: default;
   pointer-events: none; }
 
-body {
-  position: relative;
-  padding-top: 40px;
-  background-color: #f2f2f2;
-  color: #4e4e56; }
-  body div.heading {
-    text-align: center; }
-  body .row {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center; }
-  body hr {
-    border-color: #da645d; }
-  body a {
-    color: #da645d; }
-    body a:hover {
-      color: #da645d; }
-
 #exoplanetViz {
   width: 1600px;
   margin: auto auto; }
-
-.container {
-  width: 80%; }
-
-.jumbotron {
-  min-width: 1800px; }
 
 #xAxisTitle {
   font-size: 16px;
@@ -8098,4 +8073,25 @@ table, th, td {
 .label {
   fill: white; }
 
-/*# sourceMappingURL=app.css.map */
+body {
+  position: relative;
+  padding-top: 40px;
+  background-color: #f2f2f2;
+  color: #4e4e56; }
+  body div.heading {
+    text-align: center; }
+  body .row {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center; }
+  body hr {
+    border-color: #da645d; }
+  body a {
+    color: #da645d; }
+    body a:hover {
+      color: #da645d; }
+  body .container-exoplanets {
+    width: 1750px; }
+
+/*# sourceMappingURL=style.css.map */
