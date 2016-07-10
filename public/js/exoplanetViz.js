@@ -43,16 +43,30 @@ $(document).ready(function(){
           		.attr('class', 'd3-tip')
           		.offset([-10, 0]) 
          	 	.html(function(d) {
-            			return "<h1>" + d.pl_hostname.concat(d.pl_letter) + "</h1>"
-						+ "<dl>"
-							+ "<dt>Orbit Distance</dt><dd>" + d.pl_orbsmax + "</dd>"
-              + "<dt>Orbital Period</dt><dd>" + d.pl_orbper + "</dd>"
-							+ "<dt>Radius</dt><dd>" + d.pl_radj + "</dd>"
-              + "<dt>Planet Equilibrium Temp</dt><dd>" + d.pl_eqt + "</dd>"                    
-              + "<dt>Stellar Distance</dt><dd>" + d.st_dist + "</dd>"
-							+ "<dt>Star Temp</dt><dd>" + d.st_teff + "</dd>"
-              + "<dt>Year Discovered</dt><dd>" + d.pl_disc + "</dd>"
-						+ "</dl>";
+					var html;
+
+					if (d.solarsystemflag == 1) {
+						return "<h1>" + d.pl_hostname.concat(d.pl_letter) + "</h1>"
+							+ "<dl>"
+								+ "<dt>Orbit Distance</dt><dd>" + d.pl_orbsmax + "</dd>"
+								+ "<dt>Orbital Period</dt><dd>" + d.pl_orbper + "</dd>"
+								+ "<dt>Radius</dt><dd>" + d.pl_radj + "</dd>"
+								+ "<dt>Planet Surface Temp</dt><dd>" + d.pl_eqt + "</dd>"                    
+								+ "<dt>Star Temp</dt><dd>" + d.st_teff + "</dd>"
+								+ "<dt>Year Discovered</dt><dd>" + d.pl_disc + "</dd>"
+							+ "</dl>";
+					}else{
+						return "<h1>" + d.pl_hostname.concat(d.pl_letter) + "</h1>"
+							+ "<dl>"
+								+ "<dt>Orbit Distance</dt><dd>" + d.pl_orbsmax + "</dd>"
+								+ "<dt>Orbital Period</dt><dd>" + d.pl_orbper + "</dd>"
+								+ "<dt>Radius</dt><dd>" + d.pl_radj + "</dd>"
+								+ "<dt>Planet Equilibrium Temp</dt><dd>" + d.pl_eqt + "</dd>"                    
+								+ "<dt>Stellar Distance</dt><dd>" + d.st_dist + "</dd>"
+								+ "<dt>Star Temp</dt><dd>" + d.st_teff + "</dd>"
+								+ "<dt>Year Discovered</dt><dd>" + d.pl_disc + "</dd>"
+							+ "</dl>";
+					}
           		})
 
 		// set axes
@@ -60,7 +74,7 @@ $(document).ready(function(){
 			.scale(xScale)
 			.orient("bottom")
 			.tickFormat(function (d) { 
-				var formatter = d3.format("0");
+				var formatter = d3.format("");
          		if (d < 0){
          			return '';
          		}
@@ -326,7 +340,6 @@ $(document).ready(function(){
 		d.pl_eqt	 = +d.pl_eqt;
 		d.st_dist	 = +d.st_dist;
 		d.st_teff	 = +d.st_teff;
-		d.pl_disc	 = +d.pl_disc;
 		return d;
 	}
 });
