@@ -1,0 +1,254 @@
+.yLabel text {
+	fill: #f2f2f2;
+}
+.xLabel text {
+	fill: black;
+}
+.yLabel text, .xLabel text {
+	alignment-baseline: central;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 12px;
+
+	cursor : default;
+	pointer-events: none
+}
+#exoplanetViz {
+	width: 1600px;
+	margin: auto auto; 
+}
+#xAxisTitle {
+	font-size: 16px;
+	font-weight: bold;
+}
+.axis text {
+	font: 10px sans-serif;
+	fill: white;
+}
+.axis path {
+	fill: white;
+}
+.axis line, .axis circle {
+	fill: none;
+	stroke: #777;
+	stroke-dasharray: 1,4;
+}
+.axis :last-of-type circle {
+	stroke: #333;
+	stroke-dasharray: none;
+}
+.line {
+	fill: none;
+	stroke: red;
+	stroke-width: 1.5px;
+}
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+	width: 300px;
+}
+h1 {
+	font: 20px;
+	text-align: center;
+}
+dt { 
+	display:block;
+	float:left;
+	width:200px;
+	text-align: right;
+}
+dt:after{
+	content: ":";
+	padding-right: 1em;
+}
+dd { 
+	display:block;
+}
+table, th, td {
+	border: 1px solid black;
+}
+.legendTitle {
+	fill: white;
+	font: 16px sans-serif;
+	font-weight: bold;
+}
+.label {
+	fill: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	padding: 0;
+  margin: 0;
+	background-color: #f2f2f2;
+	color: #4e4e56;
+  font-family: helvetica, sans-serif;
+}
+body div.heading {
+		text-align: center;
+	}
+body hr {
+    width: 60vw;
+    border: 0;
+    border-top: 1px solid #da645d;
+	}
+body a {
+		color: #da645d
+	}
+body a:hover {
+	color: #da645d;
+}
+body .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #4e4e56;
+    color: #f2f2f2;
+  }
+body .container-exoplanets {
+		width: 1750px;
+	}
+body .navbar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color: #4e4e56;
+    color: #da645d;
+  }
+body .navbar-header {
+      padding-left: 1em;
+    }
+body .navbar-sections {
+     display: flex;
+     align-items: center;
+     margin: 0;
+     height: 2em;
+    }
+body .navbar-sections li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        height: 100%;
+      }
+body .navbar-sections li a {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          padding: 0 1em;
+          text-decoration: none;
+          transition: all .2s linear
+        }
+body .navbar-sections li a:hover {
+	background-color: #da645d;
+	color: #4e4e56;
+}
+body section {
+    width: 60vw;
+  }
+body #summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    background-color: #4e4e56;
+    color: #da645d;
+    border-radius: 5px;
+  }
+body #summary .profile-pic-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5em 0;
+    }
+body #summary .profile-pic-container img {
+        width: 40%;
+        border: solid 2px #f2f2f2;
+        border-radius: 5px;
+      }
+body .resume-section {
+    display: flex;
+    align-items: center;
+  }
+body .resume-section-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 20%;
+      padding: 0 2em;
+    }
+body .resume-section-header .icon {
+        font-size: 7em 
+      }
+body .resume-section-header .icon.about-icon:before {
+	content: '\f007';
+}
+body .resume-section-header .icon.experience-icon:before {
+	content: '\f0b1';
+}
+body .resume-section-header .icon.education-icon:before {
+	content: '\f19d';
+}
+body .resume-section-header .icon.skills-icon:before {
+	content: '\f0ad';
+}
+body .resume-section-header h2 {
+        text-align: center;
+      }
+body .resume-section-body {
+      flex: 2;
+    }
+body .contact {
+    display: flex;
+  }
+body .contact-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 20%;
+      padding: 0 2em;
+    }
+body .contact .header-icon {
+        font-size: 7em
+      }
+body .contact .header-icon.icon-contact:before {
+	content: '\f2bb';
+}
+body .contact-body {
+      display: flex;
+      flex-direction: column;
+      width: 60vw;
+      flex: 2;
+    }
+body .contact-body a {
+        color: #f2f2f2
+
+      }
+body .contact-body a:hover {
+	color: #da645d;
+}
+body .contact-body .contact-item {
+        display: flex;
+        align-items: center;
+      }
+body .contact-body .contact-item span {
+          padding-right: 1em;
+          font-size: 2em;
+        }
+body .contact-body .contact-item .icon-telephone:before {
+          content: '\f095';
+        }
+body .contact-body .contact-item .icon-email:before {
+          content: '\f0e0';
+        }
+body .contact-body .contact-item .icon-linkedin:before {
+          content: '\f0e1';
+        }
+body .contact-body .contact-item .icon-github:before {
+          content: '\f09b';
+        }
+

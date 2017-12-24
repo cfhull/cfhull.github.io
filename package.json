@@ -1,20 +1,23 @@
 {
+  "scripts": {
+    "postcss": "postcss src/css/site.css -o public/site.css",
+    "scripts": "rollup -c",
+    "images": "cp src/images/* public",
+    "data": "cp src/data/* public",
+    "build": "npm run postcss; npm run scripts; npm run images; npm run data"
+  },
   "devDependencies": {
-    "bootstrap-sass": "^3.3.6",
-    "d3": "^3.5.17",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-bower": "0.0.13",
-    "gulp-postcss": "^6.1.1",
-    "gulp-ruby-sass": "^2.0.6",
-    "jquery": "^2.2.4",
-    "laravel-elixir": "^6.0.0-9",
-    "laravel-elixir-browserify": "^0.8.1"
+    "postcss-cli": "^4.1.1",
+    "postcss-import": "^11.0.0",
+    "precss": "^2.0.0",
+    "rollup": "^0.53.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
+    "d3": "^4.12.0",
     "d3-legend": "^1.0.0",
     "d3-svg-legend": "^1.12.0",
     "d3-tip": "^0.6.7",
-    "jquery": "^3.0.0"
+    "font-awesome": "^4.6.3"
   }
 }
