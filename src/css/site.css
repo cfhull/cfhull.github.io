@@ -155,18 +155,22 @@ body {
         font-size: 7em;
 
         &.about-icon:before {
+          font-family: FontAwesome; 
           content: '\f007';
         } 
 
         &.experience-icon:before {
+          font-family: FontAwesome; 
           content: '\f0b1';
         } 
 
         &.education-icon:before {
+          font-family: FontAwesome; 
           content: '\f19d';
         } 
 
         &.skills-icon:before {
+          font-family: FontAwesome; 
           content: '\f0ad';
         } 
       }
@@ -196,6 +200,7 @@ body {
         font-size: 7em;
 
         &.icon-contact:before {
+          font-family: FontAwesome;
           content: '\f2bb';
         }
       }
@@ -225,18 +230,22 @@ body {
         }
         
         .icon-telephone:before {
+          font-family: FontAwesome; 
           content: '\f095';
         }
 
         .icon-email:before {
+          font-family: FontAwesome; 
           content: '\f0e0';
         }
 
         .icon-linkedin:before {
+          font-family: FontAwesome; 
           content: '\f0e1';
         }
 
         .icon-github:before {
+          font-family: FontAwesome; 
           content: '\f09b';
         }
       }

@@ -209,15 +209,19 @@ body .resume-section-header .icon {
         font-size: 7em 
       }
 body .resume-section-header .icon.about-icon:before {
+	font-family: FontAwesome;
 	content: '\f007';
 }
 body .resume-section-header .icon.experience-icon:before {
+	font-family: FontAwesome;
 	content: '\f0b1';
 }
 body .resume-section-header .icon.education-icon:before {
+	font-family: FontAwesome;
 	content: '\f19d';
 }
 body .resume-section-header .icon.skills-icon:before {
+	font-family: FontAwesome;
 	content: '\f0ad';
 }
 body .resume-section-header h2 {
@@ -240,6 +244,7 @@ body .contact .header-icon {
         font-size: 7em
       }
 body .contact .header-icon.icon-contact:before {
+	font-family: FontAwesome;
 	content: '\f2bb';
 }
 body .contact-body {
@@ -264,15 +269,19 @@ body .contact-body .contact-item span {
           font-size: 2em;
         }
 body .contact-body .contact-item .icon-telephone:before {
+          font-family: FontAwesome; 
           content: '\f095';
         }
 body .contact-body .contact-item .icon-email:before {
+          font-family: FontAwesome; 
           content: '\f0e0';
         }
 body .contact-body .contact-item .icon-linkedin:before {
+          font-family: FontAwesome; 
           content: '\f0e1';
         }
 body .contact-body .contact-item .icon-github:before {
+          font-family: FontAwesome; 
           content: '\f09b';
         }
 
