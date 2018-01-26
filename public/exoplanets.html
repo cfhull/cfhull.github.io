@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">  
+		<title>Exoplanet Visualization</title>
+
+		<!-- Local CSS -->
+		<link href="site.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+	<body>
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container container-exoplanets">
+						<div class="navbar-header">
+								<a class="navbar-brand active" href="../index.html">Exoplanet Visualization</a>
+						</div>
+				</div>
+		</div>
+
+		<!-- Body of web page goes inside container tags -->
+
+		<div class="container container-exoplanets">
+
+		<!--Jumbotron header -->
+			<section id="jumbotron">
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="exoplanetViz"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Description -->
+			<section id="Description">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div id="exoplanetDescription">
+							<p>The above visualization depicts exoplanets discovered through the Kepler and K2 missions, along with solar system planets for reference. Feel free to zoom in, zoom out, drag, and hover to look at the planets in greater detail.</p>
+							<p>How to read this:</p>
+							<ul>
+								<li>The horizontal axis represents the planet’s orbit semi-major axis, which is the maximum distance between the planet and its host star. The units are in AU (astronomical units), which is defined as the average distance between the Earth and the Sun. The size of the planet is with respect to the planet’s radius.</li>
+								<li>The border of the planet shows the stellar class (and therefore, temperature), of the planet’s host star, with the color scale roughly corresponding to the color of the star.</li>
+								<li>The fill of the planet shows the planet’s effective temperature when available. Planets with green fills are those with effective temperature values between the coldest and hottest recorded temperatures on Earth. While planet temperature data is mostly unavailable (hence all the black fills), I hope to eventually use a rough estimation scheme for the remaining planets.</li>
+							</ul>
+							<p>This visualization has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</body>
+  <!-- JS Libraries -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.13.0/d3-legend.min.js"></script>
+
+  <!-- Local JS -->
+  <script src="exoplanetViz.js"></script>
+
+</html>

@@ -1,5 +1,3 @@
-import * as d3 from 'd3'
-
 export const skillsChart = () => {
   // set up svg margins and dimensions
   const margin = {top: 20, right: 0, bottom: 0, left: 0},

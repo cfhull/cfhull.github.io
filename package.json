@@ -1,17 +1,19 @@
 {
   "scripts": {
     "postcss": "postcss src/css/site.css -o public/site.css",
-    "scripts": "rollup -c",
-    "images": "cp src/images/* public",
+    "scripts": "cp src/js/* public",
+    "images": "cp -p src/images/* public/images",
     "data": "cp src/data/* public",
-    "build": "npm run postcss; npm run scripts; npm run images; npm run data"
+    "build": "npm run postcss; npm run scripts; npm run images; npm run data;"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.0.0",
     "postcss-cli": "^4.1.1",
     "postcss-import": "^11.0.0",
-    "precss": "^2.0.0",
-    "rollup": "^0.53.0",
-    "rollup-plugin-node-resolve": "^3.0.0"
+    "precss": "^2.0.0"
   },
   "dependencies": {
     "d3": "^4.12.0",

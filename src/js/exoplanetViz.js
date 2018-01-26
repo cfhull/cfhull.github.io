@@ -1,6 +1,3 @@
-import * from 'd3';
-import * from 'd3-tip';
-
 // set up svg margins and dimensions
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
 width   = 1600 - margin.left - margin.right,
@@ -19,7 +16,7 @@ var spectralClassData = [{spectralClass: "O", temperature: "30,000 - 60,000"},
       ];
 
 // import csv data
-d3.csv("data/exoplanetData.csv", type, function(data) {
+d3.csv("exoplanetData.csv", type, function(data) {
 
   // set scales
   var xScale = d3.scale.linear()
