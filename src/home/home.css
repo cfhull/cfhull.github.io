@@ -1,0 +1,16 @@
+.home {
+  min-width: 325px;
+}
+
+@media (min-width: 600px) {
+  .home {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .home {
+    max-width: 1000px;
+  }
+}
