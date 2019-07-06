@@ -30,6 +30,21 @@ const Resume = () => (
 		>
 		  <div>
 			  <div>
+				  <h3>Software Developer</h3>
+				  <h4>Verodin (February 2018 - Present)</h4>
+				  <p>In my current role, I am building complex data visualizations and user interfaces using JavaScript, React, and D3.js for a cybersecurity startup. I am leading the effort in migrating the existing Ruby on Rails web application front-end to a more robust and flexible setup using React, so that the company can continue to see growth without being hindered by an aging code base.</p>
+			  </div>
+			  <div>
+				  <h3>Software Developer</h3>
+				  <h4>PlanetRisk (January 2017 - February 2018)</h4>
+				  <p>This role involved building a geospatial analytics tool from scratch in Angular 4 using Leaflet.js maps with a .NET Core backend. This involved plotting large amounts of data on a map, and allowed for CRUD operations on this data using the map as a UI. I also focused on creating a registration application with administrative functionality to process users in the system.</p>
+			  </div>
+			  <div>
+				  <h3>Software Developer</h3>
+				  <h4>Ellucian (July 2015 - January 2017)</h4>
+				  <p>I Worked within an Agile Scrum environment to create new features and fix bugs for a product built on top of Microsoft Dynamics CRM using C#/.NET, and HTML/JavaScript/CSS. A major focus was abstracting existing code to reduce effort on future feature implementation and maintenance.</p>
+			  </div>
+			  <div>
 				  <h3>Unity3D Programming Engineer (Short-term Contract)</h3>
 				  <h4>Galvanize Labs (April 2014 - June 2014)</h4>
 				  <p>In this short-term contract position, I used the Unity3D game engine to write scripts, fix bugs, and reorganize game assets for an educational platformer game. I also provided gameplay and issues feedback to the lead developer and game designer. Read more about it below.</p>
