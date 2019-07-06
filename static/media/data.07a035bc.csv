@@ -1,0 +1,10 @@
+name,value,description
+JavaScript,4,"I really love working in JavaScript - it's so versatile, and I like the front end aspect that it's usually associated with. I have a significant amount of hands-on experience, some of which you can see on this site, and other applications I have built for various companies."
+D3.js,3,"D3 is one of my favorite tools to work with. This chart is one of the first things I built with it, but since then I have built much more complicated data visualizations, including the exoplanet visualization linked above. I'm always looking for more opportunities to built interactive data visualizations, as I love bringing data to life using the skills I have on the front-end."
+HTML,4,"Overall I'm pretty solid with HTML and how it interacts with CSS and JavaScript. Feel free to check out the source code on this site."
+CSS,3,"I like CSS. I've done a decent amount of work in it, as you can see on this site. I've used both SASS and PostCSS for some added convenience, mostly for nesting and auto-prefixing. I try to use native CSS as much as a can"
+Linux,3,"I use Arch Linux at home because it's really fun, even when it breaks on me. Most of my knowledge comes from setting up Arch, and using the Arch wiki to fix issues. I also like customizing my system, so I learn a lot from that as well."
+Bash,2,"I know a bit of bash from using Linux but I'm no pro...yet. I know most of the basic commands and how to use man pages and other resources to create simple scripts."
+Git,3,"I use Git and GitHub for all of my personal projects, and most work projects. I'm not much of a devops guy, so I'm not expert on CI/CD, but that's something I plan on getting more comfortable with in the future."
+Unity,3,"I've used Unity during a few game jams in the DC area, as well as during a short-term contract creating an educational platformer."
+React,4,"React is my favorite thing. Even this page is built in React! I find that the functional and declarative style is easy for me to understand and work with, and it generally only asks for basic JavaScript knowledge, and doesn't abstract every part of web development into it's own opinionated API"
