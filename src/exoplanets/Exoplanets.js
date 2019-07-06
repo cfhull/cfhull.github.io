@@ -2,7 +2,7 @@ import React from 'react'
 import * as d3 from 'd3'
 import { legendColor } from 'd3-svg-legend'
 import d3Tip from 'd3-tip'
-import './exoplanets.css' 
+import './Exoplanets.css' 
 import bg from './images/starryBG.jpg'
 import mercury from './images/mercury.png'
 import venus from './images/venus.png'
@@ -21,6 +21,99 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 const planetImages = [earth, jupiter, mars, mercury, neptune, pluto, saturn, uranus, venus]
+
+const solarSystemData = [
+  {
+    pl_name: 'Mercury',
+    pl_orbper: 88,
+    pl_orbsmax: 0.3871,
+    pl_radj: 0.035,
+    st_teff: 5778,
+    pl_eqt: 440,
+    pl_disc: 'prehistory',
+    image: mercury,
+  },
+  {
+    pl_name: 'Venus',
+    pl_orbper: 224.7,
+    pl_orbsmax: 0.7233,
+    pl_radj: 0.087,
+    st_teff: 5778,
+    pl_eqt: 730,
+    pl_disc: 'prehistory',
+    image: venus,
+  },
+  {
+    pl_name: 'Earth',
+    pl_orbper: 365.2,
+    pl_orbsmax: 1,
+    pl_radj: 0.0892,
+    st_teff: 5778,
+    pl_eqt: 287,
+    pl_disc: 'prehistory',
+    image: earth,
+  },
+  {
+    pl_name: 'Mars',
+    pl_orbper: 687,
+    pl_orbsmax: 1.5273,
+    pl_radj: 0.048,
+    st_teff: 5778,
+    pl_eqt: 218,
+    pl_disc: 'prehistory',
+    image: mars,
+  },
+  {
+    pl_name: 'Jupiter',
+    pl_orbper: 4331,
+    pl_orbsmax: 5.2028,
+    pl_radj: 1,
+    st_teff: 5778,
+    pl_eqt: 120,
+    pl_disc: 'prehistory',
+    image: jupiter,
+  },
+  {
+    pl_name: 'Saturn',
+    pl_orbper: 107474,
+    pl_orbsmax: 9.5388,
+    pl_radj: 0.833,
+    st_teff: 5778,
+    pl_eqt: 88,
+    pl_disc: 'prehistory',
+    image: saturn,
+  },
+  {
+    pl_name: 'Uranus',
+    pl_orbper: 30589,
+    pl_orbsmax: 19.1914,
+    pl_radj: 0.363,
+    st_teff: 5778,
+    pl_eqt: 59,
+    pl_disc: 'prehistory',
+    image: uranus,
+  },
+  {
+    pl_name: 'Neptune',
+    pl_orbper: 59800,
+    pl_orbsmax: 30.0611,
+    pl_radj: 0.352,
+    st_teff: 5778,
+    pl_eqt: 48,
+    pl_disc: 'prehistory',
+    image: neptune,
+  },
+  {
+    pl_name: 'Pluto',
+    pl_orbper: 90560,
+    pl_orbsmax: 39.5294,
+    pl_radj: 0.017,
+    st_teff: 5778,
+    pl_eqt: 37,
+    pl_disc: 'prehistory',
+    image: pluto,
+  },
+]
 
 export default class Exoplanets extends React.Component {
   constructor(props) {
@@ -49,6 +142,7 @@ export default class Exoplanets extends React.Component {
 
 	  // import csv data
 	  d3.csv(data, type,).then(data => {
+	    data = data.concat(solarSystemData).sort((a, b) => b.pl_radj - a.pl_radj)
 
 		  // set scales
 		  const xScale = d3.scaleLinear()
@@ -72,8 +166,8 @@ export default class Exoplanets extends React.Component {
         .attr('class', 'd3-tip')
         .offset(() => [-10, 0])
         .html(d => {
-					if (+d.solarsystemflag === 1) {
-						return "<h1>" + d.pl_hostname.concat(d.pl_letter) + "</h1>"
+					if (d.image) {
+						return "<h1>" + d.pl_name + "</h1>"
 							+ "<dl>"
 							+ "<dt>Orbit Distance</dt><dd>" + d.pl_orbsmax + "</dd>"
 							+ "<dt>Orbital Period</dt><dd>" + d.pl_orbper + "</dd>"
@@ -83,7 +177,7 @@ export default class Exoplanets extends React.Component {
 							+ "<dt>Year Discovered</dt><dd>" + d.pl_disc + "</dd>"
 							+ "</dl>"
 					} else {
-						return "<h1>" + d.pl_hostname.concat(d.pl_letter) + "</h1>"
+						return "<h1>" + d.pl_name + "</h1>"
 							+ "<dl>"
 							+ "<dt>Orbit Distance</dt><dd>" + d.pl_orbsmax + "</dd>"
 							+ "<dt>Orbital Period</dt><dd>" + d.pl_orbper + "</dd>"
@@ -208,13 +302,12 @@ export default class Exoplanets extends React.Component {
 			  .enter().append("g")
 			  .attr("transform", (d, i) => "translate(" + xScale(d.pl_orbsmax) + "," + 0 + ")")
 
-      nodes.filter(d => +d.solarsystemflag === 1)
-        .sort((a, b) => a.pl_hostname.localeCompare(b.pl_hostname))
+      nodes.filter(d => d.image)
         .append("image")
-        .attr("xlink:href", (d, i) => planetImages[i])
+        .attr("xlink:href", d => d.image)
         .attr("height", d => {
 					// Cheat the size if Saturn, because of the rings. Don't tell anyone.
-					if (d.pl_hostname === "Saturn"){
+					if (d.pl_name === "Saturn"){
 						return exoplanetRadiusScale(d.pl_radj)*3.5
 					}else{
 			      return exoplanetRadiusScale(d.pl_radj)*2
@@ -222,7 +315,7 @@ export default class Exoplanets extends React.Component {
         })
         .attr("width", d => {
 					// Cheat the size if Saturn, because of the rings. Don't tell anyone.
-					if (d.pl_hostname === "Saturn"){
+					if (d.pl_name === "Saturn"){
             return exoplanetRadiusScale(d.pl_radj)*3.5
           }else{
             return exoplanetRadiusScale(d.pl_radj)*2
@@ -233,7 +326,7 @@ export default class Exoplanets extends React.Component {
         })
         .attr("y", function(d) {
 					// Cheat the size if Saturn, because of the rings. Don't tell anyone.
-				  return d.pl_hostname === "Saturn"
+				  return d.pl_name === "Saturn"
 				    ? -(d3.select(this).attr("height") / 2) - 4
             : -(d3.select(this).attr("height") / 2)
 				})
@@ -241,16 +334,16 @@ export default class Exoplanets extends React.Component {
 		  const planets = nodes.append("circle")
 			  .style("pointer-events", "all")
 			  .style("fill", (d, i) => {
-				  if (+d.solarsystemflag === 0 && d.pl_eqt){
+				  if (!d.image && d.pl_eqt){
 					  return planetTempScale(d.pl_eqt)
-				  }else if (+d.solarsystemflag === 1){
+				  }else if (d.image){
 					  return "none"
 				  }else{
 					  return "black"
 				  }
 			  })
 			  .style("stroke-width", 5)
-			  .style("stroke", (d, i) => +d.solarsystemflag === 0 ? stellerTempScale(d.st_teff) : "none")
+			  .style("stroke", (d, i) => !d.image ? stellerTempScale(d.st_teff) : "none")
 			  .attr("r", (d, i) => 0)
 
 		  planets.transition() 
@@ -265,7 +358,7 @@ export default class Exoplanets extends React.Component {
 		  })
 
 		  planets.on("mouseleave", function(d) {
-        d3.select(this).style("stroke", (d, i) => +d.solarsystemflag === 0 ? stellerTempScale(d.st_teff) :"none")
+        d3.select(this).style("stroke", (d, i) => !d.image ? stellerTempScale(d.st_teff) :"none")
 					.style("stroke-width", 5)
 
 			  tip.hide(d, this)
