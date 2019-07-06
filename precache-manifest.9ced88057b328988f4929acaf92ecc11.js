@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8fccd19d83a9a8f7067ea679b811c11",
+    "revision": "afe6361906904e1af04bd7d3baf57ba4",
     "url": "/index.html"
   },
   {
-    "revision": "1e4bd73dc93c512e48a7",
-    "url": "/static/css/main.3c34696c.chunk.css"
+    "revision": "6f36ec11187c6b7d7ed5",
+    "url": "/static/css/main.c162af71.chunk.css"
   },
   {
-    "revision": "1621a896739f77e32a28",
-    "url": "/static/js/2.fe289020.chunk.js"
+    "revision": "551b81249f2547e1d139",
+    "url": "/static/js/2.e030e026.chunk.js"
   },
   {
-    "revision": "1e4bd73dc93c512e48a7",
-    "url": "/static/js/main.7ccdd6b1.chunk.js"
+    "revision": "6f36ec11187c6b7d7ed5",
+    "url": "/static/js/main.00464cad.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/earth.a03d037f.png"
   },
   {
-    "revision": "45af77be3b20f6b979f2c5c553f0f6f6",
-    "url": "/static/media/exoplanetData.45af77be.csv"
+    "revision": "639796c33f9427a024a61e4ce31952c6",
+    "url": "/static/media/exoplanetData.639796c3.csv"
   },
   {
     "revision": "cde186f383cc90c067b9ede2d735d73e",
